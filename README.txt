@@ -7,3 +7,4 @@ https://assetstore.unity.com/packages/3d/characters/creatures/creepy-pumpkin-mon
 https://polyhaven.com/a/steel_frame_shelves_01
 https://assetstore.unity.com/packages/3d/props/food/pandazole-kitchen-food-low-poly-pack-204525
 https://assetstore.unity.com/packages/3d/props/low-poly-stylized-foods-313893
+https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-forest-pack-summer-129434
