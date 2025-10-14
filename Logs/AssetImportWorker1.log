@@ -1,0 +1,1019 @@
+Using pre-set license
+Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-14T17:32:08Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/hlt22c/Viverse
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52170
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/hlt22c/Viverse
+D:/hlt22c/Viverse
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29892]  Target information:
+
+Player connection [29892]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 1349617563 [EditorId] 1349617563 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29892] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29892] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.01 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.58f2 (92dee566b325)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/hlt22c/Viverse/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24326 MB
+    Driver:   32.0.15.8142
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003306 seconds.
+- Loaded All Assemblies, in  0.239 seconds
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 469ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (76ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (89ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.616 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:OnEnable () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:74)
+UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler> (string)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:GetAllInstances () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:28)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:16)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.914 seconds
+Domain Reload Profiling: 1529ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (915ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (808ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.87 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7384 unused Assets / (11.9 MB). Loaded Objects now: 8045.
+Memory consumption went from 159.2 MB to 147.2 MB.
+Total: 10.541700 ms (FindLiveObjects: 0.424800 ms CreateObjectMapping: 0.258100 ms MarkObjects: 5.944600 ms  DeleteObjects: 3.913400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67529.019239 seconds.
+  path: Assets/Pandazole_Ultimate_Pack
+  artifactKey: Guid(453fbde6f0b91b34f8d5151eee88e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack using Guid(453fbde6f0b91b34f8d5151eee88e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4f958981620933d39f222c798ac6c18') in 0.0028945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.122164 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Apple_Chopped.fbx
+  artifactKey: Guid(26b9e9ffc89b43e468c362d68b737ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Apple_Chopped.fbx using Guid(26b9e9ffc89b43e468c362d68b737ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d81c8f62a2905cab316e9e6c51691b9') in 0.3489024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Philly Cheese Steaks.fbx
+  artifactKey: Guid(13459c460693a2640b04e98abc340ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Philly Cheese Steaks.fbx using Guid(13459c460693a2640b04e98abc340ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5111b79d70adef0a57c9c599b3d2fa30') in 0.0183689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Tomato.fbx
+  artifactKey: Guid(86900e546c2cb31478f5b1f15b1ba6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Tomato.fbx using Guid(86900e546c2cb31478f5b1f15b1ba6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d32a5358257ddc8c7facfa8a3c92f88') in 0.0149001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Cooked Rice.fbx
+  artifactKey: Guid(94b7883e1336648429edadcf8a804d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Cooked Rice.fbx using Guid(94b7883e1336648429edadcf8a804d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2dd9b24fbf60040a27b62b274b59a57') in 0.0138737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meet.fbx
+  artifactKey: Guid(aa6d8eb78f512584fb30a98c7d3fb86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meet.fbx using Guid(aa6d8eb78f512584fb30a98c7d3fb86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0797b2025a1beb42e2e2615eb5b71822') in 0.0161572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Griller.fbx
+  artifactKey: Guid(a3b35c8f8e90fea479181dc44e5da883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Griller.fbx using Guid(a3b35c8f8e90fea479181dc44e5da883) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dd7e87aaecf556d3b3eaff62fded9b9') in 0.0242926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_01.fbx
+  artifactKey: Guid(ba514a6b61666cf4ea240772e76020d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_01.fbx using Guid(ba514a6b61666cf4ea240772e76020d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f9cf35323c6fad7ce4880306a20fae6') in 0.0138069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pumpkin Soup.fbx
+  artifactKey: Guid(477989e64fc6fa9439f836e0beff12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pumpkin Soup.fbx using Guid(477989e64fc6fa9439f836e0beff12f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1398093898d0b95620a36dd9af42172e') in 0.014703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Frier.fbx
+  artifactKey: Guid(1de4648974aec0b408aacb9f0f50839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Frier.fbx using Guid(1de4648974aec0b408aacb9f0f50839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f69d9ade7d7d791511537858fc4d9358') in 0.0306229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_PizzaCutter.fbx
+  artifactKey: Guid(1ada820b5b9d03b47b44f3582572bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_PizzaCutter.fbx using Guid(1ada820b5b9d03b47b44f3582572bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd54beed7a9891f2a8b86ba1d591fca6') in 0.0152583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Burger.fbx
+  artifactKey: Guid(98542b411f0754645a461770ffc62b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Burger.fbx using Guid(98542b411f0754645a461770ffc62b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43eddc3b08e2458914dbbf3139fd5647') in 0.0134205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Parsnip.fbx
+  artifactKey: Guid(0dfa73f8241c6494cad4dd617829bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Parsnip.fbx using Guid(0dfa73f8241c6494cad4dd617829bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbfa386238151cc894f3d9e967dbe06a') in 0.0157575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_07.fbx
+  artifactKey: Guid(0e09d8ee80ecb18438736a1cf4d6310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_07.fbx using Guid(0e09d8ee80ecb18438736a1cf4d6310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7ef7d7abf68fa7d8010c56c7ffb6ed2') in 0.0164364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_WhipMixer.fbx
+  artifactKey: Guid(5f08b7e2d7e779b489d62a277820e3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_WhipMixer.fbx using Guid(5f08b7e2d7e779b489d62a277820e3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b462906750db73f496c521d70c4591ac') in 0.0156486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_05.fbx
+  artifactKey: Guid(765dcd4805399ee4995d3c4a4d07ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_05.fbx using Guid(765dcd4805399ee4995d3c4a4d07ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bc624fb0aa9461dc9873ad3f1fda8c0') in 0.0155618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_HotDog Sandwich.001.fbx
+  artifactKey: Guid(e4141e732178ddc49a0a2f7f825cad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_HotDog Sandwich.001.fbx using Guid(e4141e732178ddc49a0a2f7f825cad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '949039936af337e3f214166d76766735') in 0.0171826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Susage.fbx
+  artifactKey: Guid(7fe7446b24aafb446b08236a3feb7f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Susage.fbx using Guid(7fe7446b24aafb446b08236a3feb7f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f40fc09fdb44073103474adb5ebc57f3') in 0.0153455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Empty Cup.fbx
+  artifactKey: Guid(e1ddf796d5357f24bb29236a64677543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Empty Cup.fbx using Guid(e1ddf796d5357f24bb29236a64677543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '154454a205be9d78e26c901782b39714') in 0.0129875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Mac n Cheese with brocoli.fbx
+  artifactKey: Guid(0e3637e9447ae2b489f767c88ac5811b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Mac n Cheese with brocoli.fbx using Guid(0e3637e9447ae2b489f767c88ac5811b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fa9d6b88cd3c4085cf0b5e647f2b2b0') in 0.0146618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Broccoli.fbx
+  artifactKey: Guid(9e1f94b791e4c4147a96182275f39d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Broccoli.fbx using Guid(9e1f94b791e4c4147a96182275f39d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd1a2bd47df46c3c1ddafd8b925f0a18') in 0.0150261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_02.fbx
+  artifactKey: Guid(67d73cb4069028c44bd2fa0b64b7d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_02.fbx using Guid(67d73cb4069028c44bd2fa0b64b7d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50e9cf1259f7829f34317c5a67077f0c') in 0.0163045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_03.fbx
+  artifactKey: Guid(4858eab3b903d814dbe27febbf9f12a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_03.fbx using Guid(4858eab3b903d814dbe27febbf9f12a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc69194c9b636c423823dd55eeaf8053') in 0.0180805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_03.fbx
+  artifactKey: Guid(29e80e87cbb807d4092a7314cf364aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_03.fbx using Guid(29e80e87cbb807d4092a7314cf364aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3939cc3b175652f542f3de987a7dbdee') in 0.0149766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Omelette.fbx
+  artifactKey: Guid(dd63c41cd193ffa418ba669e8d906e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Omelette.fbx using Guid(dd63c41cd193ffa418ba669e8d906e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8218f800d721091ac7abd2eaf860e65') in 0.0160929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meatballs Sub.fbx
+  artifactKey: Guid(f4f23df5e76629f469680a06e0cf4a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meatballs Sub.fbx using Guid(f4f23df5e76629f469680a06e0cf4a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8de3eb14f39d689670a9c39a7e85ff3') in 0.0164276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Sink_01.fbx
+  artifactKey: Guid(d6ddffa60c5fdee44ad7ef86732c05db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Sink_01.fbx using Guid(d6ddffa60c5fdee44ad7ef86732c05db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cfa48e87514d8b908bfe0353b64b43e') in 0.0161418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Carrot.fbx
+  artifactKey: Guid(fa4abb3cc70878a46abec306a0ba775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Carrot.fbx using Guid(fa4abb3cc70878a46abec306a0ba775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbaadc6f79a176da2ebd697f77e26a0f') in 0.0149382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Bread.fbx
+  artifactKey: Guid(fafa07026b54c1a4889664f4e4f505d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Bread.fbx using Guid(fafa07026b54c1a4889664f4e4f505d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c084b65efa2b7ff5e2d23d4c8b1ec59') in 0.0154731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meatloaf.fbx
+  artifactKey: Guid(f9eb087957d75784eb4f20dd0f344f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meatloaf.fbx using Guid(f9eb087957d75784eb4f20dd0f344f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12e5b8efca079accdf63600de3f3dceb') in 0.0140572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_MeasuringSpoon_04.fbx
+  artifactKey: Guid(8312d6bc225e8a44ba2fb162e49ceec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_MeasuringSpoon_04.fbx using Guid(8312d6bc225e8a44ba2fb162e49ceec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dba00f474add65d9befa3b8b9275a7ca') in 0.0167081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_02.fbx
+  artifactKey: Guid(0e9295898209fcc49872cc7e1d920114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_02.fbx using Guid(0e9295898209fcc49872cc7e1d920114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f23a8c07e41d5077d47b067d813b5be3') in 0.0216758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Water Cup.fbx
+  artifactKey: Guid(39a810539e70fa0429b032bdf88ecb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Water Cup.fbx using Guid(39a810539e70fa0429b032bdf88ecb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '292511752062646a2ce9fc379f958201') in 0.0184686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Dough.fbx
+  artifactKey: Guid(3b21e4f3421eb6349afd4402b8197574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Dough.fbx using Guid(3b21e4f3421eb6349afd4402b8197574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfa95e98881aca840a6c0244bcda8bc3') in 0.0174302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pea.fbx
+  artifactKey: Guid(11c2c36229e08304ab5318f513386ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pea.fbx using Guid(11c2c36229e08304ab5318f513386ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0af5ea959511e1651a239acb7c0c2c51') in 0.0137638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fridge_03.fbx
+  artifactKey: Guid(77a5ec702f004f748ae275b45e0153ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fridge_03.fbx using Guid(77a5ec702f004f748ae275b45e0153ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67d5607aa2ae62bdb254acff8a6d5c86') in 0.0400765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_06.fbx
+  artifactKey: Guid(21eec28d36244b94c8c1eea767acc69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_06.fbx using Guid(21eec28d36244b94c8c1eea767acc69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16a2b127f1c38d13e18b751ddd6768d4') in 0.0183529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Soup Base.fbx
+  artifactKey: Guid(cfbc7deacfb1daa43a4f939f37fe4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Soup Base.fbx using Guid(cfbc7deacfb1daa43a4f939f37fe4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5301106e63be48f3bff1f801c9ccdef2') in 0.0181574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_08.fbx
+  artifactKey: Guid(74af1763deb2929459f8c4e514990995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_08.fbx using Guid(74af1763deb2929459f8c4e514990995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a818a9485eedbb251731dcf14acf173') in 0.0186354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_MeasuringSpoon_03.fbx
+  artifactKey: Guid(53e3c9c3faf5380468e94ef191d39e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_MeasuringSpoon_03.fbx using Guid(53e3c9c3faf5380468e94ef191d39e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a71d459adad467f573048dba332afbee') in 0.0155795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Turkey Sandwich.fbx
+  artifactKey: Guid(3a7c71c15f3a4db48a589bf6542435e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Turkey Sandwich.fbx using Guid(3a7c71c15f3a4db48a589bf6542435e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5747d7a76cdf939c197f76cbd1a3824') in 0.0179993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_01.fbx
+  artifactKey: Guid(3fbe0b01a203353439236fd94b910b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_01.fbx using Guid(3fbe0b01a203353439236fd94b910b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40bf249e6fe3477ef58d147d8f7e9e76') in 0.0201906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_07.fbx
+  artifactKey: Guid(c16a019f3010c354ab04f7bb7f83c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_07.fbx using Guid(c16a019f3010c354ab04f7bb7f83c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa814f72ec9dc9a98021df065823247a') in 0.018146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_03.fbx
+  artifactKey: Guid(91d3813dea882f04594d8eea7df47924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_03.fbx using Guid(91d3813dea882f04594d8eea7df47924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7922d0b4f0be9885b6a6be658a1b321f') in 0.0128876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_TurkeyBreastChopped.fbx
+  artifactKey: Guid(c15bb73281e703f4f8545fb22e4a79d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_TurkeyBreastChopped.fbx using Guid(c15bb73281e703f4f8545fb22e4a79d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd09540b1fa82e8e0ee1149ee8074ec7d') in 0.0150211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_03.fbx
+  artifactKey: Guid(55b1c57c4bf6b334490164cdfab61077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_03.fbx using Guid(55b1c57c4bf6b334490164cdfab61077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a9a109a8fbaaa745b81bac1cb7e9275') in 0.0204109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_04.fbx
+  artifactKey: Guid(a13aba5443f8b9947b86d2ae6c642bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_04.fbx using Guid(a13aba5443f8b9947b86d2ae6c642bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7bb40c72eb0f55adaf64b753324adb') in 0.0165665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fridge_01.fbx
+  artifactKey: Guid(14eaa2a056ff2704190094e88a955c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fridge_01.fbx using Guid(14eaa2a056ff2704190094e88a955c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a727b484e8754292ef0d3f285fd425') in 0.0267954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_01.fbx
+  artifactKey: Guid(077cd2d02327d1c4f8e7e945e7920950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_01.fbx using Guid(077cd2d02327d1c4f8e7e945e7920950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9180df906555d855954c888bb8e2ed9') in 0.0167873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Microwave_01.fbx
+  artifactKey: Guid(3dca956702633a247bee23ae921c14db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Microwave_01.fbx using Guid(3dca956702633a247bee23ae921c14db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f47f1bb073107518e7777c88a9c6a19d') in 0.0206955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_01.fbx
+  artifactKey: Guid(8d3b68e4a419e39469c7a3dfaa3494c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_01.fbx using Guid(8d3b68e4a419e39469c7a3dfaa3494c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07af5179592a7cfcd802ee593d702d6e') in 0.0225504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_05.fbx
+  artifactKey: Guid(90d6476a0035d7d43ac582eb79b654ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_05.fbx using Guid(90d6476a0035d7d43ac582eb79b654ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db66bb6ad4463235796f23acbddd7403') in 0.0166324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Sushi.fbx
+  artifactKey: Guid(ced0d1fea9da70342ab175ba4f9a01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Sushi.fbx using Guid(ced0d1fea9da70342ab175ba4f9a01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5062732d15f1360c97b266762bb340de') in 0.0171271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenCabinet_01.fbx
+  artifactKey: Guid(679a59470953c6340bac29c49eac3d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenCabinet_01.fbx using Guid(679a59470953c6340bac29c49eac3d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27c070d414da6f481674df9034a61a6f') in 0.0276545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Bowel_01.fbx
+  artifactKey: Guid(6d86040cef03de045aac9d05ec03f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Bowel_01.fbx using Guid(6d86040cef03de045aac9d05ec03f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35255aaa6197b09f4b61f98ef178fad1') in 0.01648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Tortilla.fbx
+  artifactKey: Guid(3eacfd3ff1e6b9245b0a3443ae852785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Tortilla.fbx using Guid(3eacfd3ff1e6b9245b0a3443ae852785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8027fe892e9767cc32fe9885acb1d53') in 0.0169666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_BurgerSpatula.fbx
+  artifactKey: Guid(40aa6e3d146149241a6644650ae848ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_BurgerSpatula.fbx using Guid(40aa6e3d146149241a6644650ae848ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e341fa2ed2a6dce7cfc083a9cee2663f') in 0.0148115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Cheese.fbx
+  artifactKey: Guid(c64d4d945dfd2b5408ed88902d87bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Cheese.fbx using Guid(c64d4d945dfd2b5408ed88902d87bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b44108055404299aed8418694ae5b14') in 0.0163303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_04.fbx
+  artifactKey: Guid(4d2e5b1ff7779444fb877670a13dc75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_04.fbx using Guid(4d2e5b1ff7779444fb877670a13dc75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a7553627b66b28f6d568a2bb4c5ace0') in 0.0172305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_01.fbx
+  artifactKey: Guid(074fff2b7b1ab854fb04e1902cbb9831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_01.fbx using Guid(074fff2b7b1ab854fb04e1902cbb9831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30d813b2f13ce13c52fde40f51ee000d') in 0.0315603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Turkey Breast.fbx
+  artifactKey: Guid(3b4343757e28f7b4482a6a2603225d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Turkey Breast.fbx using Guid(3b4343757e28f7b4482a6a2603225d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d208b6851e45fedd28c39fb6b4c1830') in 0.0177851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Cup_04_Cover.fbx
+  artifactKey: Guid(4b3ae7c7b7f88ce498446f14b63804b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Cup_04_Cover.fbx using Guid(4b3ae7c7b7f88ce498446f14b63804b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfffd4535ebbd36a25bdb91b993f3535') in 0.0187989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Lettuce.fbx
+  artifactKey: Guid(a82f637f337ff5b4c8c78c61d989ebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Lettuce.fbx using Guid(a82f637f337ff5b4c8c78c61d989ebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aafbbdeb9c5f2cd08a0f9cb39b7eb2b') in 0.018142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Seared Ground Beef.fbx
+  artifactKey: Guid(92680b794337db845b868f78cc960077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Seared Ground Beef.fbx using Guid(92680b794337db845b868f78cc960077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b9abe73ab1771580b3e4ee89ec803af') in 0.0165447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Bowel_03.fbx
+  artifactKey: Guid(7350aa38472b0f447975fc278ed1e4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Bowel_03.fbx using Guid(7350aa38472b0f447975fc278ed1e4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fe42c7fdd3618f79c0a23fa3e867e9e') in 0.0155965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pan_03.fbx
+  artifactKey: Guid(f34296e98fd69894dabce3d006694310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pan_03.fbx using Guid(f34296e98fd69894dabce3d006694310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e41cdf99dde3a72b7ba5b68d2c4de79c') in 0.0168905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_04.fbx
+  artifactKey: Guid(e2b38bb270a56ae4fa0db721b18a2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_04.fbx using Guid(e2b38bb270a56ae4fa0db721b18a2c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72e869fe3797554b1a3faa228eec50b8') in 0.0170859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Taco.fbx
+  artifactKey: Guid(c8976fa490f93684699ad59eb80312d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Taco.fbx using Guid(c8976fa490f93684699ad59eb80312d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76afe6e9ef315eeb1de8502827bbdeb4') in 0.0175002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Chopped Tomato.fbx
+  artifactKey: Guid(59ec72c0f63004042b0ce461221b06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Chopped Tomato.fbx using Guid(59ec72c0f63004042b0ce461221b06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ced6673bd5090f10c72b58bb1495a6c') in 0.0163345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2394.256146 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Materials/(Mat)GradientDarkGrey.mat
+  artifactKey: Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Materials/(Mat)GradientDarkGrey.mat using Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6bece8cef52e229dcaf5eb8bb50c81') in 0.0557143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Materials/(Mat)GradientRed.mat
+  artifactKey: Guid(fac6997ebfb39364db1173ae4a1c49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Materials/(Mat)GradientRed.mat using Guid(fac6997ebfb39364db1173ae4a1c49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '507c1b6930e1a21460e8cc30b7cfb6be') in 0.0251087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Demo/Pandazole Kitchen Food.fbx
+  artifactKey: Guid(e28308bcdd7692b4d9a7fdccc3ac83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Demo/Pandazole Kitchen Food.fbx using Guid(e28308bcdd7692b4d9a7fdccc3ac83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d6e7ea4da2cf9a89a95fb57413a48c1') in 0.8557777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 936
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.349056 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainDetailLitPasses.hlsl
+  artifactKey: Guid(749e1c2d203942319da1fdb1d94c5f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainDetailLitPasses.hlsl using Guid(749e1c2d203942319da1fdb1d94c5f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bf6468e218c88d7cfd53730e0f948b8') in 0.0020473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLitInput.hlsl
+  artifactKey: Guid(a817cb90496894b368593402e13b040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLitInput.hlsl using Guid(a817cb90496894b368593402e13b040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d5dff2f0a132fb2d1027c4b5bffb720') in 0.0016703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLitMetaPass.hlsl
+  artifactKey: Guid(d00e32bd7638d40538d108b4e2581147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLitMetaPass.hlsl using Guid(d00e32bd7638d40538d108b4e2581147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8672370e153800b277e1cd9cb986bdd5') in 0.0010157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.592161 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrassInput.hlsl
+  artifactKey: Guid(ca55f7593a02f4c1ab1bdbc03282d7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrassInput.hlsl using Guid(ca55f7593a02f4c1ab1bdbc03282d7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe477cee64c57481369ee55fcc301438') in 0.0019094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.231499 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Close.png
+  artifactKey: Guid(0768ee0d3bc984ef3ba50d3e93d4480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Close.png using Guid(0768ee0d3bc984ef3ba50d3e93d4480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92bc2496563f62af4865719ec1a9300') in 0.0199514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Close@2x.png
+  artifactKey: Guid(8d9e24be8d3dd4e5c89cf94ed0cac3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Close@2x.png using Guid(8d9e24be8d3dd4e5c89cf94ed0cac3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5254d55509521eb6edef9fa15ffe2db9') in 0.0122893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet08.prefab
+  artifactKey: Guid(7f5394977e9021d4a8d54df2f68109ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet08.prefab using Guid(7f5394977e9021d4a8d54df2f68109ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b012c01d4e314f5514683a554da589f') in 0.0262171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet15.prefab
+  artifactKey: Guid(27abb203dc9090645a3fea78eafa3fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet15.prefab using Guid(27abb203dc9090645a3fea78eafa3fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4459d3420be348e5aa801e08e758e639') in 0.0159918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet22.prefab
+  artifactKey: Guid(423fe3884eb097f41a81c823231e772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet22.prefab using Guid(423fe3884eb097f41a81c823231e772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ab75dceba0508f7b3eb7794a2e77583') in 0.0174575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet27.prefab
+  artifactKey: Guid(88bb7ef7246e3784d9809ba4f6b47928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet27.prefab using Guid(88bb7ef7246e3784d9809ba4f6b47928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e956326d368d8f67e862bb1025ed3e95') in 0.0167856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet09.prefab
+  artifactKey: Guid(9aa97823d9d5e06428e0a3a58d4ccab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet09.prefab using Guid(9aa97823d9d5e06428e0a3a58d4ccab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b63870e1ae53d11e6e62831104c0f53') in 0.0217954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet20.prefab
+  artifactKey: Guid(113d96753ee257745ab38daccd7a35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet20.prefab using Guid(113d96753ee257745ab38daccd7a35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18bfb168bc215115a384bac3f6b718a3') in 0.0150086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet19.prefab
+  artifactKey: Guid(4995404aeacdb1c43a85f81e1720a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet19.prefab using Guid(4995404aeacdb1c43a85f81e1720a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '862105030015f65ebedaa97f73f95a2a') in 0.0173676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet25.prefab
+  artifactKey: Guid(f83f3f02901e0d74a95fe01e135f840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet25.prefab using Guid(f83f3f02901e0d74a95fe01e135f840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf14c4931ad012e1158318ec07eb3154') in 0.0185158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet07.prefab
+  artifactKey: Guid(287a24175e7f8214da7dbebba36561bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet07.prefab using Guid(287a24175e7f8214da7dbebba36561bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47627ac40463e16d74efd520e37ca82f') in 0.0193596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet12.prefab
+  artifactKey: Guid(ca853db08f717ae49be58fb4c8ebe7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet12.prefab using Guid(ca853db08f717ae49be58fb4c8ebe7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b1f2ce10e534853f960b6b7e2644f3c') in 0.0180237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet18.prefab
+  artifactKey: Guid(649ca3daf1865654d8b3a4237bcc827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet18.prefab using Guid(649ca3daf1865654d8b3a4237bcc827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7e85723e26b71f8f7618506a5ecb192') in 0.0183587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet13.prefab
+  artifactKey: Guid(f12ad04a8c242424489a4b5c0e49ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet13.prefab using Guid(f12ad04a8c242424489a4b5c0e49ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae8a2bd7afe08dab47b853688bbdea74') in 0.0168658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet02.prefab
+  artifactKey: Guid(3fb2422b8d41c4d4098b671ebb44a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet02.prefab using Guid(3fb2422b8d41c4d4098b671ebb44a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db2518a5358cd3fe22ed958b4b0cc771') in 0.0157527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet01.prefab
+  artifactKey: Guid(ecab5946fc82ea5459c10139ebfc248f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet01.prefab using Guid(ecab5946fc82ea5459c10139ebfc248f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9956e1069c658b75a27259c6f6b8f294') in 0.0188679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet28.prefab
+  artifactKey: Guid(936b695c6baa18142b21b3e8833b8519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet28.prefab using Guid(936b695c6baa18142b21b3e8833b8519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e7d861599b3fc0e688b19940e58324') in 0.0179678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

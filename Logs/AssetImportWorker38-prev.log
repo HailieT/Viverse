@@ -1,0 +1,729 @@
+Using pre-set license
+Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-13T21:26:00Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker38
+-projectPath
+D:/hlt22c/Viverse
+-logFile
+Logs/AssetImportWorker38.log
+-srvPort
+62244
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/hlt22c/Viverse
+D:/hlt22c/Viverse
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39844]  Target information:
+
+Player connection [39844]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 2905752276 [EditorId] 2905752276 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39844] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39844] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.21 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.58f2 (92dee566b325)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/hlt22c/Viverse/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24326 MB
+    Driver:   32.0.15.8142
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002582 seconds.
+- Loaded All Assemblies, in  0.239 seconds
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling: 462ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (76ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (88ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:OnEnable () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:74)
+UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler> (string)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:GetAllInstances () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:28)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:16)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 1455ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (136ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (759ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.36 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7385 unused Assets / (12.3 MB). Loaded Objects now: 8044.
+Memory consumption went from 171.0 MB to 158.7 MB.
+Total: 10.860500 ms (FindLiveObjects: 0.452400 ms CreateObjectMapping: 0.256100 ms MarkObjects: 6.113000 ms  DeleteObjects: 4.038000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10600.982110 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)BathroomSink.prefab
+  artifactKey: Guid(fa3db0668a5ddff4c899e2c3fd2c0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)BathroomSink.prefab using Guid(fa3db0668a5ddff4c899e2c3fd2c0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa22d28dc0de81e2efcf30f7da2bbad') in 0.3094985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Lamp.prefab
+  artifactKey: Guid(184025b0b1d332c4db8122de5dd6c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Lamp.prefab using Guid(184025b0b1d332c4db8122de5dd6c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ba047fce498c358aec76a8bd9bc8a4f') in 0.0144201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Fatboy.prefab
+  artifactKey: Guid(2c6803eaefbe99844936e0fdb90f45b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Fatboy.prefab using Guid(2c6803eaefbe99844936e0fdb90f45b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bdf4aa52c26546d7a624aa76239096b') in 0.0134988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Dresser.prefab
+  artifactKey: Guid(d2abb3f7c9ac59048a122c38a8480e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Dresser.prefab using Guid(d2abb3f7c9ac59048a122c38a8480e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '007a426ee4219773d119117d54dda81e') in 0.0200888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Desk.prefab
+  artifactKey: Guid(00e5c0945f7a8b0439135711f7f02840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Desk.prefab using Guid(00e5c0945f7a8b0439135711f7f02840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '402c1269433025dbe19e3634e7b8a2c5') in 0.0195719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Fridge.prefab
+  artifactKey: Guid(5e5be735ac697564c9d232fa4619bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Fridge.prefab using Guid(5e5be735ac697564c9d232fa4619bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8f765b93ba17cc35bd042d9d41641c1') in 0.014789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Clock.prefab
+  artifactKey: Guid(b2baa11c7e87fe941afe32f3c50cc082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Clock.prefab using Guid(b2baa11c7e87fe941afe32f3c50cc082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da4e1be7014575f47c0b7773fa8d0a81') in 0.0180272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Stapler.prefab
+  artifactKey: Guid(39ce2aae8ff6f9148acb0e82db36ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Stapler.prefab using Guid(39ce2aae8ff6f9148acb0e82db36ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f83149036075e5ab71201d702ee4e996') in 0.0091676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)SingleBed.prefab
+  artifactKey: Guid(1cc7753ad8e096d4c8b059687625cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)SingleBed.prefab using Guid(1cc7753ad8e096d4c8b059687625cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b329dd674c3dd03719e72188a9dbb4c') in 0.0327091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)LoungeChair.prefab
+  artifactKey: Guid(3461c8d14bc13bb4384505ad2b8b974f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)LoungeChair.prefab using Guid(3461c8d14bc13bb4384505ad2b8b974f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d49c7e7258ab37138ea081d2878ec1') in 0.0154705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)MirrorLight.prefab
+  artifactKey: Guid(5eb4faf7729d059408358aadfe75945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)MirrorLight.prefab using Guid(5eb4faf7729d059408358aadfe75945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1504195b765a21a0f0864d5a5cf059b5') in 0.0151773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)DeskPlant.prefab
+  artifactKey: Guid(c02a999a44edfa048a0420775c83cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)DeskPlant.prefab using Guid(c02a999a44edfa048a0420775c83cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0cec9a91c8f25f2da4b77b44c19c770') in 0.0153962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Plant2.prefab
+  artifactKey: Guid(2db51a3ce7d7fe34a934d68f0c488f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Plant2.prefab using Guid(2db51a3ce7d7fe34a934d68f0c488f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b68ae53218d8e8ac57214839ea846665') in 0.0163372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Door.prefab
+  artifactKey: Guid(0afd69b5b86b13b4db61d58f91c02066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Door.prefab using Guid(0afd69b5b86b13b4db61d58f91c02066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce79620e642956b89fdfdc922d649b55') in 0.0132701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 1301.113657 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/XR/XRMirrorView.hlsl
+  artifactKey: Guid(0eac51a8dfc8fa341a5f8c6450bc0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/XR/XRMirrorView.hlsl using Guid(0eac51a8dfc8fa341a5f8c6450bc0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12704c1b4601dfcac623138b42d0f331') in 0.0017281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.732585 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Drawing/MaterialEditor
+  artifactKey: Guid(381bcc6523571fb478a4937355db4c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Drawing/MaterialEditor using Guid(381bcc6523571fb478a4937355db4c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21dfdcb6b35503905e851bd265c6438c') in 0.0007167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.338967 seconds.
+  path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/MaterialModifiers
+  artifactKey: Guid(7c6295db74da28645bf49db58b7c9c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/Runtime/UGUI/UI/Core/MaterialModifiers using Guid(7c6295db74da28645bf49db58b7c9c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc37c789f2711b2427d512414c55b78d') in 0.0010156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.163008 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials
+  artifactKey: Guid(7f10efc5458aa44a2928a72c38807544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials using Guid(7f10efc5458aa44a2928a72c38807544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb8f9066f356291929221e3f29ef6a6a') in 0.0004759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040626 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6914b4caa358abead4a88e045f2e22e9') in 0.0300015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53cb943e19228dd25cf04b6e9cf181d9') in 0.1381366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee2009898755e61940e2eb07e55fbd9a') in 0.0046595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0ea0e260c319df53f0b97ee486749ea') in 0.0125543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.797093 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials
+  artifactKey: Guid(7671b37f9da45644d8d1d917a2cf29d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials using Guid(7671b37f9da45644d8d1d917a2cf29d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '815b837f1279804740efd6380e308499') in 0.0004573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047723 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Black.mat
+  artifactKey: Guid(4f1ef37ae953c484bbc5d5e4049147e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Black.mat using Guid(4f1ef37ae953c484bbc5d5e4049147e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fa5bc41f3dfebaa6b392938dd9a7389') in 0.0141157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.947947 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials
+  artifactKey: Guid(e07e4704de31272488f32563e145cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials using Guid(e07e4704de31272488f32563e145cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05e07ae42184fa31ebdbc10056309a79') in 0.000912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058586 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/DebugBoundingBox.mat
+  artifactKey: Guid(2166f2a4aa6de4f559e94d7173fca686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/DebugBoundingBox.mat using Guid(2166f2a4aa6de4f559e94d7173fca686) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)State comes from an incompatible keyword space
+Expected: From shader: 'Simulation/Standard Lit' Keyword count: 76 Keywords: STEREO_INSTANCING_ON UNITY_SINGLE_PASS_STEREO STEREO_MULTIVIEW_ON STEREO_CUBEMAP_RENDER_ON _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS EVALUATE_SH_MIXED EVALUATE_SH_VERTEX _LIGHT_LAYERS _FORWARD_PLUS _FOVEATED_RENDERING_NON_UNIFORM_RASTER LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DYNAMICLIGHTMAP_ON USE_LEGACY_LIGHTMAPS LOD_FADE_CROSSFADE PROBE_VOLUMES_L1 PROBE_VOLUMES_L2 DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _RECEIVE_SHADOWS_OFF _DETAIL_MULX2 _DETAIL_SCALED _ADDITIONAL_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SHADOWS_SOFT_HIGH _SCREEN_SPACE_OCCLUSION _DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 _LIGHT_COOKIES _WRITE_RENDERING_LAYERS DEBUG_DISPLAY _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _ALPHAMODULATE_ON _EMISSION _METALLICSPECGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _OCCLUSIONMAP _SPECULARHIGHLIGHTS_OFF _ENVIRONMENTREFLECTIONS_OFF _SPECULAR_SETUP _ALPHABLEND_ON _METALLICGLOSSMAP _GLOSSYREFLECTIONS_OFF DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON POINT SPOT POINT_COOKIE DIRECTIONAL_COOKIE SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_CUBE _CASTING_PUNCTUAL_LIGHT_SHADOW UNITY_HDR_ON EDITOR_VISUALIZATION _SPECGLOSSMAP
+Actual: From shader: 'Universal Render Pipeline/Lit' Keyword count: 64 Keywords: STEREO_INSTANCING_ON UNITY_SINGLE_PASS_STEREO STEREO_MULTIVIEW_ON STEREO_CUBEMAP_RENDER_ON _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS EVALUATE_SH_MIXED EVALUATE_SH_VERTEX _LIGHT_LAYERS _FORWARD_PLUS _FOVEATED_RENDERING_NON_UNIFORM_RASTER LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DYNAMICLIGHTMAP_ON USE_LEGACY_LIGHTMAPS LOD_FADE_CROSSFADE PROBE_VOLUMES_L1 PROBE_VOLUMES_L2 DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _RECEIVE_SHADOWS_OFF _DETAIL_MULX2 _DETAIL_SCALED _ADDITIONAL_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SHADOWS_SOFT_HIGH _SCREEN_SPACE_OCCLUSION _DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 _LIGHT_COOKIES _WRITE_RENDERING_LAYERS DEBUG_DISPLAY _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _ALPHAMODULATE_ON _EMISSION _METALLICSPECGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _OCCLUSIONMAP _SPECULARHIGHLIGHTS_OFF _ENVIRONMENTREFLECTIONS_OFF _SPECULAR_SETUP _CASTING_PUNCTUAL_LIGHT_SHADOW _RENDER_PASS_ENABLED _GBUFFER_NORMALS_OCT EDITOR_VISUALIZATION _SPECGLOSSMAP _ADD_PRECOMPUTED_VELOCITY
+0x00007fff26c16a3d (Unity) StackWalker::ShowCallstack
+0x00007fff26c26639 (Unity) PlatformStacktrace::GetStacktrace
+0x00007fff27e7069e (Unity) Stacktrace::GetStacktrace
+0x00007fff284200bf (Unity) DebugStringToFile
+0x00007fff2841fc7a (Unity) AssertImplementation
+0x00007fff268dbe5e (Unity) keywords::LocalKeywordState::ReportIncompatibleKeywordSpace
+0x00007fff268dbc5f (Unity) keywords::LocalKeywordState::Remove
+0x00007fff2690def4 (Unity) ShaderLab::Pass::ComputePassValuesHash
+0x00007fff26893713 (Unity) Material::UpdateHashes
+0x00007fff2687fa44 (Unity) Material::BuildProperties
+0x00007fff2687d4ab (Unity) Material::AcquireSharedMaterialData
+0x00007fff263f8712 (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007fff264cdaf4 (Unity) IntermediateRenderer::AddAsRenderNode
+0x00007fff264cdba4 (Unity) MeshIntermediateRenderer::AddAsRenderNode
+0x00007fff264a9a99 (Unity) PrepareRenderNodesOnMainThreadDeprecated
+0x00007fff264aa0aa (Unity) QueuePrepareIntegrateMainThreadObjects
+0x00007fff264a7782 (Unity) ExtractSceneRenderNodeQueue
+0x00007fff2647d561 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007fff266e8975 (Unity) CullScriptable
+0x00007fff25c9df7b (Unity) ScriptableRenderContext_CUSTOM_Internal_Cull
+0x000002a40f1f8136 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull_Injected (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext&,intptr)
+0x000002a40f1f8003 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
+0x000002a40f1f7de3 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
+0x000002a40f1e1be3 (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:823)
+0x000002a40f1ccca3 (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:688)
+0x000002a40f1cc2bb (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:663)
+0x000002a40f1b6d1b (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:480)
+0x000002a40f1b5e99 (Mono JIT Code) UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+0x000002a40e0edcfb (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+0x000002a40e0ee285 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_intptr_object_AtomicSafetyHandle (object,intptr,intptr,intptr)
+0x00007fff24436e8e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007fff24378764 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007fff24378850 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007fff26b398c4 (Unity) scripting_method_invoke
+0x00007fff26b116a3 (Unity) ScriptingInvocation::Invoke
+0x00007fff26b0cd85 (Unity) ScriptingInvocation::Invoke<void>
+0x00007fff26c9854f (Unity) Scripting::UnityEngine::Rendering::RenderPipelineManagerProxy::DoRenderLoop_Internal
+0x00007fff266f33ae (Unity) ScriptableRenderContext::ExtractAndExecuteRenderPipeline
+0x00007fff2643f94f (Unity) Camera::CustomRenderWithPipeline
+0x00007fff2644cc54 (Unity) Camera::StandaloneCustomRender
+0x00007fff2644cec7 (Unity) Camera::StandaloneRender
+0x00007fff26446b3e (Unity) CameraScripting::Render
+0x00007fff25c89957 (Unity) Camera_CUSTOM_Render
+0x000002a40e0ed752 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render_Injected (intptr)
+0x000002a40e0ed623 (Mono JIT Code) UnityEngine.Camera:Render ()
+0x000002a40e0ebeeb (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x000002a40f373263 (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x000002a40f367cdb (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002a3cc0f882a (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+0x000002a3cc0f7e9b (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002a3cc0f8100 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007fff24436e8e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007fff24378764 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007fff24378850 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007fff26b398c4 (Unity) scripting_method_invoke
+0x00007fff26b116a3 (Unity) ScriptingInvocation::Invoke
+0x00007fff27ff4d13 (Unity) MonoCreateAssetPreview
+0x00007fff27ff5a43 (Unity) WriteAssetPreviewToFile
+0x00007fff27ff5f11 (Unity) WritePreviews
+0x00007fff27ff3a55 (Unity) PreviewImporter::GenerateAssetData
+0x00007fff280f4f1e (Unity) ImportToObjects
+0x00007fff280f3db8 (Unity) ImportAsset
+0x00007fff2808dd91 (Unity) AssetImportWorker::Import
+0x00007fff2803fdc4 (Unity) <lambda_232e54ddfb13a5ee90121018730cb5c5>::operator()
+0x00007fff28127efe (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007fff281158ba (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007fff28116b04 (Unity) asio::detail::win_iocp_io_context::run
+0x00007fff2812651c (Unity) IOService::Run
+0x00007fff2806b2e6 (Unity) RunAssetImportWorkerClientV2
+0x00007fff2806b3ab (Unity) RunAssetImporterV2
+0x00007fff2788e954 (Unity) Application::InitializeProject
+0x00007fff27e7ac35 (Unity) UnityMain
+0x00007ff6c96d2fba (Unity) __scrt_common_main_seh
+0x00007ff80c97e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff80e5ac53c (ntdll) RtlUserThreadStart
+
+Incompatible keyword states
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
+UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:823)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:688)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:663)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:480)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs line 823]
+
+State comes from an incompatible keyword space
+Expected: From shader: 'Simulation/Standard Lit' Keyword count: 76 Keywords: STEREO_INSTANCING_ON UNITY_SINGLE_PASS_STEREO STEREO_MULTIVIEW_ON STEREO_CUBEMAP_RENDER_ON _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS EVALUATE_SH_MIXED EVALUATE_SH_VERTEX _LIGHT_LAYERS _FORWARD_PLUS _FOVEATED_RENDERING_NON_UNIFORM_RASTER LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DYNAMICLIGHTMAP_ON USE_LEGACY_LIGHTMAPS LOD_FADE_CROSSFADE PROBE_VOLUMES_L1 PROBE_VOLUMES_L2 DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _RECEIVE_SHADOWS_OFF _DETAIL_MULX2 _DETAIL_SCALED _ADDITIONAL_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SHADOWS_SOFT_HIGH _SCREEN_SPACE_OCCLUSION _DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 _LIGHT_COOKIES _WRITE_RENDERING_LAYERS DEBUG_DISPLAY _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _ALPHAMODULATE_ON _EMISSION _METALLICSPECGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _OCCLUSIONMAP _SPECULARHIGHLIGHTS_OFF _ENVIRONMENTREFLECTIONS_OFF _SPECULAR_SETUP _ALPHABLEND_ON _METALLICGLOSSMAP _GLOSSYREFLECTIONS_OFF DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON POINT SPOT POINT_COOKIE DIRECTIONAL_COOKIE SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_CUBE _CASTING_PUNCTUAL_LIGHT_SHADOW UNITY_HDR_ON EDITOR_VISUALIZATION _SPECGLOSSMAP
+Actual: From shader: 'Universal Render Pipeline/Lit' Keyword count: 64 Keywords: STEREO_INSTANCING_ON UNITY_SINGLE_PASS_STEREO STEREO_MULTIVIEW_ON STEREO_CUBEMAP_RENDER_ON _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS EVALUATE_SH_MIXED EVALUATE_SH_VERTEX _LIGHT_LAYERS _FORWARD_PLUS _FOVEATED_RENDERING_NON_UNIFORM_RASTER LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DYNAMICLIGHTMAP_ON USE_LEGACY_LIGHTMAPS LOD_FADE_CROSSFADE PROBE_VOLUMES_L1 PROBE_VOLUMES_L2 DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _RECEIVE_SHADOWS_OFF _DETAIL_MULX2 _DETAIL_SCALED _ADDITIONAL_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SHADOWS_SOFT_HIGH _SCREEN_SPACE_OCCLUSION _DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3 _LIGHT_COOKIES _WRITE_RENDERING_LAYERS DEBUG_DISPLAY _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _ALPHAPREMULTIPLY_ON _ALPHAMODULATE_ON _EMISSION _METALLICSPECGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _OCCLUSIONMAP _SPECULARHIGHLIGHTS_OFF _ENVIRONMENTREFLECTIONS_OFF _SPECULAR_SETUP _CASTING_PUNCTUAL_LIGHT_SHADOW _RENDER_PASS_ENABLED _GBUFFER_NORMALS_OCT EDITOR_VISUALIZATION _SPECGLOSSMAP _ADD_PRECOMPUTED_VELOCITY
+0x00007fff26c16a3d (Unity) StackWalker::ShowCallstack
+0x00007fff26c26639 (Unity) PlatformStacktrace::GetStacktrace
+0x00007fff27e7069e (Unity) Stacktrace::GetStacktrace
+0x00007fff284200bf (Unity) DebugStringToFile
+0x00007fff2841fc7a (Unity) AssertImplementation
+0x00007fff268dbe5e (Unity) keywords::LocalKeywordState::ReportIncompatibleKeywordSpace
+0x00007fff268dbc5f (Unity) keywords::LocalKeywordState::Remove
+0x00007fff2690def4 (Unity) ShaderLab::Pass::ComputePassValuesHash
+0x00007fff26893713 (Unity) Material::UpdateHashes
+0x00007fff2687d4e2 (Unity) Material::AcquireSharedMaterialData
+0x00007fff263f8712 (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007fff264cdaf4 (Unity) IntermediateRenderer::AddAsRenderNode
+0x00007fff264cdba4 (Unity) MeshIntermediateRenderer::AddAsRenderNode
+0x00007fff264a9a99 (Unity) PrepareRenderNodesOnMainThreadDeprecated
+0x00007fff264aa0aa (Unity) QueuePrepareIntegrateMainThreadObjects
+0x00007fff264a7782 (Unity) ExtractSceneRenderNodeQueue
+0x00007fff2647d561 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007fff266e8975 (Unity) CullScriptable
+0x00007fff25c9df7b (Unity) ScriptableRenderContext_CUSTOM_Internal_Cull
+0x000002a40f1f8136 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull_Injected (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext&,intptr)
+0x000002a40f1f8003 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
+0x000002a40f1f7de3 (Mono JIT Code) UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
+0x000002a40f1e1be3 (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:823)
+0x000002a40f1ccca3 (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:688)
+0x000002a40f1cc2bb (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:663)
+0x000002a40f1b6d1b (Mono JIT Code) UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:480)
+0x000002a40f1b5e99 (Mono JIT Code) UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+0x000002a40e0edcfb (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+0x000002a40e0ee285 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_intptr_object_AtomicSafetyHandle (object,intptr,intptr,intptr)
+0x00007fff24436e8e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007fff24378764 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007fff24378850 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007fff26b398c4 (Unity) scripting_method_invoke
+0x00007fff26b116a3 (Unity) ScriptingInvocation::Invoke
+0x00007fff26b0cd85 (Unity) ScriptingInvocation::Invoke<void>
+0x00007fff26c9854f (Unity) Scripting::UnityEngine::Rendering::RenderPipelineManagerProxy::DoRenderLoop_Internal
+0x00007fff266f33ae (Unity) ScriptableRenderContext::ExtractAndExecuteRenderPipeline
+0x00007fff2643f94f (Unity) Camera::CustomRenderWithPipeline
+0x00007fff2644cc54 (Unity) Camera::StandaloneCustomRender
+0x00007fff2644cec7 (Unity) Camera::StandaloneRender
+0x00007fff26446b3e (Unity) CameraScripting::Render
+0x00007fff25c89957 (Unity) Camera_CUSTOM_Render
+0x000002a40e0ed752 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render_Injected (intptr)
+0x000002a40e0ed623 (Mono JIT Code) UnityEngine.Camera:Render ()
+0x000002a40e0ebeeb (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x000002a40f373263 (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x000002a40f367cdb (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002a3cc0f882a (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+0x000002a3cc0f7e9b (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002a3cc0f8100 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007fff24436e8e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007fff24378764 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007fff24378850 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007fff26b398c4 (Unity) scripting_method_invoke
+0x00007fff26b116a3 (Unity) ScriptingInvocation::Invoke
+0x00007fff27ff4d13 (Unity) MonoCreateAssetPreview
+0x00007fff27ff5a43 (Unity) WriteAssetPreviewToFile
+0x00007fff27ff5f11 (Unity) WritePreviews
+0x00007fff27ff3a55 (Unity) PreviewImporter::GenerateAssetData
+0x00007fff280f4f1e (Unity) ImportToObjects
+0x00007fff280f3db8 (Unity) ImportAsset
+0x00007fff2808dd91 (Unity) AssetImportWorker::Import
+0x00007fff2803fdc4 (Unity) <lambda_232e54ddfb13a5ee90121018730cb5c5>::operator()
+0x00007fff28127efe (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007fff281158ba (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007fff28116b04 (Unity) asio::detail::win_iocp_io_context::run
+0x00007fff2812651c (Unity) IOService::Run
+0x00007fff2806b2e6 (Unity) RunAssetImportWorkerClientV2
+0x00007fff2806b3ab (Unity) RunAssetImporterV2
+0x00007fff2788e954 (Unity) Application::InitializeProject
+0x00007fff27e7ac35 (Unity) UnityMain
+0x00007ff6c96d2fba (Unity) __scrt_common_main_seh
+0x00007ff80c97e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff80e5ac53c (ntdll) RtlUserThreadStart
+
+Incompatible keyword states
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Internal_Cull (UnityEngine.Rendering.ScriptableCullingParameters&,UnityEngine.Rendering.ScriptableRenderContext,intptr)
+UnityEngine.Rendering.ScriptableRenderContext:Cull (UnityEngine.Rendering.ScriptableCullingParameters&)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:823)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:688)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:663)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs:480)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Runtime/UniversalRenderPipeline.cs line 823]
+
+ -> (artifact id: '3121b611c4c22c13226f0b3050ce93dc') in 0.1535682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/XAxis.mat
+  artifactKey: Guid(a23d1b0dc553640f682d502af95e7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/XAxis.mat using Guid(a23d1b0dc553640f682d502af95e7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab8c7d7a756a799e76ccc171afceded') in 0.0307033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat
+  artifactKey: Guid(7f1d579c79ac0442e8d4a7f213a675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat using Guid(7f1d579c79ac0442e8d4a7f213a675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4a2270aa8c1a9877cecf775c2a9ad09') in 0.0318205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.008594 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax
+  artifactKey: Guid(6008daaf28fd58349b70105e46e2a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax using Guid(6008daaf28fd58349b70105e46e2a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7f17ca055edada1b802703a9428d64') in 0.0008543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.972293 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/BindingPanelRowTemplate.uxml
+  artifactKey: Guid(449c8e5ca27af8e4a9db710c8be5e4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/BindingPanelRowTemplate.uxml using Guid(449c8e5ca27af8e4a9db710c8be5e4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aa9edc1250096a9d17dee8a33e01560') in 0.0190547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/NameAndParameterListViewItemTemplate.uxml
+  artifactKey: Guid(9cbd73d51dc491b4888055ae65cd9545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/NameAndParameterListViewItemTemplate.uxml using Guid(9cbd73d51dc491b4888055ae65cd9545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0210f7e685e62f8681d6f7d24ef92227') in 0.0041427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Templates/SharedCode.template.hlsl
+  artifactKey: Guid(16201fed0715efa48a8908fedb361bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Templates/SharedCode.template.hlsl using Guid(16201fed0715efa48a8908fedb361bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bba9998f0e61c1877ee4edb23779dac') in 0.0006515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
