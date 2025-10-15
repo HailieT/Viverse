@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-14T18:22:52Z
+Date: 2025-10-15T19:57:32Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker11.log
 -srvPort
-52170
+51971
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35476]  Target information:
+Player connection [28552]  Target information:
 
-Player connection [35476]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 2061026014 [EditorId] 2061026014 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28552]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 3130850836 [EditorId] 3130850836 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [35476] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [35476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28552] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28552] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.23 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 6.09 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,46 +95,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002486 seconds.
-- Loaded All Assemblies, in  0.262 seconds
+Registered in 0.002365 seconds.
+- Loaded All Assemblies, in  0.236 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.227 seconds
-Domain Reload Profiling: 487ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.223 seconds
+Domain Reload Profiling: 458ms
+	BeginReloadAssembly (75ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (106ms)
-		LoadAssemblies (82ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (74ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (102ms)
-				TypeCache.ScanAssembly (93ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (87ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (227ms)
+	FinalizeReload (223ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (197ms)
+		SetupLoadedEditorAssemblies (193ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
+			InitializePlatformSupportModulesInManaged (49ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (77ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (75ms)
 			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.595 seconds
-Refreshing native plugins compatible for Editor in 5.32 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 4.52 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,35 +192,35 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.874 seconds
-Domain Reload Profiling: 1467ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1450ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (430ms)
-		LoadAssemblies (284ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (265ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (135ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (141ms)
 			BuildScriptInfoCaches (43ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (874ms)
+	FinalizeReload (870ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (773ms)
+		SetupLoadedEditorAssemblies (768ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (409ms)
-			ProcessInitializeOnLoadMethodAttributes (211ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -262,15 +262,246 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.01 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 5.28 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7384 unused Assets / (11.7 MB). Loaded Objects now: 8045.
-Memory consumption went from 172.6 MB to 160.9 MB.
-Total: 11.567700 ms (FindLiveObjects: 0.545200 ms CreateObjectMapping: 0.414400 ms MarkObjects: 6.557700 ms  DeleteObjects: 4.049300 ms)
+Unloading 7386 unused Assets / (12.2 MB). Loaded Objects now: 8066.
+Memory consumption went from 220.9 MB to 208.7 MB.
+Total: 10.690600 ms (FindLiveObjects: 0.437700 ms CreateObjectMapping: 0.262800 ms MarkObjects: 5.937700 ms  DeleteObjects: 4.051500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5792.152991 seconds.
+  path: Assets/AllMaterials/forrest_ground_01_1k.gltf.zip
+  artifactKey: Guid(bd69fff95d6d8c64f96ffe807200445a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/forrest_ground_01_1k.gltf.zip using Guid(bd69fff95d6d8c64f96ffe807200445a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ef84a15e43de1fd634533338641ef62') in 0.0226307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.469210 seconds.
+  path: Assets/AllMaterials/forrest_ground_01_1k.gltf
+  artifactKey: Guid(34b74b6e428f3d24bbe5c0d757a76637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/forrest_ground_01_1k.gltf using Guid(34b74b6e428f3d24bbe5c0d757a76637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa1dba92a3b2159475478472ed79bcee') in 0.0006081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.333357 seconds.
+  path: Assets/AllMaterials/forrest_ground_01_1k.gltf/textures
+  artifactKey: Guid(e3c564f4c929288498a0fb0a3a72cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/forrest_ground_01_1k.gltf/textures using Guid(e3c564f4c929288498a0fb0a3a72cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5147dfe12d32e6f342b8be8f5d053c14') in 0.0004992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034380 seconds.
+  path: Assets/AllMaterials/forrest_ground_01_1k.gltf/textures/forrest_ground_01_diff_1k.jpg
+  artifactKey: Guid(51c82f297a09eed4f83cc360ab2c2417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/forrest_ground_01_1k.gltf/textures/forrest_ground_01_diff_1k.jpg using Guid(51c82f297a09eed4f83cc360ab2c2417) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '344c9071b7a76836a3b5b560609e25f5') in 0.0345032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.978655 seconds.
+  path: Assets/AllMaterials/forrest_ground_01_1k.gltf/textures/forest floor.mat
+  artifactKey: Guid(8fae36ef8e301f047a85f2dbf501ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/forrest_ground_01_1k.gltf/textures/forest floor.mat using Guid(8fae36ef8e301f047a85f2dbf501ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7294d255315b8e6d602935a6a1997420') in 0.2804702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 730.910311 seconds.
+  path: Assets/AllMaterials/japanese_cedar_bark_1k.gltf
+  artifactKey: Guid(bcff05285dd12c7468efabf1bf7fc59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/japanese_cedar_bark_1k.gltf using Guid(bcff05285dd12c7468efabf1bf7fc59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd283766bd08dbeddcde633baa60236b') in 0.0006528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.740590 seconds.
+  path: Assets/AllMaterials/japanese_cedar_bark_1k.gltf/textures
+  artifactKey: Guid(73c64a5147f158e4c8705b0071df034c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/japanese_cedar_bark_1k.gltf/textures using Guid(73c64a5147f158e4c8705b0071df034c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cab3f5935e2920fc6a06a21f22c87ccb') in 0.0003723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037129 seconds.
+  path: Assets/AllMaterials/japanese_cedar_bark_1k.gltf/textures/japanese_cedar_bark_arm_1k.jpg
+  artifactKey: Guid(465cb8f63639a174aa42fcb4d6e11fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/japanese_cedar_bark_1k.gltf/textures/japanese_cedar_bark_arm_1k.jpg using Guid(465cb8f63639a174aa42fcb4d6e11fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c41f8f96d88f609b84ad0c4b3f40495') in 0.0156111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AllMaterials/japanese_cedar_bark_1k.gltf/textures/japanese_cedar_bark_nor_gl_1k.jpg
+  artifactKey: Guid(29f410d55fa95f548b9350b6380b22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMaterials/japanese_cedar_bark_1k.gltf/textures/japanese_cedar_bark_nor_gl_1k.jpg using Guid(29f410d55fa95f548b9350b6380b22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '154a95a28e513ba1c97db096e13c1c25') in 0.0102452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.726734 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx
+  artifactKey: Guid(fb0559a36ae9650449b6e3c26d5076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx using Guid(fb0559a36ae9650449b6e3c26d5076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca0a9976a0205ab9c90e02ccc576a43d') in 0.1721587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx
+  artifactKey: Guid(ddcbcdd7a43212c4d86fe33f77dac074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx using Guid(ddcbcdd7a43212c4d86fe33f77dac074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb9f2f1ddc909cc4b32451807570a86a') in 0.0182724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab
+  artifactKey: Guid(c6a512d95615f534cbe31aba1aaa354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab using Guid(c6a512d95615f534cbe31aba1aaa354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe6e430910cf88b9660ea5929533351c') in 0.01577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx
+  artifactKey: Guid(0ef9f3b550a8ffd40ab0be1ae6034fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx using Guid(0ef9f3b550a8ffd40ab0be1ae6034fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05cd0579bfb4b76b0668fc24de8169b8') in 0.0354233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab
+  artifactKey: Guid(53e1939cdeda3f04caaa240bfd830e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab using Guid(53e1939cdeda3f04caaa240bfd830e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce1fb53f0968e43852372c3966681a45') in 0.0152871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab
+  artifactKey: Guid(fb070a2d31206d9499ecc8a77be0ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab using Guid(fb070a2d31206d9499ecc8a77be0ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20e15df1d3e42b04349f70944041c8c9') in 0.0135985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab
+  artifactKey: Guid(c8b350551fbedc84c8025d7d29f3a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab using Guid(c8b350551fbedc84c8025d7d29f3a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eecf9c53e46c1045f491b1a9bc87a3e2') in 0.0163773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab
+  artifactKey: Guid(c7827efbbf7212f42803476ce3f9d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab using Guid(c7827efbbf7212f42803476ce3f9d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ecab1be9da055a72f595b10c7d58984') in 0.015721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Leaves_01.png
+  artifactKey: Guid(d2f321fff7f05aa49ad106541e997dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Leaves_01.png using Guid(d2f321fff7f05aa49ad106541e997dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc8f1e0b66b6435e25a7c838b97f2071') in 0.015567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab
+  artifactKey: Guid(c0fdfdeafe3a1404a8766f946dd531d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab using Guid(c0fdfdeafe3a1404a8766f946dd531d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '426c316ed4e070e35fcc457f4d7fd425') in 0.0168857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab
+  artifactKey: Guid(c0c32672766a81647b04690fc9ed3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab using Guid(c0c32672766a81647b04690fc9ed3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae6632ff0433dbd3e8569e6ace38c8e5') in 0.0136064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx
+  artifactKey: Guid(3b8d3c0077d69eb4db5ee5754518f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx using Guid(3b8d3c0077d69eb4db5ee5754518f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ad6be78e69df2a128741f027e5a0067') in 0.0173285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Tree_Leaves_01.png
+  artifactKey: Guid(f2ee3ef6a109f0f4b8bfd6f7c1e310f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Tree_Leaves_01.png using Guid(f2ee3ef6a109f0f4b8bfd6f7c1e310f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0356ac448f97c8543a42175263ebd01d') in 0.0140512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab
+  artifactKey: Guid(b62637568d07eb141b948ab45ea8c3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab using Guid(b62637568d07eb141b948ab45ea8c3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c85f78e5ebd06d709246ad193b820eb9') in 0.0171093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green_cut.fbx
+  artifactKey: Guid(2a5e649cde00dd847885c694eb77f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green_cut.fbx using Guid(2a5e649cde00dd847885c694eb77f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c51d1ec788249cd314fa9ef9c257ceba') in 0.0186261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab
+  artifactKey: Guid(1caa73a6296593c46bb83d678ff6609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab using Guid(1caa73a6296593c46bb83d678ff6609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b2817224f56fb3230a013a318a52920') in 0.0166434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_logs.fbx
+  artifactKey: Guid(268a14e7ef45f1542a7d335b0a20d200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_logs.fbx using Guid(268a14e7ef45f1542a7d335b0a20d200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f5d3827abef4b1fd82782aacc3c78bd') in 0.0173709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png
+  artifactKey: Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png using Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdd5f3d010a1043f5d9a9239d0b210c8') in 0.0119118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab
+  artifactKey: Guid(66d0615cc71cd48408b75ff3f99c97af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab using Guid(66d0615cc71cd48408b75ff3f99c97af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6f32a6b3db6946c6665e26a43ded071') in 0.0155423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx
+  artifactKey: Guid(c2dcabc4d03cc9b4098225e59529d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx using Guid(c2dcabc4d03cc9b4098225e59529d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40f4df1092e630d3d4c94e307e5c3a39') in 0.0358444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

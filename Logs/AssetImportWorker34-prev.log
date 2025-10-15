@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-13T21:24:34Z
+Date: 2025-10-14T21:46:28Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker34.log
 -srvPort
-62244
+52170
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2968]  Target information:
+Player connection [21288]  Target information:
 
-Player connection [2968]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 3215446770 [EditorId] 3215446770 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21288]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 2746350004 [EditorId] 2746350004 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2968] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21288] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21288] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.45 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 6.42 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,47 +95,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002495 seconds.
-- Loaded All Assemblies, in  0.265 seconds
+Registered in 0.003751 seconds.
+- Loaded All Assemblies, in  0.260 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.276 seconds
-Domain Reload Profiling: 540ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.269 seconds
+Domain Reload Profiling: 528ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (111ms)
-		LoadAssemblies (82ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (80ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (107ms)
-				TypeCache.ScanAssembly (97ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (96ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (276ms)
+	FinalizeReload (269ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (242ms)
+		SetupLoadedEditorAssemblies (238ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
+			InitializePlatformSupportModulesInManaged (52ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.622 seconds
-Refreshing native plugins compatible for Editor in 5.18 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.619 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,36 +192,36 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.931 seconds
-Domain Reload Profiling: 1550ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.880 seconds
+Domain Reload Profiling: 1497ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
 		LoadAssemblies (283ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (229ms)
-			TypeCache.Refresh (169ms)
-				TypeCache.ScanAssembly (153ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (931ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (881ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (819ms)
+		SetupLoadedEditorAssemblies (770ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (421ms)
-			ProcessInitializeOnLoadMethodAttributes (210ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (416ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
@@ -261,16 +261,15 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.20 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.05 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7385 unused Assets / (12.5 MB). Loaded Objects now: 8044.
-Memory consumption went from 165.2 MB to 152.8 MB.
-Total: 10.890700 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.253200 ms MarkObjects: 6.076200 ms  DeleteObjects: 4.092300 ms)
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7384 unused Assets / (12.2 MB). Loaded Objects now: 8049.
+Memory consumption went from 171.0 MB to 158.8 MB.
+Total: 11.315500 ms (FindLiveObjects: 0.541300 ms CreateObjectMapping: 0.449900 ms MarkObjects: 6.299700 ms  DeleteObjects: 4.023700 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

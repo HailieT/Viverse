@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-13T19:54:29Z
+Date: 2025-10-14T18:22:52Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker13.log
 -srvPort
-62244
+52170
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35624]  Target information:
+Player connection [36184]  Target information:
 
-Player connection [35624]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 1815715599 [EditorId] 1815715599 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [36184]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 2626317952 [EditorId] 2626317952 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [35624] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [35624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36184] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36184] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.07 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 7.15 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,47 +95,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004364 seconds.
-- Loaded All Assemblies, in  0.457 seconds
+Registered in 0.003350 seconds.
+- Loaded All Assemblies, in  0.257 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.443 seconds
-Domain Reload Profiling: 898ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.228 seconds
+Domain Reload Profiling: 484ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (139ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (80ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (173ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (92ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (444ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (228ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
+		SetupLoadedEditorAssemblies (198ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (91ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (141ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.042 seconds
-Refreshing native plugins compatible for Editor in 9.20 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.607 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,39 +192,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.519 seconds
-Domain Reload Profiling: 2558ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1484ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (762ms)
-		LoadAssemblies (456ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (435ms)
+		LoadAssemblies (287ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (398ms)
-			TypeCache.Refresh (295ms)
-				TypeCache.ScanAssembly (267ms)
-			BuildScriptInfoCaches (82ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1520ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (879ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1342ms)
+		SetupLoadedEditorAssemblies (781ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (244ms)
-			ProcessInitializeOnLoadAttributes (739ms)
-			ProcessInitializeOnLoadMethodAttributes (330ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (216ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -261,1026 +261,528 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 8.54 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.04 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7384 unused Assets / (12.9 MB). Loaded Objects now: 8042.
-Memory consumption went from 166.9 MB to 154.0 MB.
-Total: 18.007500 ms (FindLiveObjects: 0.620900 ms CreateObjectMapping: 0.540300 ms MarkObjects: 9.926600 ms  DeleteObjects: 6.918400 ms)
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7384 unused Assets / (12.0 MB). Loaded Objects now: 8045.
+Memory consumption went from 163.1 MB to 151.0 MB.
+Total: 10.672000 ms (FindLiveObjects: 0.429600 ms CreateObjectMapping: 0.240100 ms MarkObjects: 5.916400 ms  DeleteObjects: 4.085200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5087.035134 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Beds/Bed32.prefab
-  artifactKey: Guid(235bbb15fb23b5e47ac0d8875e480d4e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Beds/Bed32.prefab using Guid(235bbb15fb23b5e47ac0d8875e480d4e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '82e286202787232109a2862297ee8f6e') in 0.2223301 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Interior/Tv_01.prefab
-  artifactKey: Guid(7cecf1c5e6ef8d142aac7e3c96e199e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Prefabs/Interior/Tv_01.prefab using Guid(7cecf1c5e6ef8d142aac7e3c96e199e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd13d58d0e435c799ad78ddab8a8e1cc') in 0.0674493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Bathroom/ShowerSystem04.prefab
-  artifactKey: Guid(585b2b468ef77d442883c59ab658ad91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Bathroom/ShowerSystem04.prefab using Guid(585b2b468ef77d442883c59ab658ad91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd94eeda88fb5b8943e5a02762f528688') in 0.0233218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MinimalistBedroom/Textures/Misc/StandardTexture_1k/TextureComposition_Packed_BaseColour_01.png
-  artifactKey: Guid(4720dbbf7bfd10b428cbeea9e8f9e2a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Misc/StandardTexture_1k/TextureComposition_Packed_BaseColour_01.png using Guid(4720dbbf7bfd10b428cbeea9e8f9e2a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f079fbc03080f9cf33caf5003d3ac3a') in 0.0761019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Beds/Bed03.prefab
-  artifactKey: Guid(cb4e581334ac7f346bc81a2c2513d72e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Beds/Bed03.prefab using Guid(cb4e581334ac7f346bc81a2c2513d72e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '42acd88cc9f4198b8b3410b220ccd095') in 0.0260001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MinimalistBedroom/Textures/Misc/CandleWaxDripping_512
-  artifactKey: Guid(33b500ad2eb9de940a4c4784a03fc437) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Misc/CandleWaxDripping_512 using Guid(33b500ad2eb9de940a4c4784a03fc437) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '870dde43285f048e982ab6d826d3d04e') in 0.0124437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Interior/Plant_a_01.prefab
-  artifactKey: Guid(f7f89a45e5740c94882b7a566b254c93) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Prefabs/Interior/Plant_a_01.prefab using Guid(f7f89a45e5740c94882b7a566b254c93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1efc86ad8ef3b1a0333c43a106d113bf') in 0.0376138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MinimalistBedroom/Textures/Misc/DirtyWindow_2k
-  artifactKey: Guid(3a726729fc3dc8340971b3ab180abef4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Misc/DirtyWindow_2k using Guid(3a726729fc3dc8340971b3ab180abef4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51df9258834c7b570072ef8db5b8d1e3') in 0.0116562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MinimalistBedroom/Models/Interior/Pot_a_01.fbx
-  artifactKey: Guid(14a71bfe7deea4d4aa7c2d3d162b1638) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Models/Interior/Pot_a_01.fbx using Guid(14a71bfe7deea4d4aa7c2d3d162b1638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62f2ede25d591d53d7fc59fe81b2fd77') in 0.0631985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MinimalistBedroom/Textures/Fabric/FabrickClothes_1k/FabrickClothes_normal_1k.png
-  artifactKey: Guid(beade9ad866f15e4e8ded250098d336c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Fabric/FabrickClothes_1k/FabrickClothes_normal_1k.png using Guid(beade9ad866f15e4e8ded250098d336c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be935c661a7e40027faea1e6478fd6b9') in 0.0316755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles/Main Camera Profile.asset
-  artifactKey: Guid(d41795d54aaa43d428bec755fa091a14) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles/Main Camera Profile.asset using Guid(d41795d54aaa43d428bec755fa091a14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78f9087bbcc09c2c04c5d7c40d19dec5') in 0.0187789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MinimalistBedroom/Materials/Fabric/FabricWrinkled_2k
-  artifactKey: Guid(302f001abb80997498adb138eadf08ec) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Materials/Fabric/FabricWrinkled_2k using Guid(302f001abb80997498adb138eadf08ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee8082218fb9b589a247cf0d099ab898') in 0.0128623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MinimalistBedroom/Models/Interior/ScentedSticks_01.fbx
-  artifactKey: Guid(d5c8e261bd0f8a1419fce73b05a36816) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Models/Interior/ScentedSticks_01.fbx using Guid(d5c8e261bd0f8a1419fce73b05a36816) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2c802c56e421a9225cbcb3a2f865eec') in 0.029639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MinimalistBedroom/Textures/Wood/WoodPlanks_1k/WoodPlanks_height_1k.png
-  artifactKey: Guid(7d02e975dc14d7c4bb0613e76e9241e8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Wood/WoodPlanks_1k/WoodPlanks_height_1k.png using Guid(7d02e975dc14d7c4bb0613e76e9241e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '038171e22712594f988577e79c20029a') in 0.0308707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Beds/Bed14.prefab
-  artifactKey: Guid(6aa24ebabc66cf746b0d667c5886848c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Beds/Bed14.prefab using Guid(6aa24ebabc66cf746b0d667c5886848c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c48b7bffdccf172b1cbf1b1f7da4d76d') in 0.0261673 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Chairs/Chair10.prefab
-  artifactKey: Guid(509388e3ca0f2504a9bd2bb4420b505b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Chairs/Chair10.prefab using Guid(509388e3ca0f2504a9bd2bb4420b505b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6f46cc30f3b71ec6d2cede5f0d47101e') in 0.0224278 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Chairs/Chair15.prefab
-  artifactKey: Guid(89935162b782dab4bb2b5eb62c687415) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Chairs/Chair15.prefab using Guid(89935162b782dab4bb2b5eb62c687415) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ec0482fdb1057f622d565c92be1ef6fa') in 0.0327429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Chairs/Chair21.prefab
-  artifactKey: Guid(5e7d2fef1bad6a34d8709843bc6669ee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Chairs/Chair21.prefab using Guid(5e7d2fef1bad6a34d8709843bc6669ee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'be87353d4be2a337fbf203cecf31289c') in 0.0368153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MinimalistBedroom/Textures/Misc/Plaster_1k
-  artifactKey: Guid(afb306ea5a9516f4e8c554690e76283b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Misc/Plaster_1k using Guid(afb306ea5a9516f4e8c554690e76283b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de6bc6f440d6eedf61adad158c5c8dd7') in 0.012738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Beds/Bed46.prefab
-  artifactKey: Guid(7fce52c46217d1a489f425879ffe8834) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Beds/Bed46.prefab using Guid(7fce52c46217d1a489f425879ffe8834) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a6057c8bb68933f30c9c9526a91f91a4') in 0.0286786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Interior/RoundBox_a_01.prefab
-  artifactKey: Guid(730082d80da31094a9c60cc910872b34) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Prefabs/Interior/RoundBox_a_01.prefab using Guid(730082d80da31094a9c60cc910872b34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ca83a17b0744a2207c457ce13f01f7b') in 0.0510651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Bathroom/TowelHanger05.prefab
-  artifactKey: Guid(e07dafea3f7750a448c90cf62782a5a0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Bathroom/TowelHanger05.prefab using Guid(e07dafea3f7750a448c90cf62782a5a0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd494508024aea0376ac7bce85dcfe265') in 0.0148643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MinimalistBedroom/PostProcessing/Minimalist_LUT_01.png
-  artifactKey: Guid(6d3baac84676336439ab6e632e8a9380) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/PostProcessing/Minimalist_LUT_01.png using Guid(6d3baac84676336439ab6e632e8a9380) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a18b2ee05dca34d1429dcfe9f86ae1b6') in 0.0307309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles
-  artifactKey: Guid(1d518a7ec77b29442a22897b2d4f9d31) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles using Guid(1d518a7ec77b29442a22897b2d4f9d31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62b02c9d2da89beb099b7ecff6b090ad') in 0.0129905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MinimalistBedroom/Materials/Wood/Plywood_1k/Plywood_1k_02.mat
-  artifactKey: Guid(693a082bdb248ea48b75807240e1dc78) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Materials/Wood/Plywood_1k/Plywood_1k_02.mat using Guid(693a082bdb248ea48b75807240e1dc78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd04e753e468e5d01db68c7986d2aba53') in 0.0538393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Bathroom/TissueHanger04.prefab
-  artifactKey: Guid(08facff90d5f67d4ead0900a7783acfb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Bathroom/TissueHanger04.prefab using Guid(08facff90d5f67d4ead0900a7783acfb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5de946ac871f6cfb8d29f7596d07fc0a') in 0.0202528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MinimalistBedroom/Textures/Wood/WoodPlanks_1k/WoodPlanks_baseColour_1k.png
-  artifactKey: Guid(6ab34305aa11cd94b95819be4af8f33b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Wood/WoodPlanks_1k/WoodPlanks_baseColour_1k.png using Guid(6ab34305aa11cd94b95819be4af8f33b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afcad7684619c39c7ef022db1b05f1d8') in 0.0354103 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Interior/RoundBox_b_01.prefab
-  artifactKey: Guid(31c264e0380a36d45ad32f3ae22ce35d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Prefabs/Interior/RoundBox_b_01.prefab using Guid(31c264e0380a36d45ad32f3ae22ce35d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5235f039c0166e71e3918ef7752bf777') in 0.0320555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MinimalistBedroom/Textures/Nature/Ground_1k/Ground_ao_1k.png
-  artifactKey: Guid(5038f874e2beefe4eb9c66384ea774b9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Nature/Ground_1k/Ground_ao_1k.png using Guid(5038f874e2beefe4eb9c66384ea774b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '161be62f7e6189686b8725aa29bf1df7') in 0.0216693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MinimalistBedroom/Materials/Misc/StandardTexture_1k/StandardTexture_1k_01.mat
-  artifactKey: Guid(fc41dd87f8c91524698b364d6a891b74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Materials/Misc/StandardTexture_1k/StandardTexture_1k_01.mat using Guid(fc41dd87f8c91524698b364d6a891b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdf9b96fdccd77723aa3d23efb5757ff') in 0.0172893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MinimalistBedroom/Materials/Fabric/Rug_1k
-  artifactKey: Guid(51024edef602be5459019d9d993a0a22) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Materials/Fabric/Rug_1k using Guid(51024edef602be5459019d9d993a0a22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e4819c77eefdc253079982ffecc9bc4') in 0.0130124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Beds/Bed31.prefab
-  artifactKey: Guid(e493567eec4930e43afcee3892471ce2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Beds/Bed31.prefab using Guid(e493567eec4930e43afcee3892471ce2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2d19155e9ef7dde6e188c558b1222cad') in 0.0264863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Chairs/Chair14.prefab
-  artifactKey: Guid(2e0aac41933b3904db9b1f9b4c5a941f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Chairs/Chair14.prefab using Guid(2e0aac41933b3904db9b1f9b4c5a941f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2c9dfef1fb33f372863ba0c201ed651d') in 0.0364326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Bathroom/TissueHanger01.prefab
-  artifactKey: Guid(9bdcb33c2a78d0d49a739f83ed245b35) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Bathroom/TissueHanger01.prefab using Guid(9bdcb33c2a78d0d49a739f83ed245b35) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'eb389d8e6874db01e141d78b4a83c85a') in 0.0164269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Bathroom/ShowerSystem02.prefab
-  artifactKey: Guid(188ea6ba08e7ba346ae2789802cdd18a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Bathroom/ShowerSystem02.prefab using Guid(188ea6ba08e7ba346ae2789802cdd18a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7ac8a76c539dde7e5114f7074c9c63da') in 0.0224371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet15.prefab
-  artifactKey: Guid(27abb203dc9090645a3fea78eafa3fab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet15.prefab using Guid(27abb203dc9090645a3fea78eafa3fab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '87824994bb9cd898f35de7bdd8609964') in 0.037239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet10.prefab
-  artifactKey: Guid(6326c7cd4bdca7a48afd08435f428978) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet10.prefab using Guid(6326c7cd4bdca7a48afd08435f428978) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e2d8065b39040f9ba891de4162219960') in 0.0205165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet30.prefab
-  artifactKey: Guid(1398d45d9ef93774ba37f98c37b91e6c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet30.prefab using Guid(1398d45d9ef93774ba37f98c37b91e6c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '44efe07eaaac851cc47df2cb731f39e9') in 0.021529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Chairs/Chair37.prefab
-  artifactKey: Guid(45fdc7aa704acec4f926d2fd687211cf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Chairs/Chair37.prefab using Guid(45fdc7aa704acec4f926d2fd687211cf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1dc33d8edcd64a752df8c94ebb943c82') in 0.0387676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet31.prefab
-  artifactKey: Guid(5cd20e2f643e38f439425a00cb0d45a5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet31.prefab using Guid(5cd20e2f643e38f439425a00cb0d45a5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bab66e959926908e8a7742368816ddfa') in 0.0127781 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Chairs/Chair44.prefab
-  artifactKey: Guid(097bd7925c5b868429cf338627c6eb2f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Chairs/Chair44.prefab using Guid(097bd7925c5b868429cf338627c6eb2f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f23498d1695813d33f9f0bbc8ac66ef4') in 0.036454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet07.prefab
-  artifactKey: Guid(287a24175e7f8214da7dbebba36561bb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet07.prefab using Guid(287a24175e7f8214da7dbebba36561bb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f1e515d384be03d97a12120c1f8df863') in 0.022561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Interior/TvStand_01.prefab
-  artifactKey: Guid(38e424f4bc4e6264fbf01f954ee5ec75) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Prefabs/Interior/TvStand_01.prefab using Guid(38e424f4bc4e6264fbf01f954ee5ec75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdc7ca6c0cb22a42d7e17efe961ee5dc') in 0.0279339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Closets/Closet25.prefab
-  artifactKey: Guid(f83f3f02901e0d74a95fe01e135f840e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Closets/Closet25.prefab using Guid(f83f3f02901e0d74a95fe01e135f840e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'cd192253488f0debbd4375a8d3559346') in 0.0196827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c90da30434455af252e74a1014ecb568') in 0.036562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.337391 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Cushioins/Cushion12.prefab
-  artifactKey: Guid(43f4e166b8c8d284b82360443b256b4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Cushioins/Cushion12.prefab using Guid(43f4e166b8c8d284b82360443b256b4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2206fda9d57da40c298c99b59256fd26') in 0.0199367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Cushioins/Cushion41.prefab
-  artifactKey: Guid(9e817b0a349c3354ebcf2dbb6d6603c7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Cushioins/Cushion41.prefab using Guid(9e817b0a349c3354ebcf2dbb6d6603c7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8986726a151e348f0cfa5de9643c8914') in 0.0204129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Drawers/Drawer07.prefab
-  artifactKey: Guid(11952daaf4c5ae747b6ba807a15fd77b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Drawers/Drawer07.prefab using Guid(11952daaf4c5ae747b6ba807a15fd77b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '19f0174cb9419fa28fd6109b7ad1ef30') in 0.0122798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Drawers/Drawer33.prefab
-  artifactKey: Guid(8d397b5f56bf4ea409c9d529ea69ad1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Drawers/Drawer33.prefab using Guid(8d397b5f56bf4ea409c9d529ea69ad1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'db86282e7cb1d8b0323cfdec22c552e1') in 0.0148677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Cushioins/Cushion27.prefab
-  artifactKey: Guid(8eb54c96561e08541bdd40574c773449) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Cushioins/Cushion27.prefab using Guid(8eb54c96561e08541bdd40574c773449) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '39408a9e0463439eabf9d5133107c5d8') in 0.0218822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Drawers/Drawer39.prefab
-  artifactKey: Guid(86e0a56eec3cc6840abdc8d1894f117d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Drawers/Drawer39.prefab using Guid(86e0a56eec3cc6840abdc8d1894f117d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '942fecce8cfbb8fc6fdd4118c9035fde') in 0.0140978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.234462 seconds.
-  path: Assets/MinimalistBedroom/Models/Interior/Plant_a_01.fbx
-  artifactKey: Guid(46eb47251c0d60a48a85eec5e346aea6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Models/Interior/Plant_a_01.fbx using Guid(46eb47251c0d60a48a85eec5e346aea6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '594f40439b71ba881aee6e114515b4b3') in 0.0236446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MinimalistBedroom/Textures/Fabric
-  artifactKey: Guid(32b131d1e2b345c4cb8c0cdb4ea198f3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Fabric using Guid(32b131d1e2b345c4cb8c0cdb4ea198f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92ef6cd2c56c4090f6aa4845af44fa13') in 0.0104455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MinimalistBedroom/Prefabs
-  artifactKey: Guid(6ba1ebf203e8c9b41820b0d32a949364) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Prefabs using Guid(6ba1ebf203e8c9b41820b0d32a949364) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70afd28c177133876eafd890605fa493') in 0.0101303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MinimalistBedroom/Textures/Nature/LeafBase_512/LeafBase_height_512.png
-  artifactKey: Guid(e045b5098ef23ce4f8bf8363aa10262e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Nature/LeafBase_512/LeafBase_height_512.png using Guid(e045b5098ef23ce4f8bf8363aa10262e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f26e47c3437914967d0703f165a38279') in 0.0236413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MinimalistBedroom/Materials
-  artifactKey: Guid(391bc144a1a682c499f128ce09a4f519) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Materials using Guid(391bc144a1a682c499f128ce09a4f519) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d5b819f539d0fe4bacd9578107ef05b') in 0.0117357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MinimalistBedroom/Materials/Fabric/Suede_1k
-  artifactKey: Guid(113bc007c901c6b44a3555c112639983) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Materials/Fabric/Suede_1k using Guid(113bc007c901c6b44a3555c112639983) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23631452aea7862f1568211a7785f71d') in 0.0123864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MinimalistBedroom/Models/Exterior
-  artifactKey: Guid(aabcb6f83cd95174ca1bd5564ded2f02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Models/Exterior using Guid(aabcb6f83cd95174ca1bd5564ded2f02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd01d3f12c3c7df8ce2749d280177b2c5') in 0.0097187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049080 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetB01.prefab
-  artifactKey: Guid(93aa19ab9bb320d489a913a994ae755d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetB01.prefab using Guid(93aa19ab9bb320d489a913a994ae755d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9e16ef0fc237cf4c4b60457aef1c54c8') in 0.0114589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa12.prefab
-  artifactKey: Guid(03422070596cad442a2f100cbcdcd576) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa12.prefab using Guid(03422070596cad442a2f100cbcdcd576) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1a305aa89b74ce33286f236a4414e36f') in 0.0231565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetF01.prefab
-  artifactKey: Guid(278872f71b2970e40a35d114b3064149) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetF01.prefab using Guid(278872f71b2970e40a35d114b3064149) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '38e006704459816caa848532747e5d3c') in 0.0130262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa26.prefab
-  artifactKey: Guid(b294daefa4de91b45b01c18e5f62edb4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa26.prefab using Guid(b294daefa4de91b45b01c18e5f62edb4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '327520692118c17bd8ac122b62d15ba7') in 0.0186871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Kitchen/Refrigerator03.prefab
-  artifactKey: Guid(e7b798f3214e48848ae8607c68f39241) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Kitchen/Refrigerator03.prefab using Guid(e7b798f3214e48848ae8607c68f39241) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3dd39e91f12eb0a97ec18bc3d01ef1ae') in 0.0154804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetG02.prefab
-  artifactKey: Guid(dbf5d4beed440b64e84a6419194c4e8e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetG02.prefab using Guid(dbf5d4beed440b64e84a6419194c4e8e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '69bf4124be3465d95ad29a3bbfde5595') in 0.0121454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa32.prefab
-  artifactKey: Guid(556f13246c7bfbd459e01002436a763c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa32.prefab using Guid(556f13246c7bfbd459e01002436a763c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2f382f8a043ac1df2e9ace6b224a65ad') in 0.0216704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetG_Sink.prefab
-  artifactKey: Guid(e575cab885e18d543a480d6e7724283f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Kitchen/CabinetG_Sink.prefab using Guid(e575cab885e18d543a480d6e7724283f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '75fe0425c0af5e4396ce58480de72372') in 0.0145391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.418883 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa47.prefab
-  artifactKey: Guid(8ebb7e0cad2cc094dae630ac9ec8ca58) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Sofas/Sofa47.prefab using Guid(8ebb7e0cad2cc094dae630ac9ec8ca58) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '02bef8395d893baae877113c50ba53ce') in 0.0121827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Exterior/Floor_01.prefab
-  artifactKey: Guid(7b02d4dddd1c7ae42a89e6ab331dbcd2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/MinimalistBedroom/Prefabs/Exterior/Floor_01.prefab using Guid(7b02d4dddd1c7ae42a89e6ab331dbcd2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '93d106fd74809a6eb0f135f668ddf6e8') in 0.0116648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Interior/SlidingDoor_01.prefab
-  artifactKey: Guid(5300ac3fafec0e44e93028afd973e687) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/MinimalistBedroom/Prefabs/Interior/SlidingDoor_01.prefab using Guid(5300ac3fafec0e44e93028afd973e687) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2c83b2ff8aef402d9448e33e7c0725df') in 0.013689 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MinimalistBedroom/Prefabs/Interior/FoldedShirt_02.prefab
-  artifactKey: Guid(b6b765ca1e64eef468ba46773272c93d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/MinimalistBedroom/Prefabs/Interior/FoldedShirt_02.prefab using Guid(b6b765ca1e64eef468ba46773272c93d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '879de4217505b2e8f263f69c0d38ca35') in 0.0125056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Tables/Table05.prefab
-  artifactKey: Guid(0fd550c81b7d80245a9fde3230732547) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Tables/Table05.prefab using Guid(0fd550c81b7d80245a9fde3230732547) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a255c9348f7c965104e8960b6180093d') in 0.0120026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Tables/Table32.prefab
-  artifactKey: Guid(07edc7f94d7d60440b495722043bb32d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Tables/Table32.prefab using Guid(07edc7f94d7d60440b495722043bb32d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '193dedabea50897c02de3fd9ae37d8c4') in 0.0109053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Tables/Table42.prefab
-  artifactKey: Guid(93d7c9c792fad90458a193f56b74a405) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Tables/Table42.prefab using Guid(93d7c9c792fad90458a193f56b74a405) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '61914fcdbae3ace049d0e2eefbb88f38') in 0.0130792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)CoatHanger.prefab
-  artifactKey: Guid(1fd1948ee0343e74990f9a76872df5ef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)CoatHanger.prefab using Guid(1fd1948ee0343e74990f9a76872df5ef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '01e1c60795b995469034cf34161c40d5') in 0.013785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Furniture Mega Pack/Prefabs/Tables/Table24.prefab
-  artifactKey: Guid(c2079f25333fe0d44b008ca90a24a104) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Furniture Mega Pack/Prefabs/Tables/Table24.prefab using Guid(c2079f25333fe0d44b008ca90a24a104) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a569b056fc934a10f9fbe0f8bfdf0fe5') in 0.0110359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.274169 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)DoubleBed.prefab
-  artifactKey: Guid(2223fa9f01f9e4745bcd93ad2fd7f5cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)DoubleBed.prefab using Guid(2223fa9f01f9e4745bcd93ad2fd7f5cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3634dabd95330d9931ecc340990ea346') in 0.0292332 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Sink_02.prefab
-  artifactKey: Guid(75a81e859f47c0b488c478841c94ecc7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Sink_02.prefab using Guid(75a81e859f47c0b488c478841c94ecc7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3cd806111e68ac1ca2719d1a4152fe91') in 0.0181217 seconds
+  Time since last request: 71286.192347 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Apple_Chopped.fbx
+  artifactKey: Guid(26b9e9ffc89b43e468c362d68b737ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Apple_Chopped.fbx using Guid(26b9e9ffc89b43e468c362d68b737ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5676480d97434fb3082715ecd3ea8c6') in 0.3336074 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)VendingMachine.prefab
-  artifactKey: Guid(5fab3d9a08a16ed429bbc510962997d8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)VendingMachine.prefab using Guid(5fab3d9a08a16ed429bbc510962997d8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0a27ebf4f63a395f221a8c25e704eff5') in 0.0995326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 881
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Apple_Chopped.prefab
-  artifactKey: Guid(57fac217fefc9904db3288cbff2fe3f1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Apple_Chopped.prefab using Guid(57fac217fefc9904db3288cbff2fe3f1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '166b3c4ed1f1cf65b6a0944573f42c50') in 0.0154212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_03.prefab
-  artifactKey: Guid(ddfdd4f303314ea4a95b95269621de86) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_03.prefab using Guid(ddfdd4f303314ea4a95b95269621de86) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e9e0e8eb8953e86260aa74a339b0bab5') in 0.0122752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meatballs Sub.prefab
-  artifactKey: Guid(897859a771092914295df61ba808f53d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meatballs Sub.prefab using Guid(897859a771092914295df61ba808f53d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'de5eae00fe6b88e05c686725c6a981c3') in 0.0112452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Tortilla.prefab
-  artifactKey: Guid(2ba561e817e6b8a4e92c134cb584e999) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Tortilla.prefab using Guid(2ba561e817e6b8a4e92c134cb584e999) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '30af0add84f05325b49bfea7ad0dc110') in 0.012498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fridge_03.prefab
-  artifactKey: Guid(2a6d561cbaf69f14d92dd9db7720e060) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fridge_03.prefab using Guid(2a6d561cbaf69f14d92dd9db7720e060) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '337cb408b2af00fbf15b7d2864bb337c') in 0.0132386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_03.prefab
-  artifactKey: Guid(11afbf2a0f84f974bb4b8ec4fa197bc3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_03.prefab using Guid(11afbf2a0f84f974bb4b8ec4fa197bc3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '00e3534574195ae2a2fbf29ca729126a') in 0.0115257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_01.prefab
-  artifactKey: Guid(7faf413ddded778418c6fe63a2586002) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_01.prefab using Guid(7faf413ddded778418c6fe63a2586002) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '322954bc858b265126d18e47809e7c94') in 0.0123334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010700 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Interactables/Blaster Variant.prefab
-  artifactKey: Guid(ecbf6d1d3a7091b4bbdbc934b3c89fb9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/VRTemplateAssets/Prefabs/Interactables/Blaster Variant.prefab using Guid(ecbf6d1d3a7091b4bbdbc934b3c89fb9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2cf456f7d908ed34a57bec1083744a03') in 0.0443567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset
-  artifactKey: Guid(c2712227db89c5142adad58b143bf039) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset using Guid(c2712227db89c5142adad58b143bf039) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'af11ab611b52ee083e7a11f78f7dc774') in 0.0116166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab
-  artifactKey: Guid(fd28f23af44f73f4a95e33435872ad15) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7884a6171cf72df39048be987cef00fe') in 0.16604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 771
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Hands Variant.prefab
-  artifactKey: Guid(77e7c27b2c5525e4aa8cc9f99d654486) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Hands Variant.prefab using Guid(77e7c27b2c5525e4aa8cc9f99d654486) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)The method get_fontSharedMaterials was not found on Tooltip Text. This property will not be indexed.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
-The method get_fontSharedMaterials was not found on Tooltip Text. This property will not be indexed.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
-The method get_fontSharedMaterials was not found on Tooltip Text. This property will not be indexed.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
-The method get_fontSharedMaterials was not found on Tooltip Text. This property will not be indexed.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
-The method get_fontSharedMaterials was not found on Tooltip Text. This property will not be indexed.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
-The method get_fontSharedMaterials was not found on Tooltip Text. This property will not be indexed.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
-The method get_fontSharedMaterials was not found on Tooltip Text. This property will not be indexed.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@e1fa89d1f997/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
- -> (artifact id: '73b954baae355e578d098b54a24b683c') in 0.3383824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3169
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Models/(Msh)CoffePot.fbx
-  artifactKey: Guid(77936498f95548e4f81bd32e9a802098) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Models/(Msh)CoffePot.fbx using Guid(77936498f95548e4f81bd32e9a802098) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f12421d3bc8841b6026b4a3378291c07') in 0.021224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Models/(Msh)Plant2.fbx
-  artifactKey: Guid(53a390c2e7417fc4881f4a9c5cc4078a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Models/(Msh)Plant2.fbx using Guid(53a390c2e7417fc4881f4a9c5cc4078a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a088798a67952a899247e6c7645a8fd1') in 0.024531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Models/(Msh)BookPile5.fbx
-  artifactKey: Guid(d30e7e864c6f0f44fa1d73fa877e268f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Models/(Msh)BookPile5.fbx using Guid(d30e7e864c6f0f44fa1d73fa877e268f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7f382e5a86d8a087e9d15cfdf41184c') in 0.0365044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Models/(Msh)PenHolder.fbx
-  artifactKey: Guid(3a3cfcf7e16d943438d2bae99ffa6534) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Models/(Msh)PenHolder.fbx using Guid(3a3cfcf7e16d943438d2bae99ffa6534) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc02251fba7c3873d57a0e6a856e32f4') in 0.0253053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Models/(Msh)PCCase.fbx
-  artifactKey: Guid(63434af8d15cb5840a1965b4ee99f420) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Models/(Msh)PCCase.fbx using Guid(63434af8d15cb5840a1965b4ee99f420) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef2ac382e19b62fa24c4010b2c420501') in 0.0232655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Plant1.prefab
-  artifactKey: Guid(09786b2145094304f8e76c50e272040f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Plant1.prefab using Guid(09786b2145094304f8e76c50e272040f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb93ef1db334c20b0216b20a0545ecd6') in 0.0248302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MinimalistBedroom/Textures/Fabric/Rug_1k/Materials
-  artifactKey: Guid(a119f0f2d4108424f9d1778230930988) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Fabric/Rug_1k/Materials using Guid(a119f0f2d4108424f9d1778230930988) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0c1253f04902ddf503c501bd70153fe') in 0.0126532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/Prefabs/RightHandQuestVisual.prefab
-  artifactKey: Guid(89e80c47615e4f043926d66492d3ca5f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/Prefabs/RightHandQuestVisual.prefab using Guid(89e80c47615e4f043926d66492d3ca5f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f90c5cff53b08ce37a583b9320e7f27d') in 0.023365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/UI/Text Toggle.prefab
-  artifactKey: Guid(6a448845c7017044e8a9f3d711cfe825) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/UI/Text Toggle.prefab using Guid(6a448845c7017044e8a9f3d711cfe825) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '90c5ea8252095a905c9674c65d5361b0') in 0.0127866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Sofa3.prefab
-  artifactKey: Guid(4c2b4033ea200a340bdf5dd2b0145174) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Sofa3.prefab using Guid(4c2b4033ea200a340bdf5dd2b0145174) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05a1f36b92b331f5c28be6f57aaff2e0') in 0.0236405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/ViverseScene1.unity
-  artifactKey: Guid(92adaa37275ac00479a5aec30ebc670b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/ViverseScene1.unity using Guid(92adaa37275ac00479a5aec30ebc670b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce37d92991371680ad63b88b2c14d11d') in 0.0397602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.951212 seconds.
-  path: Assets/nappin
-  artifactKey: Guid(0ba4898c172408340bcc1e4c931f3259) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin using Guid(0ba4898c172408340bcc1e4c931f3259) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52dd18a3af02d2c989b31554f54e2dd4') in 0.0115643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Container3.prefab
-  artifactKey: Guid(cae6314782bce654798802c29aaac4b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Container3.prefab using Guid(cae6314782bce654798802c29aaac4b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12f5d0277c7876d26e6dfee0ebf691bb') in 0.0253082 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/nappin/HouseInteriorPack/Models/(Msh)DoubleBed.fbx
-  artifactKey: Guid(227a980a170209f459e7e52b2bc42d0b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/HouseInteriorPack/Models/(Msh)DoubleBed.fbx using Guid(227a980a170209f459e7e52b2bc42d0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a656e01d5e502cc3950e4fad49a0c80') in 0.0432189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Fridge.prefab
-  artifactKey: Guid(5e5be735ac697564c9d232fa4619bcf9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Fridge.prefab using Guid(5e5be735ac697564c9d232fa4619bcf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '058de76c8eb793f3acdf1492b2e0d7b5') in 0.0204779 seconds
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_05.fbx
+  artifactKey: Guid(b4d737c1ea4838b4f8306973058ef02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_05.fbx using Guid(b4d737c1ea4838b4f8306973058ef02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1184c858d6da6a5e16a359672b1a2636') in 0.0166036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pea Soup.fbx
+  artifactKey: Guid(8a587feeb6ab39b4581a20128c96ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pea Soup.fbx using Guid(8a587feeb6ab39b4581a20128c96ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf7324a8758a4fdfdb848f76c29ef0e') in 0.0147202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Cup_01.fbx
+  artifactKey: Guid(8351f6bbcdf4c1444b6d3d8f134f2acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Cup_01.fbx using Guid(8351f6bbcdf4c1444b6d3d8f134f2acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4205a3f6874bc6c48d9c1c4180c29954') in 0.0126699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Frier.fbx
+  artifactKey: Guid(1de4648974aec0b408aacb9f0f50839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Frier.fbx using Guid(1de4648974aec0b408aacb9f0f50839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2d93a41c3e0c54b89336cf6773f837e') in 0.0305662 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/nappin/HouseInteriorPack/Models/(Msh)MediaConsole.fbx
-  artifactKey: Guid(a970ede366ad1a34b9df8374b2158596) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/HouseInteriorPack/Models/(Msh)MediaConsole.fbx using Guid(a970ede366ad1a34b9df8374b2158596) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e23e01b7dfffee4e4a8e081e79fbdc75') in 0.0228808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_06.fbx
+  artifactKey: Guid(533af2f77ea1f3e47a0dfc0c4eb0be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_06.fbx using Guid(533af2f77ea1f3e47a0dfc0c4eb0be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62e65c5fc858f46937197fbe867910c5') in 0.0157721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Sofa/Sofa09.fbx
-  artifactKey: Guid(9bb224b9be35a5542ad8add0a5ababb7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Furniture Mega Pack/FBX/Sofa/Sofa09.fbx using Guid(9bb224b9be35a5542ad8add0a5ababb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78d4d47a6582424f28c605677e6ec981') in 0.0306246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Faucet.fbx
+  artifactKey: Guid(0abc56718b739fb41bd375ab0f967522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Faucet.fbx using Guid(0abc56718b739fb41bd375ab0f967522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be28d1fd3bf2af063df482878ef39981') in 0.0252941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MinimalistBedroom/Textures/Wood/WoodPlanks_1k/Materials/WoodPlanks_normal_1k.mat
-  artifactKey: Guid(ec3b39c9f63c37a4ba992a2812895e9e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MinimalistBedroom/Textures/Wood/WoodPlanks_1k/Materials/WoodPlanks_normal_1k.mat using Guid(ec3b39c9f63c37a4ba992a2812895e9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c5a0a532a3b2ece479356d2235fcdd') in 0.0182164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenCabinet_02.fbx
+  artifactKey: Guid(bda0dddbf00bf6448a67392a58158f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenCabinet_02.fbx using Guid(bda0dddbf00bf6448a67392a58158f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dce687bbcf8678c69bb6090a19a7dea3') in 0.0216172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Chair1.prefab
-  artifactKey: Guid(5d8b976fab3c41f4cb03fe912a97d039) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/nappin/OfficeEssentialsPack/Prefabs/(Prb)Chair1.prefab using Guid(5d8b976fab3c41f4cb03fe912a97d039) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5067b1ba0e30ca9de1a74ce211d60c1') in 0.0224468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_05.fbx
+  artifactKey: Guid(765dcd4805399ee4995d3c4a4d07ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_05.fbx using Guid(765dcd4805399ee4995d3c4a4d07ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1fef2e73fa29cf81723a0a5718f3f32') in 0.0158068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_HotDog Sandwich.001.fbx
+  artifactKey: Guid(e4141e732178ddc49a0a2f7f825cad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_HotDog Sandwich.001.fbx using Guid(e4141e732178ddc49a0a2f7f825cad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef6b4d98193bda9a5aa342a3e2c3d6cc') in 0.0162264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Susage.fbx
+  artifactKey: Guid(7fe7446b24aafb446b08236a3feb7f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Susage.fbx using Guid(7fe7446b24aafb446b08236a3feb7f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c42472045c6f2478e8b683e6271d193') in 0.0166069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Empty Cup.fbx
+  artifactKey: Guid(e1ddf796d5357f24bb29236a64677543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Empty Cup.fbx using Guid(e1ddf796d5357f24bb29236a64677543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f7056734602b7b082c792c89ccaa1d9') in 0.023116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Mac n Cheese with brocoli.fbx
+  artifactKey: Guid(0e3637e9447ae2b489f767c88ac5811b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Mac n Cheese with brocoli.fbx using Guid(0e3637e9447ae2b489f767c88ac5811b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf1145c53e06db4ffef1959e3fdc7425') in 0.0274701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Chicken Sub.fbx
+  artifactKey: Guid(2e2b885eff148754bb084310213f8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Chicken Sub.fbx using Guid(2e2b885eff148754bb084310213f8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5703dd09e5b0862cc670509db5bf89a') in 0.0179912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_02.fbx
+  artifactKey: Guid(67d73cb4069028c44bd2fa0b64b7d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_02.fbx using Guid(67d73cb4069028c44bd2fa0b64b7d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b0bc1c86d4a3f5824c43f687e6a5045') in 0.0169702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_06.fbx
+  artifactKey: Guid(6e1cf0d7f00687344b4b4ed755e8ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_06.fbx using Guid(6e1cf0d7f00687344b4b4ed755e8ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aafe020933f42144a3ee437ff0bd60f9') in 0.016126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_03.fbx
+  artifactKey: Guid(29e80e87cbb807d4092a7314cf364aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_03.fbx using Guid(29e80e87cbb807d4092a7314cf364aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fcbe8b8e62c9a9754acdc9a749b0c1b') in 0.0144381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Omelette.fbx
+  artifactKey: Guid(dd63c41cd193ffa418ba669e8d906e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Omelette.fbx using Guid(dd63c41cd193ffa418ba669e8d906e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de2ad1012257f12f06703361aa2fbe0b') in 0.0209949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Sink_01.fbx
+  artifactKey: Guid(d6ddffa60c5fdee44ad7ef86732c05db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Sink_01.fbx using Guid(d6ddffa60c5fdee44ad7ef86732c05db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac58ca86ea02c6a79c5796599533fe56') in 0.0162037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Black Coffee Cup.fbx
+  artifactKey: Guid(c11535d424efc5e459633daf533e2b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Black Coffee Cup.fbx using Guid(c11535d424efc5e459633daf533e2b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a1096dd6e3934d22826a93c57b14bdf') in 0.0164391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Carrot.fbx
+  artifactKey: Guid(fa4abb3cc70878a46abec306a0ba775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Carrot.fbx using Guid(fa4abb3cc70878a46abec306a0ba775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8871590aec9b1cdaa0411241f2fe81d') in 0.0156787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_02.fbx
+  artifactKey: Guid(0e9295898209fcc49872cc7e1d920114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_02.fbx using Guid(0e9295898209fcc49872cc7e1d920114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '705fdad0ad0089e1bdc34d533138a90b') in 0.021587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_02.fbx
+  artifactKey: Guid(a503d0b13e04d1d4ca4b10852b1262cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_02.fbx using Guid(a503d0b13e04d1d4ca4b10852b1262cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd069fa055b6781cf9793f6f90d63c13') in 0.0144915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenCabinet_03.fbx
+  artifactKey: Guid(7edab558d9e57a148b997b2032bc102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenCabinet_03.fbx using Guid(7edab558d9e57a148b997b2032bc102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29dd3ed542f4ff35ced803b065baceae') in 0.0144265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Water Cup.fbx
+  artifactKey: Guid(39a810539e70fa0429b032bdf88ecb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Water Cup.fbx using Guid(39a810539e70fa0429b032bdf88ecb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a941e9b685440eb8a94bf7aa26be324') in 0.0144906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Dough.fbx
+  artifactKey: Guid(3b21e4f3421eb6349afd4402b8197574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Dough.fbx using Guid(3b21e4f3421eb6349afd4402b8197574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22185c4e56560d1dd17eecb28ab10df2') in 0.0148129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_02.fbx
+  artifactKey: Guid(3ab490fc17fcd87429243fe580d3a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_02.fbx using Guid(3ab490fc17fcd87429243fe580d3a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c2b60ce692104b4451d46125a5d809f') in 0.0165308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_04.fbx
+  artifactKey: Guid(cbea7a831bcf3134082e2d1246a79918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_04.fbx using Guid(cbea7a831bcf3134082e2d1246a79918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87dba49d8b287d4a4435408101aaa669') in 0.0156396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Soup Base.fbx
+  artifactKey: Guid(cfbc7deacfb1daa43a4f939f37fe4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Soup Base.fbx using Guid(cfbc7deacfb1daa43a4f939f37fe4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce656d717bd5e66d55d68e4a18c710a6') in 0.0160602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Plate_01.fbx
+  artifactKey: Guid(7cc13f9ac2e060c4a961313f389e8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Plate_01.fbx using Guid(7cc13f9ac2e060c4a961313f389e8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca97464802a11d9c6953069d79855d99') in 0.0168167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_08.fbx
+  artifactKey: Guid(74af1763deb2929459f8c4e514990995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_08.fbx using Guid(74af1763deb2929459f8c4e514990995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f38da60d35113a60c9f0fb308e6331f') in 0.0184882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Milk Bottle.fbx
+  artifactKey: Guid(95cc2a6335cea8246b76bb24b6c4476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Milk Bottle.fbx using Guid(95cc2a6335cea8246b76bb24b6c4476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '914ba2dbdfe3bee516df4c63b366b4f3') in 0.0169229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Turkey Sandwich.fbx
+  artifactKey: Guid(3a7c71c15f3a4db48a589bf6542435e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Turkey Sandwich.fbx using Guid(3a7c71c15f3a4db48a589bf6542435e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09534024af3d0e21efb34857364cbd62') in 0.0170929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_01.fbx
+  artifactKey: Guid(3fbe0b01a203353439236fd94b910b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fan_01.fbx using Guid(3fbe0b01a203353439236fd94b910b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d3039d6764a313f2861aa62a116ecce') in 0.0168497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_07.fbx
+  artifactKey: Guid(c16a019f3010c354ab04f7bb7f83c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_07.fbx using Guid(c16a019f3010c354ab04f7bb7f83c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab85ffb486b71f4e3a31762711078c96') in 0.0170044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_01.fbx
+  artifactKey: Guid(140411fe5a74a324ea07791d091941b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_01.fbx using Guid(140411fe5a74a324ea07791d091941b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9bd2fc2875fe20db8323d1b77a6df2') in 0.0182418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Steak.fbx
+  artifactKey: Guid(4ec56c2afa83878458536bef9dd74897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Steak.fbx using Guid(4ec56c2afa83878458536bef9dd74897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68ddbc65aa96c0289488646ec6cb6d57') in 0.0187392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pumpkin.fbx
+  artifactKey: Guid(763aff1b71d61d044b4284dd23eb3d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Pumpkin.fbx using Guid(763aff1b71d61d044b4284dd23eb3d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '993fa74f338ce837fec252e802da1973') in 0.0176674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_04.fbx
+  artifactKey: Guid(a13aba5443f8b9947b86d2ae6c642bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Spatula_04.fbx using Guid(a13aba5443f8b9947b86d2ae6c642bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b8e009ef2f416868d42629653634b6f') in 0.0164731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fridge_01.fbx
+  artifactKey: Guid(14eaa2a056ff2704190094e88a955c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Fridge_01.fbx using Guid(14eaa2a056ff2704190094e88a955c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5fef2c1352bcb5ab4e046c1a8bc3adb') in 0.0304493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_CuttingPlate.fbx
+  artifactKey: Guid(f98eff440ecc0a1489fa332256aa63ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_CuttingPlate.fbx using Guid(f98eff440ecc0a1489fa332256aa63ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f20d7fe39c7357aac0315e2c3a2141e') in 0.0169568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Microwave_01.fbx
+  artifactKey: Guid(3dca956702633a247bee23ae921c14db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Microwave_01.fbx using Guid(3dca956702633a247bee23ae921c14db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8a6bd0013a54f4f5914cac215bd7ffb') in 0.0217639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_01.fbx
+  artifactKey: Guid(8d3b68e4a419e39469c7a3dfaa3494c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pot_01.fbx using Guid(8d3b68e4a419e39469c7a3dfaa3494c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fae2fa7c834687e334e23d258e3b274') in 0.0232876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Seared Chicken.fbx
+  artifactKey: Guid(a529cef2f9cd2c4469a486205e48d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Seared Chicken.fbx using Guid(a529cef2f9cd2c4469a486205e48d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b507f7eef51eec56b627551ab379753f') in 0.0250994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Sushi.fbx
+  artifactKey: Guid(ced0d1fea9da70342ab175ba4f9a01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Sushi.fbx using Guid(ced0d1fea9da70342ab175ba4f9a01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8422a6da2f403fe8ffb321570996a7a9') in 0.0143315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_MiniStove.fbx
+  artifactKey: Guid(ff73ac4762d3b11488401e4f93261478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_MiniStove.fbx using Guid(ff73ac4762d3b11488401e4f93261478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33af397067114ecc37e8c3743d0ade21') in 0.0153947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meatballs.fbx
+  artifactKey: Guid(d8959aa2d41930648bb3be1df57159b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Meatballs.fbx using Guid(d8959aa2d41930648bb3be1df57159b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0c251b9ecdcd976d4e463fa786dc826') in 0.0236038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Corn.fbx
+  artifactKey: Guid(182c28fd80e651946ae9fe9a766782de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Corn.fbx using Guid(182c28fd80e651946ae9fe9a766782de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90a02e5a02d8236dca9b2a33aa7a009f') in 0.0237573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Cup_03_Cover.fbx
+  artifactKey: Guid(16c5d6a20d4f7bf4eb5dde7fd93df2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Cup_03_Cover.fbx using Guid(16c5d6a20d4f7bf4eb5dde7fd93df2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cf34fd60377aff0d8ca9d890aacaea0') in 0.0156193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Cooked Steak.fbx
+  artifactKey: Guid(f7a36aafea962f840b77c29aef6e7f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Cooked Steak.fbx using Guid(f7a36aafea962f840b77c29aef6e7f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '869d93a8001359fda72a1f5fe4f6fa11') in 0.0152519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_08.fbx
+  artifactKey: Guid(2e0726c12ca4ac448b9b44e6ef5606ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_KitchenTable_08.fbx using Guid(2e0726c12ca4ac448b9b44e6ef5606ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94fcb8674e8acfde1e8aa75e05d91830') in 0.0165556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_04.fbx
+  artifactKey: Guid(4d2e5b1ff7779444fb877670a13dc75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Knife_04.fbx using Guid(4d2e5b1ff7779444fb877670a13dc75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ca0087ae6d4862d0662a6e0645d6fa4') in 0.0148363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_01.fbx
+  artifactKey: Guid(074fff2b7b1ab854fb04e1902cbb9831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Oven_01.fbx using Guid(074fff2b7b1ab854fb04e1902cbb9831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c5bf7076e0b0462b096c9e989850ae4') in 0.0308894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pan_01.fbx
+  artifactKey: Guid(0e8b1b86ef364094d9607989cd6241ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pan_01.fbx using Guid(0e8b1b86ef364094d9607989cd6241ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5ce6efa21bdea6e4547fb78ca99c8dc') in 0.0166475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Lasagna.fbx
+  artifactKey: Guid(a80dc7da2216a024c857fe3529836e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Lasagna.fbx using Guid(a80dc7da2216a024c857fe3529836e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '414aa9eb21d4daf29057eaae9faf5f44') in 0.0156115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Heater.fbx
+  artifactKey: Guid(2882e9c72d90667409955188486559ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Heater.fbx using Guid(2882e9c72d90667409955188486559ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '701be868b7daacc416716a9b2c018b23') in 0.0494875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Egg.fbx
+  artifactKey: Guid(3aa7d5fa50409204e90b00203f8c9855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Egg.fbx using Guid(3aa7d5fa50409204e90b00203f8c9855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1c383a6583ac67b03788ca4785f59df') in 0.0193823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pan_03.fbx
+  artifactKey: Guid(f34296e98fd69894dabce3d006694310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Pan_03.fbx using Guid(f34296e98fd69894dabce3d006694310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b9d248253017d5b0434ce93e735d079') in 0.0186525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Carrot Soup.fbx
+  artifactKey: Guid(b3fa70a5b617ee54ca64b45d7b16dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Carrot Soup.fbx using Guid(b3fa70a5b617ee54ca64b45d7b16dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c1cc09185503ada2a17e66e88955916') in 0.0276727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Bowel_05.fbx
+  artifactKey: Guid(080c695b9c7183841a2fd43eec311e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_Bowel_05.fbx using Guid(080c695b9c7183841a2fd43eec311e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '599a757d2af1cf64a1acc8533c338d3e') in 0.0171795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Chopped Tomato.fbx
+  artifactKey: Guid(59ec72c0f63004042b0ce461221b06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Food_Chopped Tomato.fbx using Guid(59ec72c0f63004042b0ce461221b06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0c78168604d4d4368643dcf38bbc07e') in 0.0174278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.113549 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_StorageShelve.fbx
+  artifactKey: Guid(56698a31d96b09649914b006bdc8c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_StorageShelve.fbx using Guid(56698a31d96b09649914b006bdc8c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f523d61d440a79726767ca15dcba9c6') in 0.0188728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_WhipMixer.fbx
+  artifactKey: Guid(5f08b7e2d7e779b489d62a277820e3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_WhipMixer.fbx using Guid(5f08b7e2d7e779b489d62a277820e3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb84ed0c72dfa2582499bd63f3c7ad2d') in 0.0130909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_TrayHolder.fbx
+  artifactKey: Guid(c98870edddc58ab4592642fe83b96886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_TrayHolder.fbx using Guid(c98870edddc58ab4592642fe83b96886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a7bf51ecbb62b6b7bfde909a4e6a9a6') in 0.0158673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

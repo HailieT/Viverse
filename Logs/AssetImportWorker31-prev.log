@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-13T21:08:36Z
+Date: 2025-10-14T19:50:05Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker31.log
 -srvPort
-62244
+52170
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31140]  Target information:
+Player connection [28188]  Target information:
 
-Player connection [31140]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 457890933 [EditorId] 457890933 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28188]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 2255287745 [EditorId] 2255287745 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31140] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31140] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28188] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28188] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.07 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 6.42 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,47 +95,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002490 seconds.
-- Loaded All Assemblies, in  0.253 seconds
+Registered in 0.002469 seconds.
+- Loaded All Assemblies, in  0.246 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.235 seconds
-Domain Reload Profiling: 488ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.229 seconds
+Domain Reload Profiling: 474ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (31ms)
 	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (86ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (100ms)
-			TypeCache.Refresh (99ms)
+			TypeCache.Refresh (98ms)
 				TypeCache.ScanAssembly (90ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (235ms)
+	FinalizeReload (229ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (204ms)
+		SetupLoadedEditorAssemblies (198ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
+			InitializePlatformSupportModulesInManaged (50ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.610 seconds
-Refreshing native plugins compatible for Editor in 5.05 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 5.08 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,35 +192,35 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.876 seconds
-Domain Reload Profiling: 1485ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.841 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (441ms)
-		LoadAssemblies (287ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (274ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (140ms)
-			BuildScriptInfoCaches (45ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (43ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (877ms)
+	FinalizeReload (841ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (775ms)
+		SetupLoadedEditorAssemblies (745ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (427ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -262,15 +262,405 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.90 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 4.81 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7384 unused Assets / (12.2 MB). Loaded Objects now: 8043.
-Memory consumption went from 165.2 MB to 153.0 MB.
-Total: 10.694900 ms (FindLiveObjects: 0.442300 ms CreateObjectMapping: 0.284000 ms MarkObjects: 6.088600 ms  DeleteObjects: 3.879000 ms)
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7384 unused Assets / (11.6 MB). Loaded Objects now: 8049.
+Memory consumption went from 165.4 MB to 153.8 MB.
+Total: 10.310000 ms (FindLiveObjects: 0.460400 ms CreateObjectMapping: 0.401200 ms MarkObjects: 5.643900 ms  DeleteObjects: 3.803900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82785.563826 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092982c1dae2a3caa4fedb27309bc8a0') in 0.5667284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair35/Chair35_mat_Chair35_AlbedoTransparency.png
+  artifactKey: Guid(7e79a1a98c62af4459c38f7c66434d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair35/Chair35_mat_Chair35_AlbedoTransparency.png using Guid(7e79a1a98c62af4459c38f7c66434d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6845af130b372b7edb48c5a3ec45dc1e') in 0.0193438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.shadergraph/ShaderGraphLibrary/LODDitheringTransition.hlsl
+  artifactKey: Guid(5248225944112fb418a213fa587fe10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/ShaderGraphLibrary/LODDitheringTransition.hlsl using Guid(5248225944112fb418a213fa587fe10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bc1dd4adc8051b02fea3b32ebfa1ba1') in 0.0010718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair28/Chair28_mat_Chair28_AlbedoTransparency.png
+  artifactKey: Guid(2a1b79fdf2dcfa8479d24fbf39eacd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair28/Chair28_mat_Chair28_AlbedoTransparency.png using Guid(2a1b79fdf2dcfa8479d24fbf39eacd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f4a30ac3e0b5ac3282f2a8766900f21') in 0.0141857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair50/Chair50_mat_Chair50_AlbedoTransparency.png
+  artifactKey: Guid(42f338e293c7e164e9f35f95e519d55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair50/Chair50_mat_Chair50_AlbedoTransparency.png using Guid(42f338e293c7e164e9f35f95e519d55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8fc0df097c8a5b62a9a050c7a8519b') in 0.0155665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair37/Chair37_mat_Chair37_AlbedoTransparency.png
+  artifactKey: Guid(3798847807668cf4eb97f1f1b7f00711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair37/Chair37_mat_Chair37_AlbedoTransparency.png using Guid(3798847807668cf4eb97f1f1b7f00711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75d9cd59ffefed579542be5efb3a9e07') in 0.0129055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa06/Sofa06_mat_Sofa06_AlbedoTransparency.png
+  artifactKey: Guid(5752cbdcc5572f14aa4d0ad0c4c2149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa06/Sofa06_mat_Sofa06_AlbedoTransparency.png using Guid(5752cbdcc5572f14aa4d0ad0c4c2149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cfaaeb0b0adf61758c488d64876511f') in 0.0152716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Cushions/Cushion01_08/Cushion01_08_mat_Cushion01_08_AlbedoTransparency.png
+  artifactKey: Guid(55c65c2cfbff64f4e8bc4dda91dda6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Cushions/Cushion01_08/Cushion01_08_mat_Cushion01_08_AlbedoTransparency.png using Guid(55c65c2cfbff64f4e8bc4dda91dda6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '711e09e4e09aa48f5adf4dc42b69d3c5') in 0.0119868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Cushions/Cushion09_16/Cushion09_16_mat_Cushion09_16_AlbedoTransparency.png
+  artifactKey: Guid(aacfb11e6be273f43ac09f3dd95acb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Cushions/Cushion09_16/Cushion09_16_mat_Cushion09_16_AlbedoTransparency.png using Guid(aacfb11e6be273f43ac09f3dd95acb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30b8e0f6d279f5894c9485e539968027') in 0.0132149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Cushions/Cushion25_28/Cushion25_28_mat_Cushion25_28_AlbedoTransparency.png
+  artifactKey: Guid(4f3802842e78bf146abac665f4b89977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Cushions/Cushion25_28/Cushion25_28_mat_Cushion25_28_AlbedoTransparency.png using Guid(4f3802842e78bf146abac665f4b89977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '744f8f2212a2633c536ebbf64314b8a4') in 0.0145863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair49/Chair49_mat_Chair49_AlbedoTransparency.png
+  artifactKey: Guid(845a68c6647facc42a7a5feef3b52b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair49/Chair49_mat_Chair49_AlbedoTransparency.png using Guid(845a68c6647facc42a7a5feef3b52b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9822b5bf4c69715a61692b9e6b98697') in 0.014099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa02/Sofa02_mat_Sofa02_AlbedoTransparency.png
+  artifactKey: Guid(1cb039800ec3ad142b84f484a3890e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa02/Sofa02_mat_Sofa02_AlbedoTransparency.png using Guid(1cb039800ec3ad142b84f484a3890e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '985781ac2db6f4ffb6787b43e140bee6') in 0.0125325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair43/Chair43_mat_Chair43_AlbedoTransparency.png
+  artifactKey: Guid(576ea5a0dbd2b5a4d8a53788c9f6150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair43/Chair43_mat_Chair43_AlbedoTransparency.png using Guid(576ea5a0dbd2b5a4d8a53788c9f6150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f5c8c9048191b6551d909ae42baeb7f') in 0.011282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair36/Chair36_mat_Chair36_AlbedoTransparency.png
+  artifactKey: Guid(328cd223ffaeda6469d190956ea468b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair36/Chair36_mat_Chair36_AlbedoTransparency.png using Guid(328cd223ffaeda6469d190956ea468b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3334237bc42e409a31882a8732ad1949') in 0.0148962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair42/Chair42_mat_Chair42_AlbedoTransparency.png
+  artifactKey: Guid(c5738c9268425fa41bbbcdb2ba7020c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair42/Chair42_mat_Chair42_AlbedoTransparency.png using Guid(c5738c9268425fa41bbbcdb2ba7020c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa9b458215193891d0718dcc9dfd9634') in 0.0162573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa01/Sofa01_mat_Sofa01_AlbedoTransparency.png
+  artifactKey: Guid(818845b04f3610141ad2952e6d70b6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa01/Sofa01_mat_Sofa01_AlbedoTransparency.png using Guid(818845b04f3610141ad2952e6d70b6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb3e0c78eee92a6999bf9291097367c9') in 0.015798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair47/Chair47_mat_Chair47_AlbedoTransparency.png
+  artifactKey: Guid(122a2e946a74ea24ba8bea4754ffa247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair47/Chair47_mat_Chair47_AlbedoTransparency.png using Guid(122a2e946a74ea24ba8bea4754ffa247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f12ec27aed36953bbb52940f809c663') in 0.0139039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.719647 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa09/Sofa09_mat_Sofa09_AlbedoTransparency.png
+  artifactKey: Guid(6e86258ea886543419ab33251974c3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa09/Sofa09_mat_Sofa09_AlbedoTransparency.png using Guid(6e86258ea886543419ab33251974c3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60a02fc994aaf9e1df9bf7d9a765c8fe') in 0.0113591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa11/Sofa11_mat_Sofa11_AlbedoTransparency.png
+  artifactKey: Guid(61717d662eb152742b98668902f1fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa11/Sofa11_mat_Sofa11_AlbedoTransparency.png using Guid(61717d662eb152742b98668902f1fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f316599af64eec3c10a8bcbcb8410a13') in 0.0110083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa15/Sofa15_mat_Sofa15_AlbedoTransparency.png
+  artifactKey: Guid(84e68a6d20c472b4daf2a53bb6dd3aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa15/Sofa15_mat_Sofa15_AlbedoTransparency.png using Guid(84e68a6d20c472b4daf2a53bb6dd3aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '032784ed12083d0c480b3cd1305d3d06') in 0.0135376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa21/Sofa21_mat_Sofa21_AlbedoTransparency.png
+  artifactKey: Guid(456ced629f514dc4eab0e8981421baaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa21/Sofa21_mat_Sofa21_AlbedoTransparency.png using Guid(456ced629f514dc4eab0e8981421baaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2aa0c52cd8594c9c8838a48b2605d8d') in 0.0136662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa25/Sofa25_mat_Sofa25_AlbedoTransparency.png
+  artifactKey: Guid(6802a8218d5f9b744ae80b6751d61e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa25/Sofa25_mat_Sofa25_AlbedoTransparency.png using Guid(6802a8218d5f9b744ae80b6751d61e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c964db0a67ffa32875dc4dd0d2c2de29') in 0.0124771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa18/Sofa18_mat_Sofa18_AlbedoTransparency.png
+  artifactKey: Guid(311aa0e9541ec7449b642617d84a96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa18/Sofa18_mat_Sofa18_AlbedoTransparency.png using Guid(311aa0e9541ec7449b642617d84a96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd97c8a1d7cbbfcbb2819c0a9677589') in 0.0127391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa35/Sofa35_mat_Sofa35_AlbedoTransparency.png
+  artifactKey: Guid(5c7d716a81b06d045ad70b4f4027fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa35/Sofa35_mat_Sofa35_AlbedoTransparency.png using Guid(5c7d716a81b06d045ad70b4f4027fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa335469598e52b5eb6928318d9987df') in 0.0148692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table02/Table02_mat_Table02_AlbedoTransparency.png
+  artifactKey: Guid(4a7b706a8f5d2d84cb248743f3f896f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table02/Table02_mat_Table02_AlbedoTransparency.png using Guid(4a7b706a8f5d2d84cb248743f3f896f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d11b7a3666e02e36b1d83f6d576aebb') in 0.011945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table09/Table09_mat_Table09_AlbedoTransparency.png
+  artifactKey: Guid(969d6a2cdb30c9743a78c12bacd1794d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table09/Table09_mat_Table09_AlbedoTransparency.png using Guid(969d6a2cdb30c9743a78c12bacd1794d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50072695c43624107c03b8428daf1c41') in 0.011631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table10/Table10_mat_Table10_AlbedoTransparency.png
+  artifactKey: Guid(a4ba63cad86e48f40bfc0df405e8091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table10/Table10_mat_Table10_AlbedoTransparency.png using Guid(a4ba63cad86e48f40bfc0df405e8091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca32364dd71ad03f50225148e3201c83') in 0.0154018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table11/Table11_mat_Table11_AlbedoTransparency.png
+  artifactKey: Guid(a2d0dbd64334990468724ab87b2f86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table11/Table11_mat_Table11_AlbedoTransparency.png using Guid(a2d0dbd64334990468724ab87b2f86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18696500a7c929c17e9fa66e64079d73') in 0.0129854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table03/Table03_mat_Table03_AlbedoTransparency.png
+  artifactKey: Guid(33412168c6bc54146be75c1a74af5831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table03/Table03_mat_Table03_AlbedoTransparency.png using Guid(33412168c6bc54146be75c1a74af5831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c19be48719cf2904392cfe39c137bd5') in 0.0121086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa19/Sofa19_mat_Sofa19_AlbedoTransparency.png
+  artifactKey: Guid(17d2410be42a2a648930ea712b700c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa19/Sofa19_mat_Sofa19_AlbedoTransparency.png using Guid(17d2410be42a2a648930ea712b700c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51bce497e4c5d50039adb3a5e5b2a63f') in 0.0162686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table14/Table14_mat_Table14_AlbedoTransparency.png
+  artifactKey: Guid(27162f9d43409d5469f8d4d5ff746e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table14/Table14_mat_Table14_AlbedoTransparency.png using Guid(27162f9d43409d5469f8d4d5ff746e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1377b3eaf5f14d7536b291c865ee21ab') in 0.014212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa30/Sofa30_mat_Sofa30_AlbedoTransparency.png
+  artifactKey: Guid(9a001c830d8a57648974bed7d5e30eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa30/Sofa30_mat_Sofa30_AlbedoTransparency.png using Guid(9a001c830d8a57648974bed7d5e30eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82a786e6942ab829e318bf1b9062dbd9') in 0.0148737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa36/Sofa36_mat_Sofa36_AlbedoTransparency.png
+  artifactKey: Guid(5573fcccdd3fb294393ceff12f5f9904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa36/Sofa36_mat_Sofa36_AlbedoTransparency.png using Guid(5573fcccdd3fb294393ceff12f5f9904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5565afc9e68de4f270fb1c158d59f8fa') in 0.0131387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa26/Sofa26_mat_Sofa26_AlbedoTransparency.png
+  artifactKey: Guid(2e16cf2008c8c434f96497ec3817d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa26/Sofa26_mat_Sofa26_AlbedoTransparency.png using Guid(2e16cf2008c8c434f96497ec3817d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0687ec5a795b896505d1439ed9eefe1') in 0.0137223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table15/Table15_mat_Table15_AlbedoTransparency.png
+  artifactKey: Guid(bd3f8caa7a2dbf943b6cfdb2dc3c2bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table15/Table15_mat_Table15_AlbedoTransparency.png using Guid(bd3f8caa7a2dbf943b6cfdb2dc3c2bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81de7c317498bd6a2df13e135914b7e1') in 0.0146261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa12/Sofa12_mat_Sofa12_AlbedoTransparency.png
+  artifactKey: Guid(e97d2a9b592bfd44b9e518b316633abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa12/Sofa12_mat_Sofa12_AlbedoTransparency.png using Guid(e97d2a9b592bfd44b9e518b316633abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36deada2fa40827deb10d69621ad183d') in 0.0127616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa28/Sofa28_mat_Sofa28_AlbedoTransparency.png
+  artifactKey: Guid(29a478267f2fd1e4ab1a979a23c2d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa28/Sofa28_mat_Sofa28_AlbedoTransparency.png using Guid(29a478267f2fd1e4ab1a979a23c2d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f8c14ce0b5587e9f012c211933c876b') in 0.0150491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Sofas/Sofa20/Sofa20_mat_Sofa20_AlbedoTransparency.png
+  artifactKey: Guid(8eba722172f882245ab1baa9f824bb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Sofas/Sofa20/Sofa20_mat_Sofa20_AlbedoTransparency.png using Guid(8eba722172f882245ab1baa9f824bb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '567346d033b7c7fda8e167064a44affb') in 0.014299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Furniture Mega Pack/Textures/Tables/Table05/Table05_mat_Table05_AlbedoTransparency.png
+  artifactKey: Guid(64af568bb366fa74f958b4f4c16af0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture Mega Pack/Textures/Tables/Table05/Table05_mat_Table05_AlbedoTransparency.png using Guid(64af568bb366fa74f958b4f4c16af0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5d2b813f808e23d54b2a00d74817d4d') in 0.0143573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.077 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:OnEnable () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:74)
+UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler> (string)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:GetAllInstances () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:28)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:16)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.913 seconds
+Domain Reload Profiling: 1992ms
+	BeginReloadAssembly (608ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (651ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (772ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (160ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -307,61 +697,35 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 6.57 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 6.95 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7283 unused Assets / (12.6 MB). Loaded Objects now: 8032.
-Memory consumption went from 164.7 MB to 152.1 MB.
-Total: 11.664300 ms (FindLiveObjects: 0.512200 ms CreateObjectMapping: 0.385900 ms MarkObjects: 6.442800 ms  DeleteObjects: 4.322000 ms)
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7400 unused Assets / (72.5 MB). Loaded Objects now: 8134.
+Memory consumption went from 285.1 MB to 212.6 MB.
+Total: 12.633700 ms (FindLiveObjects: 0.488000 ms CreateObjectMapping: 0.286300 ms MarkObjects: 5.877300 ms  DeleteObjects: 5.981400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 13.37 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7283 unused Assets / (9.2 MB). Loaded Objects now: 8032.
-Memory consumption went from 163.8 MB to 154.6 MB.
-Total: 23.199200 ms (FindLiveObjects: 1.222500 ms CreateObjectMapping: 0.711400 ms MarkObjects: 13.060000 ms  DeleteObjects: 8.204000 ms)
+Received Import Request.
+  Time since last request: 3860.653266 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Male_Modular_Free_Pack.prefab
+  artifactKey: Guid(d3f87f114f86a3b4f88996e8d2e99fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Male_Modular_Free_Pack.prefab using Guid(d3f87f114f86a3b4f88996e8d2e99fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ff008e9225a0ce44a1f8349a8540cd3') in 0.3120461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 210
 
-Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.688521 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_b.prefab
+  artifactKey: Guid(3197d31fe4fd3dd4ab29197ded90cf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_b.prefab using Guid(3197d31fe4fd3dd4ab29197ded90cf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46a38a993db726e93156b69a85146e8') in 0.0211979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.361729 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Props/Sources/Materials/PT_Props_mat.mat
+  artifactKey: Guid(c681da389980e45469889866404b0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Props/Sources/Materials/PT_Props_mat.mat using Guid(c681da389980e45469889866404b0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08f0f13e30d124def67bd86744655009') in 0.0403753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+

@@ -9,4 +9,6 @@ https://assetstore.unity.com/packages/3d/props/food/pandazole-kitchen-food-low-p
 https://assetstore.unity.com/packages/3d/props/low-poly-stylized-foods-313893
 https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-forest-pack-summer-129434
 https://assetstore.unity.com/packages/3d/characters/humanoids/humans/lowpoly-medieval-peasants-free-medieval-fantasy-series-122225
+https://polyhaven.com/a/forrest_ground_01
+https://polyhaven.com/a/japanese_cedar_bark
 

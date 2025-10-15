@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-13T20:53:09Z
+Date: 2025-10-14T19:49:03Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker27.log
 -srvPort
-62244
+52170
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29300]  Target information:
+Player connection [34520]  Target information:
 
-Player connection [29300]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 19736261 [EditorId] 19736261 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34520]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 3294227568 [EditorId] 3294227568 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29300] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29300] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34520] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34520] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.57 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 7.30 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,45 +95,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003331 seconds.
-- Loaded All Assemblies, in  0.253 seconds
+Registered in 0.003732 seconds.
+- Loaded All Assemblies, in  0.262 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.229 seconds
-Domain Reload Profiling: 480ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 490ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (104ms)
-		LoadAssemblies (81ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (83ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (101ms)
-			TypeCache.Refresh (100ms)
-				TypeCache.ScanAssembly (91ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (95ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (229ms)
+	FinalizeReload (230ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (198ms)
+		SetupLoadedEditorAssemblies (200ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (49ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (37ms)
+			BeforeProcessingInitializeOnLoad (38ms)
 			ProcessInitializeOnLoadAttributes (78ms)
 			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.586 seconds
-Refreshing native plugins compatible for Editor in 5.88 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,36 +192,36 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.906 seconds
-Domain Reload Profiling: 1491ms
+- Finished resetting the current domain, in  0.866 seconds
+Domain Reload Profiling: 1449ms
 	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (272ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (271ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (133ms)
 			BuildScriptInfoCaches (44ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (906ms)
+	FinalizeReload (866ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (801ms)
+		SetupLoadedEditorAssemblies (765ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (430ms)
-			ProcessInitializeOnLoadMethodAttributes (208ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (197ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
@@ -262,1102 +262,44 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.95 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 5.70 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7384 unused Assets / (12.2 MB). Loaded Objects now: 8043.
-Memory consumption went from 165.2 MB to 153.0 MB.
-Total: 11.057400 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.326800 ms MarkObjects: 6.095800 ms  DeleteObjects: 4.113900 ms)
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7384 unused Assets / (12.2 MB). Loaded Objects now: 8048.
+Memory consumption went from 165.3 MB to 153.1 MB.
+Total: 11.624500 ms (FindLiveObjects: 0.615100 ms CreateObjectMapping: 0.305400 ms MarkObjects: 6.199300 ms  DeleteObjects: 4.503700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8849.709308 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/CanOpener_texture.png
-  artifactKey: Guid(75685fae02044b647a733118f2c79173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/CanOpener_texture.png using Guid(75685fae02044b647a733118f2c79173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03be666e8861a9d7190d849226845024') in 0.0480813 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.193264 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/Materials/CanOpener_texture.mat
-  artifactKey: Guid(187818241363382498871f62e5bb5cbc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/Materials/CanOpener_texture.mat using Guid(187818241363382498871f62e5bb5cbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56026c1abcf36e293c88b2e4841a71a5') in 0.1429646 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.753989 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/Materials/CanOpener_texture.mat
-  artifactKey: Guid(187818241363382498871f62e5bb5cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/Materials/CanOpener_texture.mat using Guid(187818241363382498871f62e5bb5cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0439d28312ac047912024859ac19cc') in 0.2526029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/Materials/CanOpener_rough.mat
-  artifactKey: Guid(870da18b5a0aaa24fb6a2036ec985f95) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can Opener/Materials/CanOpener_rough.mat using Guid(870da18b5a0aaa24fb6a2036ec985f95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5790ed43d2bed64de4442321b3c08e03') in 0.0131742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 666.557447 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01.prefab
-  artifactKey: Guid(2d21a69ab6769b949b04a940e8e703f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01.prefab using Guid(2d21a69ab6769b949b04a940e8e703f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2ce06b86f693f6f28134f631112a201') in 0.0841211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Mustard.prefab
-  artifactKey: Guid(d97be5c052b03b142a533288f0dc1530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Mustard.prefab using Guid(d97be5c052b03b142a533288f0dc1530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c6ad2829132eec1e604abf43b9ff4da') in 0.1526275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01_Open.prefab
-  artifactKey: Guid(1f5fae67651144942bb292c84dc3a3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01_Open.prefab using Guid(1f5fae67651144942bb292c84dc3a3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7940e9aed33632d8a0273612e86713') in 0.0123509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Sandwich.prefab
-  artifactKey: Guid(f4109a73938683c44a2ead6e4de573d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Sandwich.prefab using Guid(f4109a73938683c44a2ead6e4de573d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '535597663bf433a9bfa6fa314fa53181') in 0.0317228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+  Time since last request: 75801.895285 seconds.
+  path: Assets/Lowpoly Forest Pack/Prefabs/Fence Post and Slat.prefab
+  artifactKey: Guid(f92db1ddb4f49b34c8c231eb24942eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs/Fence Post and Slat.prefab using Guid(f92db1ddb4f49b34c8c231eb24942eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05edbfa0750bf557d7b5d8aa55be58a4') in 0.3133629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Egg.prefab
-  artifactKey: Guid(dfda87e77e076b14cb3d7f4a463aa4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Egg.prefab using Guid(dfda87e77e076b14cb3d7f4a463aa4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd83a017eb4b86444c59d4877528c6de7') in 0.011179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Juice Box.prefab
-  artifactKey: Guid(8adc92fd99f481a42bd8aa1044eef821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Juice Box.prefab using Guid(8adc92fd99f481a42bd8aa1044eef821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b27995bcc4d81b2db5b2e9f310fd5f18') in 0.0110026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/SodaCan_02.prefab
-  artifactKey: Guid(69c000972b9302b45b7550fc5adce612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/SodaCan_02.prefab using Guid(69c000972b9302b45b7550fc5adce612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46724265ae7ee73b78edf53fa3873302') in 0.0236631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/CandyBar.prefab
-  artifactKey: Guid(7791ca67796beb442a30f1a9f0ea5f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/CandyBar.prefab using Guid(7791ca67796beb442a30f1a9f0ea5f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59f8dfac2c1742ac2429d2758859db26') in 0.0121156 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  path: Assets/Lowpoly Forest Pack/Prefabs/Water Well.prefab
+  artifactKey: Guid(cb8046ceb58b3104e9831af45a2c19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs/Water Well.prefab using Guid(cb8046ceb58b3104e9831af45a2c19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7902f5a1cc6191628860d1dadeb30c07') in 0.0128256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/CrackedEgg.prefab
-  artifactKey: Guid(d49945b71bc299147878c4e7d28c6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/CrackedEgg.prefab using Guid(d49945b71bc299147878c4e7d28c6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71e6b6fa416329e24a245b3f692d736b') in 0.0129608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Tomato Slice.prefab
-  artifactKey: Guid(5011306cb1a648d49b82531e22e5c2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Tomato Slice.prefab using Guid(5011306cb1a648d49b82531e22e5c2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0828eff1cff9ae64b5d88ecece8e3534') in 0.0120954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Chips.prefab
-  artifactKey: Guid(e1a8dd6a843359e4d81647b96c447ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Chips.prefab using Guid(e1a8dd6a843359e4d81647b96c447ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2ad0dc9fd222249dba0940c23aba1b0') in 0.0115339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Ketchup.prefab
-  artifactKey: Guid(1682637577a84884494f66efd4c0f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Ketchup.prefab using Guid(1682637577a84884494f66efd4c0f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b47998a5b83db566868dd3e4f0aaa71b') in 0.0117304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Lettuce.prefab
-  artifactKey: Guid(a3ec8a5f4317cd84cae2e2202a719cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Lettuce.prefab using Guid(a3ec8a5f4317cd84cae2e2202a719cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db778d9b634d25e7bf6d239c71fbc8c3') in 0.0126631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 8.58 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7284 unused Assets / (12.6 MB). Loaded Objects now: 8143.
-Memory consumption went from 171.7 MB to 159.1 MB.
-Total: 12.963500 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.281700 ms MarkObjects: 8.359900 ms  DeleteObjects: 3.843000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 11.05 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7283 unused Assets / (7.0 MB). Loaded Objects now: 8143.
-Memory consumption went from 171.6 MB to 164.6 MB.
-Total: 21.495800 ms (FindLiveObjects: 0.918900 ms CreateObjectMapping: 0.475000 ms MarkObjects: 14.778000 ms  DeleteObjects: 5.322000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 26.810283 seconds.
-  path: Assets/NewEmptyCSharpScript.cs
-  artifactKey: Guid(5f39ab7e0ca073e4182bed77f280a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEmptyCSharpScript.cs using Guid(5f39ab7e0ca073e4182bed77f280a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d69563aef4f98bbf7fe675eb6c52bcf') in 0.0151102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.582 seconds
-Refreshing native plugins compatible for Editor in 5.04 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Trying to set shader on a Material Variant.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Material:set_shader (UnityEngine.Shader)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:OnEnable () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:74)
-UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler> (string)
-UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:GetAllInstances () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:28)
-UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:15)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
-
-Trying to set shader on a Material Variant.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Material:set_shader (UnityEngine.Shader)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:16)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.881 seconds
-Domain Reload Profiling: 1465ms
-	BeginReloadAssembly (182ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (354ms)
-		LoadAssemblies (263ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (124ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (881ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (755ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (438ms)
-			ProcessInitializeOnLoadMethodAttributes (158ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.97 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7383 unused Assets / (12.1 MB). Loaded Objects now: 8126.
-Memory consumption went from 226.0 MB to 213.9 MB.
-Total: 11.207900 ms (FindLiveObjects: 0.478400 ms CreateObjectMapping: 0.291600 ms MarkObjects: 6.040900 ms  DeleteObjects: 4.395800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 46.550162 seconds.
-  path: Assets/NewEmptyCSharpScript.cs
-  artifactKey: Guid(5f39ab7e0ca073e4182bed77f280a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEmptyCSharpScript.cs using Guid(5f39ab7e0ca073e4182bed77f280a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ef8abd899416f90bdbe6dd3c963fbcd') in 0.006528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 5.66 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7283 unused Assets / (12.2 MB). Loaded Objects now: 8114.
-Memory consumption went from 187.6 MB to 175.4 MB.
-Total: 11.789300 ms (FindLiveObjects: 0.560000 ms CreateObjectMapping: 0.456300 ms MarkObjects: 6.327200 ms  DeleteObjects: 4.444800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.562 seconds
-Refreshing native plugins compatible for Editor in 5.08 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Trying to set shader on a Material Variant.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Material:set_shader (UnityEngine.Shader)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:OnEnable () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:74)
-UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler> (string)
-UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:GetAllInstances () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:28)
-UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:15)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
-
-Trying to set shader on a Material Variant.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Material:set_shader (UnityEngine.Shader)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:16)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.874 seconds
-Domain Reload Profiling: 1437ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (368ms)
-		LoadAssemblies (270ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (132ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (874ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (756ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (433ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 5.04 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7383 unused Assets / (11.6 MB). Loaded Objects now: 8129.
-Memory consumption went from 226.0 MB to 214.3 MB.
-Total: 11.039900 ms (FindLiveObjects: 0.442000 ms CreateObjectMapping: 0.283700 ms MarkObjects: 6.070100 ms  DeleteObjects: 4.243200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 884.492902 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
-  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '045bbea1ca48abb947b10a52529b4f9e') in 0.0507506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignFlush_Light.psd
-  artifactKey: Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90eec7248330fcf9e7a9b67676fb6076') in 0.0091081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/CenterLight.png
-  artifactKey: Guid(3092b2985cafe0b43b1f02ce1d6829d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/CenterLight.png using Guid(3092b2985cafe0b43b1f02ce1d6829d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fd081954609f7ac10d9bc8a2f3a9465') in 0.0196034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/CombinedShapeLightShared.hlsl
-  artifactKey: Guid(e7ee44e4db2311b428e6f789318838f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/CombinedShapeLightShared.hlsl using Guid(e7ee44e4db2311b428e6f789318838f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19caba214a8f9995d3233d3e6fffd080') in 0.0009912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_DecorativeLight.png
-  artifactKey: Guid(73e9cf59769215c4892d0a8008f39737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_DecorativeLight.png using Guid(73e9cf59769215c4892d0a8008f39737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bb1dc1b5b24d7e7980661325e9ef47c') in 0.0084654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_InteriorLight.png
-  artifactKey: Guid(b5a2e773c2799aa42a4e99429158896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_InteriorLight.png using Guid(b5a2e773c2799aa42a4e99429158896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '902321f1ff73b5d17a66a536945dcdef') in 0.0084208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_InteriorLight@2x.png
-  artifactKey: Guid(b1a064fab2aa93e47bd8d558a6ca655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_InteriorLight@2x.png using Guid(b1a064fab2aa93e47bd8d558a6ca655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b12d95c54e82eca86a80b2da38bc35') in 0.0090359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon On@64.png
-  artifactKey: Guid(304e9d79c27b32144a95e43dc6da80a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon On@64.png using Guid(304e9d79c27b32144a95e43dc6da80a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab78588d949190cd6be640e4cd32aa2') in 0.0084906 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon@256.png
-  artifactKey: Guid(e8daef37e2419284e8b319261203d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon@256.png using Guid(e8daef37e2419284e8b319261203d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef26e10981a2f5e13f82fc96b3bc04db') in 0.0093185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_SoftAreaLight.png
-  artifactKey: Guid(940a20d919196f1408474a7b7057f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_SoftAreaLight.png using Guid(940a20d919196f1408474a7b7057f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092160dc16ea3adcb81b52db0a84ad6a') in 0.0080807 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/DirectSunlight@2x.png
-  artifactKey: Guid(03ea000956f47584c872d8b4df47f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/DirectSunlight@2x.png using Guid(03ea000956f47584c872d8b4df47f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08a0e23ea2af173891569a2fd254254c') in 0.0083153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/ErrorLight@2x.png
-  artifactKey: Guid(517f54bf89ddf354493698683251bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/ErrorLight@2x.png using Guid(517f54bf89ddf354493698683251bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ade20cbadcc1ca213625623c47d03bdf') in 0.0129831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/FreeformLight.png
-  artifactKey: Guid(c89564426827c76479d8772adb43e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/FreeformLight.png using Guid(c89564426827c76479d8772adb43e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70195edf556011c668c523c9ccaa0244') in 0.0086978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/FreeformLight.png
-  artifactKey: Guid(68e5bb6e60bebc046b26d3c3100a523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/FreeformLight.png using Guid(68e5bb6e60bebc046b26d3c3100a523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac962563a5bfd8f502590883c47f58f') in 0.0085802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/StyleSheets/HeaderFoldoutLight.uss
-  artifactKey: Guid(dc364c42ee0194a4cace7e9e86e0b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/StyleSheets/HeaderFoldoutLight.uss using Guid(dc364c42ee0194a4cace7e9e86e0b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '151c360904627e32ceb3c4f24e1d2584') in 0.0069829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/LightBatchingDebugger/LightBatchingDebugger.uxml
-  artifactKey: Guid(7f54b2764826949c192810bd3944abcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/LightBatchingDebugger/LightBatchingDebugger.uxml using Guid(7f54b2764826949c192810bd3944abcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeab016b725844cb71c3db437ee0b383') in 0.0219787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopLeft.png
-  artifactKey: Guid(f4f779c88fa8c514d970afbd68ff6b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopLeft.png using Guid(f4f779c88fa8c514d970afbd68ff6b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c62601f2b94c83d7fefe4eccde201d3e') in 0.009492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/LightCookie/LightCookieInput.hlsl
-  artifactKey: Guid(a70b6c101edaa442a80370b0d514fb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/LightCookie/LightCookieInput.hlsl using Guid(a70b6c101edaa442a80370b0d514fb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '426b468b9bdb33ebd4e8e1328e4903e1') in 0.001364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightAnchor_Icon.png
-  artifactKey: Guid(df491817340312f439c32f95902ddee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightAnchor_Icon.png using Guid(df491817340312f439c32f95902ddee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82b7a9198e27456a6354ddf31b33e7c1') in 0.0100265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_MediumAreaLight.png
-  artifactKey: Guid(b1826d69c1fcad9488491937a1ef4d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_MediumAreaLight.png using Guid(b1826d69c1fcad9488491937a1ef4d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5af0f2cf6abc59a5f7979d56c889c7db') in 0.0092133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.services.analytics/Editor/Tools/DebugPanelStylesLight.uss
-  artifactKey: Guid(e52cc1fcf2af9374c8ce0fe21f3ba3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.analytics/Editor/Tools/DebugPanelStylesLight.uss using Guid(e52cc1fcf2af9374c8ce0fe21f3ba3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '291d96ebac27f0ecc298ee721c03bbf7') in 0.0009714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopRight.png
-  artifactKey: Guid(b42c95bdd7efefc43900dbbedc4a39f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapTopRight.png using Guid(b42c95bdd7efefc43900dbbedc4a39f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ac1e7532cf76906e8c9375f953ede7f') in 0.0089069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignJustified_Light.psd
-  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa10bbf77272a61e89785b7e435dc340') in 0.0089599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorLight.uss
-  artifactKey: Guid(5e7024ed0fd03984289320d04507bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorLight.uss using Guid(5e7024ed0fd03984289320d04507bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b9f9050f5d6c90f1c4ce2b6fafcf342') in 0.0015937 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon@2x.png
-  artifactKey: Guid(fbee1c54ecff3d24e8f34e2bbd19390f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon@2x.png using Guid(fbee1c54ecff3d24e8f34e2bbd19390f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6324d784cebe67706db23f2deb600411') in 0.0093513 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_IntenseAreaLight@2x.png
-  artifactKey: Guid(0493fb4c3bbfd6a4396f7f221b5ce034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_IntenseAreaLight@2x.png using Guid(0493fb4c3bbfd6a4396f7f221b5ce034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f21ee62d0793f07abe8b7d1a0a8ff69') in 0.0099547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/ShaderLibrary/CommonLighting.hlsl
-  artifactKey: Guid(93bbf250faa37d446990b9501e7fb7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary/CommonLighting.hlsl using Guid(93bbf250faa37d446990b9501e7fb7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c0fedac2af6681e2495c181c7cc20dd') in 0.0013472 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon.png
-  artifactKey: Guid(518057398db7dd043928f01f4fbad1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon.png using Guid(518057398db7dd043928f01f4fbad1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3073614d4eeb671e055d5423827fe92') in 0.0039852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignMidline_Light.psd
-  artifactKey: Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ae50b8578a5036d5ce95b9f613a4e32') in 0.0094575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_SoftAreaLight@2x.png
-  artifactKey: Guid(e0171afec971f2343be8d5b4b14ab6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_SoftAreaLight@2x.png using Guid(e0171afec971f2343be8d5b4b14ab6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288b02c8286ceb96779dff7cd5419fa0') in 0.009662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
-  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b661834a9474c8643c96fe24f44a456') in 0.0094754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_ExteriorLight.png
-  artifactKey: Guid(acd8a3fb93bb04b4db467ca2090011ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_ExteriorLight.png using Guid(acd8a3fb93bb04b4db467ca2090011ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd485f33a43b6e30a96a7b51412ef52a0') in 0.0095443 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/ShaderLibrary/ImageBasedLighting.hlsl
-  artifactKey: Guid(ae4dc0bfd9fc0b544a109513ba841d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary/ImageBasedLighting.hlsl using Guid(ae4dc0bfd9fc0b544a109513ba841d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e8e46adae8d72be044be31f1169bce7') in 0.0013628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignBottom_Light.psd
-  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7e43751aa79d73be3dbe95f763183c0') in 0.0080981 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon On@16.png
-  artifactKey: Guid(27ddd7fccc437254da38f2ffe1983567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon On@16.png using Guid(27ddd7fccc437254da38f2ffe1983567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7403eff2e7085e0ac58146f172927b19') in 0.0093032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/ShaderLibrary/EntityLighting.hlsl
-  artifactKey: Guid(0303be75670325342b4bf5697686e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary/EntityLighting.hlsl using Guid(0303be75670325342b4bf5697686e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2c6b00ced7bf23a46731ac4030cb0ce') in 0.001273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/Candlelight.png
-  artifactKey: Guid(eda062bf16e02ef44a7bf24336ddac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/Candlelight.png using Guid(eda062bf16e02ef44a7bf24336ddac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a6c22f1eae5a91490911088f600f0d6') in 0.0092519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignLeft_Light.psd
-  artifactKey: Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignLeft_Light.psd using Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ff3b0418c4a39d2f140c8188a673b6c') in 0.008964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png
-  artifactKey: Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png using Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06193bd760737bd2eb2d880fc4655455') in 0.0109509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_DirectSunlight@2x.png
-  artifactKey: Guid(392581b798d70d0408e104d352ffb20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_DirectSunlight@2x.png using Guid(392581b798d70d0408e104d352ffb20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '559d0ef76a1be511ad3a4fd2d5145a75') in 0.0117344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/ExteriorLight.png
-  artifactKey: Guid(baa2eadff75899140ac64277e3f60453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/ExteriorLight.png using Guid(baa2eadff75899140ac64277e3f60453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bbf6d407ef5b62613bee6e5a9bc5607') in 0.0105831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/InteriorLight@2x.png
-  artifactKey: Guid(1bb3da4ea375c37498c93327420e6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/InteriorLight@2x.png using Guid(1bb3da4ea375c37498c93327420e6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c69b2bbc4844288d489c9f09d53e4e54') in 0.0089179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon On.png
-  artifactKey: Guid(1d70e8f2a6df91f46a8e5b4f2378c8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/d_LightPlacement_Icon On.png using Guid(1d70e8f2a6df91f46a8e5b4f2378c8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2197405506f1fde215a6ded64f537802') in 0.0037637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/DecorativeLight@2x.png
-  artifactKey: Guid(ac6bd7230f54da84b8ad3a0e2b14b3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/DecorativeLight@2x.png using Guid(ac6bd7230f54da84b8ad3a0e2b14b3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fd0a6ab437b3279e48c4a9fe280604b') in 0.0093543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/CenterLight@2x.png
-  artifactKey: Guid(8063050a249eef441beb8cbbd04c086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/CenterLight@2x.png using Guid(8063050a249eef441beb8cbbd04c086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bde9fec6b3e0e6e12e8517be3bfba633') in 0.0110878 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Extensions/light.uss
-  artifactKey: Guid(e98085123be873947970c4f10099a39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Extensions/light.uss using Guid(e98085123be873947970c4f10099a39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd66fc5d27c5b135213ff9d0bd301797c') in 0.0011918 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignCapLine_Light.psd
-  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eaae04e50001aabeac734b93650c7a1') in 0.0081941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.467064 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl
-  artifactKey: Guid(762f0a4829f44584ba01e2f0661150d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl using Guid(762f0a4829f44584ba01e2f0661150d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92574149febe63b1232323976d6da027') in 0.0008885 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/LightingMetaPass.hlsl
-  artifactKey: Guid(9b897418a23a04642a054cf9daa3bf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/LightingMetaPass.hlsl using Guid(9b897418a23a04642a054cf9daa3bf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2ad42eb950758ed684703d0ec4d0d2f') in 0.0008913 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@2x.png
-  artifactKey: Guid(c179f13951d25f646887d38fa53e6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@2x.png using Guid(c179f13951d25f646887d38fa53e6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb13ae2cb6fba5ad656122eb5c223ddc') in 0.0099344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Lowpoly Forest Pack/Prefabs/Summer Low Cliff 2.prefab
+  artifactKey: Guid(b03cd7bb8e410c54e886be52f7258ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs/Summer Low Cliff 2.prefab using Guid(b03cd7bb8e410c54e886be52f7258ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de1e1dd92f890fb2f602838645827d91') in 0.0109253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@256.png
-  artifactKey: Guid(9d1f3c50fbb907f4fba5095da15f23dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@256.png using Guid(9d1f3c50fbb907f4fba5095da15f23dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69a206f6aa2060ffffb73eef2d370bab') in 0.010366 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@16.png
-  artifactKey: Guid(ef06ba4eb3daf484f8b1a9e1ac266945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@16.png using Guid(ef06ba4eb3daf484f8b1a9e1ac266945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22b335612270331a6fa01eac17046955') in 0.0039746 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/MediumAreaLight@2x.png
-  artifactKey: Guid(1dea3362fb2f72d46b7e3351a7e12ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/MediumAreaLight@2x.png using Guid(1dea3362fb2f72d46b7e3351a7e12ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75eb31bcc97bf0ff47bfa4e7d9fd2c4c') in 0.0087823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/StyleSheets/PlatformSupportVisualLight.uss
-  artifactKey: Guid(bb40ae15550bc0d4da476860ada8bc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/StyleSheets/PlatformSupportVisualLight.uss using Guid(bb40ae15550bc0d4da476860ada8bc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cedbf510459292037632654c7bd4971b') in 0.0010886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/PointLight.png
-  artifactKey: Guid(6eaa9958d83ec43499e946a21edba283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/PointLight.png using Guid(6eaa9958d83ec43499e946a21edba283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba2c0971857a336f382233c636ee8f2') in 0.0138928 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/ParametricLight.png
-  artifactKey: Guid(302e68dd45b9b2d4194ff0f7f454436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/ParametricLight.png using Guid(302e68dd45b9b2d4194ff0f7f454436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceb98728781caa8d0272da6687480690') in 0.010604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@64.png
-  artifactKey: Guid(ce171bd6b515f1647a9a2c608ff705bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@64.png using Guid(ce171bd6b515f1647a9a2c608ff705bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7cc00e46855e58de96128d9dcb08fe4') in 0.0099331 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/LightingUtility.hlsl
-  artifactKey: Guid(931e5ffca47cea54783e99bf989216b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/LightingUtility.hlsl using Guid(931e5ffca47cea54783e99bf989216b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7f48c549c9240781397f647360685d') in 0.001111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@128.png
-  artifactKey: Guid(c1c8308c6609eff48841494a187bfb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightPlacement_Icon@128.png using Guid(c1c8308c6609eff48841494a187bfb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dee7d193a2a9328070f576f7fe0f5cd') in 0.0102396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.188317 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/RealtimeLights.hlsl
-  artifactKey: Guid(4e8e2a4c57cb4eb6bf8653ab88069a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/RealtimeLights.hlsl using Guid(4e8e2a4c57cb4eb6bf8653ab88069a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '971e4895ef5cc364ef8d2478575d753a') in 0.0009187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064306 seconds.
-  path: Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/StyleSheets/ServicesProjectSettingsLight.uss
-  artifactKey: Guid(b84a2474ed59eb343b6599f94684c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/StyleSheets/ServicesProjectSettingsLight.uss using Guid(b84a2474ed59eb343b6599f94684c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b35b46b2b7e214677b297000f5d13609') in 0.0018567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.services.core/Editor/Core/EditorGameService/USS/ServicesProjectSettingsLight.uss
-  artifactKey: Guid(ebe4630c4fee24fa99c02c62897bfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.core/Editor/Core/EditorGameService/USS/ServicesProjectSettingsLight.uss using Guid(ebe4630c4fee24fa99c02c62897bfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7ce69fbe10d3169b2d54fc04a2a67c0') in 0.0010496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/ShapeLightShared.hlsl
-  artifactKey: Guid(4151cfb2494f10243a255c8a553306e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/ShapeLightShared.hlsl using Guid(4151cfb2494f10243a255c8a553306e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1e7581e523e5e8c53b8e9b49d269fec') in 0.0010048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/ShaderLibrary/SixWayLighting.hlsl
-  artifactKey: Guid(1a3c09fe584943f9ba43ae5a5cf0700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary/SixWayLighting.hlsl using Guid(1a3c09fe584943f9ba43ae5a5cf0700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a707b76e1307a4a47820933e4fc24af') in 0.0011969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources/Icons/sg_subgraph_icon_gray_light.png
-  artifactKey: Guid(82b6560ff26e58d48aa33e2869ad14e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Resources/Icons/sg_subgraph_icon_gray_light.png using Guid(82b6560ff26e58d48aa33e2869ad14e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '614cc73ba52a3f082e0b81b4de09ef5f') in 0.0045359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png
-  artifactKey: Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png using Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '782b52ff55e012ae593820dda9901b3a') in 0.0110179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.learn.iet-framework/Editor/UI/Styles_Light.uss
-  artifactKey: Guid(f024b7035a09345e5848e3de8f1b5dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Styles_Light.uss using Guid(f024b7035a09345e5848e3de8f1b5dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c62c32aa20d8a692ef2c80d6d8c5d26') in 0.0068499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/SoftAreaLight.png
-  artifactKey: Guid(e10d9c07adc061a448e00b3e33fad966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/SoftAreaLight.png using Guid(e10d9c07adc061a448e00b3e33fad966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5a741068022cdb4105d1adc0b4c1d93') in 0.010262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.rendering.light-transport/Editor/Unity.Rendering.LightTransport.Editor.asmdef
-  artifactKey: Guid(085cb502223da8f46931abfa47535112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.rendering.light-transport/Editor/Unity.Rendering.LightTransport.Editor.asmdef using Guid(085cb502223da8f46931abfa47535112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e54b5f701502db2634aea429d114493') in 0.0005752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  path: Assets/Lowpoly Forest Pack/Prefabs/Summer Cliff 1.prefab
+  artifactKey: Guid(5dc27d39850892c40bc33e0587776919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Forest Pack/Prefabs/Summer Cliff 1.prefab using Guid(5dc27d39850892c40bc33e0587776919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6b04bf47f95ce28c3f52846514e225f') in 0.0127238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

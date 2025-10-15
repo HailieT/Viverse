@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-13T19:39:22Z
+Date: 2025-10-14T17:37:39Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-62244
+52170
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29060]  Target information:
+Player connection [28900]  Target information:
 
-Player connection [29060]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 4234548097 [EditorId] 4234548097 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28900]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 1047370805 [EditorId] 1047370805 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29060] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29060] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28900] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28900] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.44 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 6.30 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,47 +95,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002530 seconds.
-- Loaded All Assemblies, in  0.266 seconds
+Registered in 0.002775 seconds.
+- Loaded All Assemblies, in  0.257 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.258 seconds
-Domain Reload Profiling: 523ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 521ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (83ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (82ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (98ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (258ms)
+	FinalizeReload (265ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (224ms)
+		SetupLoadedEditorAssemblies (231ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
+			InitializePlatformSupportModulesInManaged (52ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (90ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.675 seconds
-Refreshing native plugins compatible for Editor in 5.50 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 6.15 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,36 +192,36 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.945 seconds
-Domain Reload Profiling: 1618ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.937 seconds
+Domain Reload Profiling: 1592ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
+		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (493ms)
-		LoadAssemblies (313ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (307ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (241ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (161ms)
-			BuildScriptInfoCaches (50ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (945ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (938ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (827ms)
+		SetupLoadedEditorAssemblies (826ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (157ms)
-			ProcessInitializeOnLoadAttributes (452ms)
-			ProcessInitializeOnLoadMethodAttributes (197ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
@@ -262,228 +262,12 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.58 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 5.33 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7384 unused Assets / (12.1 MB). Loaded Objects now: 8042.
-Memory consumption went from 163.1 MB to 151.0 MB.
-Total: 10.855600 ms (FindLiveObjects: 0.480000 ms CreateObjectMapping: 0.267400 ms MarkObjects: 6.086400 ms  DeleteObjects: 4.020500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4219.143548 seconds.
-  path: Assets/CrowAssets/Assets
-  artifactKey: Guid(a2c1653b6ccb66d41825d0c84c091217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets using Guid(a2c1653b6ccb66d41825d0c84c091217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62676eabaf6e3d9319188f95d33a8f08') in 0.0035435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.892548 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food
-  artifactKey: Guid(60092af423194b4408ed78f92cf68cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food using Guid(60092af423194b4408ed78f92cf68cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e362160537c5cb6b3891f026f0c7197') in 0.0003599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.501663 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn
-  artifactKey: Guid(7de607e46773e2c4397d3d75d72eb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn using Guid(7de607e46773e2c4397d3d75d72eb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e17d0b31aa7482e3186802becd893bea') in 0.000545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.549346 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials
-  artifactKey: Guid(bd75e4b5ff4536a4cb11f48b1f9bf4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials using Guid(bd75e4b5ff4536a4cb11f48b1f9bf4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2880d8766ef8ab93c9a9b45a5f71fe1') in 0.0004474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028362 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can Opener.mat
-  artifactKey: Guid(12a5bc71495c7b34dad45ab9a026049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can Opener.mat using Guid(12a5bc71495c7b34dad45ab9a026049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af531921bd9bf1c03f17feaa90f4fc68') in 0.3194962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.053884 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs
-  artifactKey: Guid(0b581e7cbc1ad754894e09b9e5372e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs using Guid(0b581e7cbc1ad754894e09b9e5372e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7783e90a138dbba88dc127e23330219') in 0.0005616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037343 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Can Opener.prefab
-  artifactKey: Guid(92a0baa4a47920945a6a4e9ff13d8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Can Opener.prefab using Guid(92a0baa4a47920945a6a4e9ff13d8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2bdd8dfa5d52d925a7ff85442029150') in 0.0275627 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Egg.prefab
-  artifactKey: Guid(b166ece98b9d9144e88cb6e438d2f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Egg.prefab using Guid(b166ece98b9d9144e88cb6e438d2f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4602f6731f6b3499a7f83fadbb5e4c25') in 0.016325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Jar.prefab
-  artifactKey: Guid(4835b836f2075924d9a5e9e1a81eb538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Jar.prefab using Guid(4835b836f2075924d9a5e9e1a81eb538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '318985b9b7bf418998316e079816e22b') in 0.0406328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Juice Box.prefab
-  artifactKey: Guid(ec32937d1aa9c2441b9ccad69faa7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Juice Box.prefab using Guid(ec32937d1aa9c2441b9ccad69faa7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a92acdc5d1added9d6cdbf11f0d8791') in 0.0173567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.945846 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP
-  artifactKey: Guid(9a4405ecf83283b4493c3adb44124c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP using Guid(9a4405ecf83283b4493c3adb44124c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08477bb48d703711ead99cdcd5e6e93d') in 0.0004421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.387859 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials
-  artifactKey: Guid(aa38476f882e76d4b9943cfb9e33a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials using Guid(aa38476f882e76d4b9943cfb9e33a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd4b36cf1a83905ef02902c68c84a6e9') in 0.0003697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020704 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Can Opener.mat
-  artifactKey: Guid(1202efb9a6e3e02489fe20d12946ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Can Opener.mat using Guid(1202efb9a6e3e02489fe20d12946ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8c624a37260c014706a41617c0bb0ee') in 0.0117878 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaCan_02.mat
-  artifactKey: Guid(4507625568fe34043b2c74be29f906c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaCan_02.mat using Guid(4507625568fe34043b2c74be29f906c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c068bb091e93d8efd6e4b9e56e9fa609') in 0.0100667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Jar.mat
-  artifactKey: Guid(bab6ac7021ed15c4987b0a74e69f102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Jar.mat using Guid(bab6ac7021ed15c4987b0a74e69f102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4eab22a2f9476d09288b1fc4b7fda3b') in 0.0097478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Peanut Butter.mat
-  artifactKey: Guid(55d28c05fa9fa8b42a6e5cadb48a7cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Peanut Butter.mat using Guid(55d28c05fa9fa8b42a6e5cadb48a7cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac276796f045efb5d4187107ace9309a') in 0.0092002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.718836 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Info
-  artifactKey: Guid(655d39de865cdb648b14fadced11db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Info using Guid(655d39de865cdb648b14fadced11db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0963a10acb282097d5568d8a5955380') in 0.0004515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.471156 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Info/Thank You.txt
-  artifactKey: Guid(918db85a437229c41b53c142b85073ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Info/Thank You.txt using Guid(918db85a437229c41b53c142b85073ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5074f7f6938fdcbaffe2dee14b0c460f') in 0.000876 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.513628 seconds.
-  path: Assets/CrowAssets
-  artifactKey: Guid(925444137ba4fc5409ca310651d16ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets using Guid(925444137ba4fc5409ca310651d16ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '255cd76e629470d6c015d8739fdc74e5') in 0.0003562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.865509 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes
-  artifactKey: Guid(abc5271e65289b1419bf2589a961f47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes using Guid(abc5271e65289b1419bf2589a961f47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd77aeab42b49a3cb812d36f2965455b') in 0.0005352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.837692 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes/ExampleSceneHDRP
-  artifactKey: Guid(27e30fceceac40041b273b194dbfd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes/ExampleSceneHDRP using Guid(27e30fceceac40041b273b194dbfd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7f255f7462ba4868aa9913f511c86b9') in 0.0005076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069482 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes/ExampleSceneHDRP/Global Volume Profile.asset
-  artifactKey: Guid(32b77abb6aef87840ae1690412a00405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes/ExampleSceneHDRP/Global Volume Profile.asset using Guid(32b77abb6aef87840ae1690412a00405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f17e69b7da9879192f264ebbe90eac2') in 0.0011011 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.691082 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes/ExampleSceneHDRP.unity
-  artifactKey: Guid(6d28a9b5691b18745bf443db65e99373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Scenes/ExampleSceneHDRP.unity using Guid(6d28a9b5691b18745bf443db65e99373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5010e0eb25fea724d708b4498776a32f') in 0.0005069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.598770 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes
-  artifactKey: Guid(7106a6d92cdd7e74cb0cb8225be352f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes using Guid(7106a6d92cdd7e74cb0cb8225be352f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63e67de1f3fd1f332ce4cb3d393e3b94') in 0.0004455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013446 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Can Opener.fbx
-  artifactKey: Guid(29cdd60b2cabb0f499d85db8bfb6e056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Can Opener.fbx using Guid(29cdd60b2cabb0f499d85db8bfb6e056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '804d3dee9b686adaf57b3b06a3c58878') in 0.0409602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Sardines.fbx
-  artifactKey: Guid(4b929470982d4844cbf68c8c3e2c2c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Sardines.fbx using Guid(4b929470982d4844cbf68c8c3e2c2c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d386851598112a339c05555fc86769d') in 0.0205484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/CrackedEgg.fbx
-  artifactKey: Guid(f93babe1c3f46ca48a490f8841a8ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/CrackedEgg.fbx using Guid(f93babe1c3f46ca48a490f8841a8ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03c191d4785fff9e3bc7137a982ce03f') in 0.0269614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7384 unused Assets / (14.2 MB). Loaded Objects now: 8045.
+Memory consumption went from 163.2 MB to 149.0 MB.
+Total: 14.404900 ms (FindLiveObjects: 0.433400 ms CreateObjectMapping: 0.255500 ms MarkObjects: 7.957900 ms  DeleteObjects: 5.756800 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
