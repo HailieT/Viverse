@@ -1,13 +1,30 @@
 using System.Collections;
 using UnityEngine;
 
+
 /// <summary>
-/// This script moves a GameObject when it is clicked or triggered by a VR controller.
+/// This script moves a GameObject when it is GRABBED by a VR controller.
 /// It's designed to toggle between an initial position and an offset position.
-/// Make sure the GameObject has a Collider component attached.
+/// This is ideal for objects you "grab" to interact with, like chairs or drawers.
+///
+/// --- THIS IS THE VR-READY VERSION FOR GRABBING ---
+///
+/// HOW TO USE:
+/// 1. If you have the old script on your object, remove it.
+/// 2. Add THIS script to your object (e.g., the chair).
+/// 3. Add a Rigidbody component: Go to Add Component -> Physics -> Rigidbody.
+///    In the Rigidbody settings, CHECK the "Is Kinematic" box. This is crucial.
+/// 4. IMPORTANT: Add an "XR GRAB Interactable" component to the same object.
+///    (If you have an "XR Simple Interactable", remove it).
+/// 5. In the "XR Grab Interactable" component, find the "Select Entered" event. This event
+///    fires when you successfully grab the object.
+/// 6. Click the '+' to add an event.
+/// 7. Drag the object itself into the 'Object' field below "Runtime Only".
+/// 8. From the function dropdown, select "ClickToMoveVR" -> "PerformGrabAction()".
 /// </summary>
 [RequireComponent(typeof(Collider))]
-public class ClickToMove : MonoBehaviour
+[RequireComponent(typeof(UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable))] // Ensures the correct interactable is attached
+public class ClickToMoveVR : MonoBehaviour
 {
     [Header("Movement Settings")]
     [Tooltip("The direction and distance the object will move from its starting point.")]
@@ -21,91 +38,70 @@ public class ClickToMove : MonoBehaviour
     private Vector3 _targetPosition;
     private bool _isMoved = false;
     private Coroutine _moveCoroutine;
+    private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable _grabInteractable;
 
     /// <summary>
     /// Called when the script instance is being loaded.
-    /// We use Awake to ensure the original position is stored before anything else happens.
     /// </summary>
     void Awake()
     {
         // Store the starting position of the object.
         _originalPosition = transform.position;
+        _grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+
+        // This prevents the object from being physically moved by the controller.
+        _grabInteractable.trackPosition = false;
+        _grabInteractable.trackRotation = false;
     }
 
     /// <summary>
-    /// This method is called by Unity when the Collider on this GameObject is clicked by the mouse,
-    /// or targeted and triggered by many common VR interaction systems.
+    /// This public method is called by the XR Grab Interactable's "Select Entered" event.
     /// </summary>
-    private void OnMouseDown()
+    public void PerformGrabAction()
     {
         // Toggle the state between moved and original position.
         _isMoved = !_isMoved;
 
         // Determine the target position based on the new state.
-        if (_isMoved)
-        {
-            // Calculate the target position by adding the offset to the original position.
-            _targetPosition = _originalPosition + moveOffset;
-        }
-        else
-        {
-            // If not in the "moved" state, the target is the original position.
-            _targetPosition = _originalPosition;
-        }
+        _targetPosition = _isMoved ? _originalPosition + moveOffset : _originalPosition;
 
         // --- Start the movement ---
-        // If a movement coroutine is already running, stop it first.
+        // Stop any existing movement to avoid conflicts if the object is grabbed again quickly.
         if (_moveCoroutine != null)
         {
             StopCoroutine(_moveCoroutine);
         }
-        // Start a new coroutine to handle the smooth movement.
         _moveCoroutine = StartCoroutine(MoveObject(_targetPosition));
     }
 
     /// <summary>
     /// A coroutine that smoothly moves the object from its current position to a target position.
     /// </summary>
-    /// <param name="target">The position to move to.</param>
     private IEnumerator MoveObject(Vector3 target)
     {
-        // Continue moving as long as the object is not very close to the target.
         while (Vector3.Distance(transform.position, target) > 0.01f)
         {
-            // Use Vector3.Lerp for smooth (linearly interpolated) movement.
-            // Time.deltaTime makes the movement frame-rate independent.
             transform.position = Vector3.Lerp(transform.position, target, moveSpeed * Time.deltaTime);
-
-            // Wait until the next frame before continuing the loop.
-            yield return null;
+            yield return null; // Wait for the next frame
         }
 
-        // To ensure the object reaches the exact target position, snap it to the target at the end.
+        // Snap to the final position to ensure accuracy.
         transform.position = target;
-        _moveCoroutine = null; // Clear the coroutine reference
+        _moveCoroutine = null;
     }
 
     /// <summary>
-    /// This is for visualization in the Unity Editor only. It draws a line
-    /// showing where the object will move to.
+    /// Draws a line in the editor to visualize the movement path.
     /// </summary>
     private void OnDrawGizmosSelected()
     {
-        // Ensure this only runs in the editor and not in the build.
-        if (!Application.isPlaying)
-        {
-            Gizmos.color = Color.cyan;
-            Vector3 startPos = transform.position;
-            Vector3 endPos = startPos + moveOffset;
-            Gizmos.DrawLine(startPos, endPos);
-            Gizmos.DrawSphere(endPos, 0.1f);
-        }
-        else // If the game is playing, draw based on the calculated original position
-        {
-            Gizmos.color = Color.cyan;
-            Vector3 endPos = _originalPosition + moveOffset;
-            Gizmos.DrawLine(_originalPosition, endPos);
-            Gizmos.DrawSphere(endPos, 0.1f);
-        }
+        // Use the current position if in edit mode, or the stored original position if in play mode.
+        Vector3 startPos = Application.isPlaying ? _originalPosition : transform.position;
+        Vector3 endPos = startPos + moveOffset;
+
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawLine(startPos, endPos);
+        Gizmos.DrawSphere(endPos, 0.1f);
     }
 }
+

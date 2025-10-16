@@ -1,8 +1,8 @@
 Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-15T20:52:13Z
+Date: 2025-10-16T19:47:07Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-62239
+56630
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7788]  Target information:
+Player connection [4588]  Target information:
 
-Player connection [7788]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 739824250 [EditorId] 739824250 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4588]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 3015293187 [EditorId] 3015293187 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7788] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4588] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4588] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.26 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 6.20 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -90,52 +90,52 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
     Vendor:   NVIDIA
     VRAM:     24326 MB
-    Driver:   32.0.15.8142
+    Driver:   32.0.15.8157
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002228 seconds.
-- Loaded All Assemblies, in  0.266 seconds
+Registered in 0.003424 seconds.
+- Loaded All Assemblies, in  0.250 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.232 seconds
-Domain Reload Profiling: 497ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 666ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (86ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (232ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (198ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.602 seconds
-Refreshing native plugins compatible for Editor in 4.94 ms, found 10 plugins.
+- Loaded All Assemblies, in  1.033 seconds
+Refreshing native plugins compatible for Editor in 8.70 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -185,45 +185,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
 
-Could not open file D:/hlt22c/Viverse/Assets/XR/AndroidXR/AndroidXRSettingsInitializer for read
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
-UnityEditor.ScriptableSingleton`1<UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer>:Save (bool)
-UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer:OnLoad () (at ./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs:20)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs line 20]
-
-Assertion failed on expression: 'res'
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
-UnityEditor.ScriptableSingleton`1<UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer>:Save (bool)
-UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer:OnLoad () (at ./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs:20)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs line 20]
-
-Unknown error occurred while loading 'Assets/XR/AndroidXR/AndroidXRSettingsInitializer'.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
-UnityEditor.ScriptableSingleton`1<UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer>:Save (bool)
-UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer:OnLoad () (at ./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs:20)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs line 20]
-
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -231,39 +192,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.876 seconds
-Domain Reload Profiling: 1477ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  1.551 seconds
+Domain Reload Profiling: 2581ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (439ms)
-		LoadAssemblies (272ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (755ms)
+		LoadAssemblies (508ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (149ms)
-			BuildScriptInfoCaches (46ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (877ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (229ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1551ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (773ms)
+		SetupLoadedEditorAssemblies (1357ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (423ms)
-			ProcessInitializeOnLoadMethodAttributes (196ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (253ms)
+			ProcessInitializeOnLoadAttributes (721ms)
+			ProcessInitializeOnLoadMethodAttributes (355ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -300,285 +261,13 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.74 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 9.41 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7386 unused Assets / (12.1 MB). Loaded Objects now: 8068.
-Memory consumption went from 227.0 MB to 215.0 MB.
-Total: 10.210300 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.255300 ms MarkObjects: 5.859600 ms  DeleteObjects: 3.657900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 8811.664226 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Chair/Chair08.fbx
-  artifactKey: Guid(2e848e59741b4c148999318c95bba1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Chair/Chair08.fbx using Guid(2e848e59741b4c148999318c95bba1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a1e34a8e07e7b96a250f52a2485bbf9') in 0.3653274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Chair/Chair37.fbx
-  artifactKey: Guid(169e30eb5dd860343be549eba538aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Chair/Chair37.fbx using Guid(169e30eb5dd860343be549eba538aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2aeadb61f6cb511449417f637bc30f6') in 0.0232429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027833 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Chair/Chair49.fbx
-  artifactKey: Guid(c481082d331158b4687bca23c89552dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Chair/Chair49.fbx using Guid(c481082d331158b4687bca23c89552dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe0a6af1c7ff903a8350a7794bea2f03') in 0.0255283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.793408 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Cushion/Cushion25_28.fbx
-  artifactKey: Guid(bd053cc5d1084d44c8a0c8627396d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Cushion/Cushion25_28.fbx using Guid(bd053cc5d1084d44c8a0c8627396d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f0d349e66e5917d626a06e0129f58a5') in 0.0439233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer32.fbx
-  artifactKey: Guid(e0c647e663bd64044bf2d207ced0b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer32.fbx using Guid(e0c647e663bd64044bf2d207ced0b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '772e748a13382ea1d86c7487b5aae114') in 0.0771081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer42.fbx
-  artifactKey: Guid(ee5b470442d0d214e9724f1a3ab106da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer42.fbx using Guid(ee5b470442d0d214e9724f1a3ab106da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '402b19846a8800bc117af2f29c2e26a5') in 0.0429432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer40.fbx
-  artifactKey: Guid(c97af24ef5c6ae24d84d6805d2100cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer40.fbx using Guid(c97af24ef5c6ae24d84d6805d2100cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4c5cce7db3047f36ce63fedd622dca8') in 0.0635695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Cushion/Cushion29_36.fbx
-  artifactKey: Guid(6ba0f6a59041f544d8fe5a5ddd0d37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Cushion/Cushion29_36.fbx using Guid(6ba0f6a59041f544d8fe5a5ddd0d37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f80197ae6a4f0737a5ea3c349e4a2cfa') in 0.0591343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer28.fbx
-  artifactKey: Guid(a10437884ef100049b07b218beb16c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer28.fbx using Guid(a10437884ef100049b07b218beb16c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ba01ef21195d647e46683d54fd3106') in 0.0402528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer34.fbx
-  artifactKey: Guid(949dbe551dcd1b4499c8130bcef2e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer34.fbx using Guid(949dbe551dcd1b4499c8130bcef2e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '798437384dfabedde397aa3a2532771a') in 0.0488176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer30.fbx
-  artifactKey: Guid(00893e8b346971a4296af455dea450ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer30.fbx using Guid(00893e8b346971a4296af455dea450ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65a247fec3d844603b1d4568b2b20d93') in 0.0450073 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.566400 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer19.fbx
-  artifactKey: Guid(277a0761eb397244f9d5802964dd94f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer19.fbx using Guid(277a0761eb397244f9d5802964dd94f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69ec423e716b4fceb0c15b0545bfe2af') in 0.064824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer12.fbx
-  artifactKey: Guid(ff2b78c648f938b49a4418f5dd948661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer12.fbx using Guid(ff2b78c648f938b49a4418f5dd948661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fdb4adc3a602ab080cde8354a456dd5') in 0.0995671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer18.fbx
-  artifactKey: Guid(c219254932007544389a0339c50e7d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer18.fbx using Guid(c219254932007544389a0339c50e7d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba899dea4a3cceb86a49d91575c21893') in 0.0719927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Drawer/Drawer17.fbx
-  artifactKey: Guid(61dd1081defe0be46a7d8b4c050581e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Drawer/Drawer17.fbx using Guid(61dd1081defe0be46a7d8b4c050581e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10ed53908c75751df0f1047d9af3f1a8') in 0.0691593 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.062487 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Sofa/SectionalSofaLeather.fbx
-  artifactKey: Guid(dce77265389fb3244bbe544fbbd191b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Sofa/SectionalSofaLeather.fbx using Guid(dce77265389fb3244bbe544fbbd191b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd41bdf980dabfe1e90c6da5c4bf569ff') in 0.0585611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Sofa/Sofa09.fbx
-  artifactKey: Guid(9bb224b9be35a5542ad8add0a5ababb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Sofa/Sofa09.fbx using Guid(9bb224b9be35a5542ad8add0a5ababb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f2ddbb077d8ecf2cfb17da52c459bfa') in 0.0205182 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Sofa/Sofa12.fbx
-  artifactKey: Guid(7f9a4985f15176a408459827fe4398f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Sofa/Sofa12.fbx using Guid(7f9a4985f15176a408459827fe4398f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '349369a15939612dd135b80feaef27f7') in 0.0216947 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.208809 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Sofa/Sofa25.fbx
-  artifactKey: Guid(771749e7bf228644c94fa081bcd126a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Sofa/Sofa25.fbx using Guid(771749e7bf228644c94fa081bcd126a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb4c25e6168d94fe3ac2778f7cdaeccf') in 0.0201665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Sofa/Sofa28.fbx
-  artifactKey: Guid(859b40fa0113bea43b3e364113703bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Sofa/Sofa28.fbx using Guid(859b40fa0113bea43b3e364113703bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecd3e6752f11dea61b5eb636382cb982') in 0.0199775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007130 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Sofa/Sofa37.fbx
-  artifactKey: Guid(1a8c29f88abe8a04a9da9a9aac60ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Sofa/Sofa37.fbx using Guid(1a8c29f88abe8a04a9da9a9aac60ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e411f67431578ea277cddc8a91b4943') in 0.0187843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table01.fbx
-  artifactKey: Guid(db9729dac77382941aa734166e208e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table01.fbx using Guid(db9729dac77382941aa734166e208e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7d0431c4112a6dc5dffdfd0152822cb') in 0.0175294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table16.fbx
-  artifactKey: Guid(dae05536ab8296e4db4f9ba03c7aaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table16.fbx using Guid(dae05536ab8296e4db4f9ba03c7aaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c08543900ffa154d48e3a26b294e3fb') in 0.0200076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table26.fbx
-  artifactKey: Guid(1e48046b587e71a48a1c917c3a527acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table26.fbx using Guid(1e48046b587e71a48a1c917c3a527acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2842dd90742405c3543a78abf1fa2e06') in 0.0175417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table30.fbx
-  artifactKey: Guid(b86177c66afb47941adc867eb670e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table30.fbx using Guid(b86177c66afb47941adc867eb670e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5865126e8bc064547fd9b86797ecc704') in 0.0181028 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table17.fbx
-  artifactKey: Guid(29d7286cc68082d4c8a2872a6334cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table17.fbx using Guid(29d7286cc68082d4c8a2872a6334cae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53c5545f6fb54c58fb46109c263929d7') in 0.0204329 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table11.fbx
-  artifactKey: Guid(da43871a16da6b944b73091ec36cfe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table11.fbx using Guid(da43871a16da6b944b73091ec36cfe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b3b5fb3071cbf16310ead0883bab29') in 0.0191567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.118142 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table42.fbx
-  artifactKey: Guid(ffac0618aeb2b9f4ead070913fa0aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table42.fbx using Guid(ffac0618aeb2b9f4ead070913fa0aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd74235d862e2e66ba69129c1dd4bb0c4') in 0.0202775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Furniture Mega Pack/FBX/Table/Table45.fbx
-  artifactKey: Guid(8c3e6cba25259dc4caaa27a5153e5e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/FBX/Table/Table45.fbx using Guid(8c3e6cba25259dc4caaa27a5153e5e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a81a7b89541269d43608c65cbaf4fd58') in 0.0219108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.505144 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Skybox_mat.mat
-  artifactKey: Guid(59573b088aaea0442bf29e0a0e9d1339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Skybox_mat.mat using Guid(59573b088aaea0442bf29e0a0e9d1339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d20343548ecf2ca1a019a7425af97a') in 0.0316111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Sofas/SectionalSofaLeather/SectionalSofaLeather_mat_SectionalSofaLeather_Normal.png
-  artifactKey: Guid(64410b0dfb28dd245b9b72e8139f0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Sofas/SectionalSofaLeather/SectionalSofaLeather_mat_SectionalSofaLeather_Normal.png using Guid(64410b0dfb28dd245b9b72e8139f0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09926cc43fa3bd6b3ef88793ad3e224e') in 0.0213141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.676902 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Tables/Table19/Table19_mat_Table19_AlbedoTransparency.png
-  artifactKey: Guid(e3014c2f56f23004bb2aa7504828019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Tables/Table19/Table19_mat_Table19_AlbedoTransparency.png using Guid(e3014c2f56f23004bb2aa7504828019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9163431c51f805fbf87583f2cadecc12') in 0.0106546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.129131 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Tables/Table25/Table25_mat_Table25_AlbedoTransparency.png
-  artifactKey: Guid(2653c0cf2d831c3469904a89f38f5100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Tables/Table25/Table25_mat_Table25_AlbedoTransparency.png using Guid(2653c0cf2d831c3469904a89f38f5100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d15a4f01302bfcb3aea48f0190628e6') in 0.0220485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024900 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Tables/Table29/Table29_mat_Table29_AlbedoTransparency.png
-  artifactKey: Guid(03db6fe96fa20f94c968b8a89919271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Tables/Table29/Table29_mat_Table29_AlbedoTransparency.png using Guid(03db6fe96fa20f94c968b8a89919271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8c191eb58def83daab36c3c26eee8ee') in 0.1025806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 7389 unused Assets / (12.5 MB). Loaded Objects now: 8072.
+Memory consumption went from 223.5 MB to 211.0 MB.
+Total: 17.711500 ms (FindLiveObjects: 0.703100 ms CreateObjectMapping: 0.592000 ms MarkObjects: 10.142700 ms  DeleteObjects: 6.272300 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

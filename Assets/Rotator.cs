@@ -1,90 +1,98 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 /// <summary>
-/// Rotates an object back and forth between two target rotations when clicked.
-/// Ideal for doors, levers, and switches.
-/// Requires a Collider component on the same GameObject to detect clicks.
+/// This script rotates a GameObject when it is interacted with by a VR controller.
+/// It's designed to toggle between an initial rotation and an offset rotation,
+/// perfect for objects like doors, lids, or levers.
+/// 
+/// HOW TO USE IN VR:
+/// 1. Add this script to your object (e.g., a door).
+/// 2. Add an "XR Simple Interactable" component to the same object.
+/// 3. In the "XR Simple Interactable" component, find the "Select Entered" event.
+/// 4. Click the '+' to add an event.
+/// 5. Drag the object itself into the 'Object' field.
+/// 6. From the function dropdown, select "RotateOnSelectVR" -> "ToggleRotation()".
 /// </summary>
-public class InteractiveRotator : MonoBehaviour
+[RequireComponent(typeof(Collider))]
+public class RotateOnSelectVR : MonoBehaviour
 {
     [Header("Rotation Settings")]
-    [Tooltip("The rotation of the object in its 'active' or 'open' state. Uses local rotation.")]
-    public Vector3 openRotationEuler;
+    [Tooltip("The rotation to apply when selected. Use the Y-axis for a standard door.")]
+    public Vector3 rotationOffset = new Vector3(0f, 90f, 0f);
 
-    [Tooltip("The rotation of the object in its 'inactive' or 'closed' state. Uses local rotation.")]
-    public Vector3 closedRotationEuler;
+    [Tooltip("How fast the object rotates to the target angle.")]
+    public float rotationSpeed = 2f;
 
-    [Tooltip("How long in seconds the rotation animation should take.")]
-    public float rotationDuration = 1.0f;
-
-    [Tooltip("An optional easing curve for a more dynamic animation. Leave empty for linear.")]
-    public AnimationCurve easingCurve;
-
-    // --- Private State Variables ---
-    private bool isOpen = false;
-    private bool isMoving = false;
+    // Private variables to track the state
+    private Quaternion _originalRotation;
+    private Quaternion _targetRotation;
+    private bool _isRotated = false;
+    private Coroutine _rotateCoroutine;
 
     /// <summary>
-    /// This method is called by Unity when the script first loads.
-    /// We use it to set the object to its initial 'closed' state.
+    /// Called when the script instance is being loaded.
     /// </summary>
-    void Start()
+    void Awake()
     {
-        // Start in the closed position without animation.
-        transform.localEulerAngles = closedRotationEuler;
+        // Store the starting rotation of the object.
+        _originalRotation = transform.rotation;
     }
 
     /// <summary>
-    /// This is a built-in Unity function that is called when the user clicks on a GameObject
-    /// that has a Collider component. This works for mouse clicks and for most VR pointer/raycast systems.
+    /// This is a public method that can be called by other scripts or Unity Events.
+    /// In VR, we trigger this using the "Select Entered" event on an XR Interactable component.
     /// </summary>
-    private void OnMouseDown()
+    public void ToggleRotation()
     {
-        // Prevent starting a new rotation if one is already in progress.
-        if (isMoving)
+        // Toggle the state between rotated and original rotation.
+        _isRotated = !_isRotated;
+
+        // Determine the target rotation based on the new state.
+        // We multiply Quaternions to combine the rotations.
+        _targetRotation = _isRotated ? _originalRotation * Quaternion.Euler(rotationOffset) : _originalRotation;
+
+        // --- Start the rotation ---
+        if (_rotateCoroutine != null)
         {
-            return;
+            StopCoroutine(_rotateCoroutine);
         }
-
-        // Toggle the state. If it was open, now it's closing, and vice-versa.
-        isOpen = !isOpen;
-
-        // Start the rotation coroutine. This is how we animate over time.
-        StartCoroutine(RotateObject());
+        _rotateCoroutine = StartCoroutine(RotateObject(_targetRotation));
     }
 
     /// <summary>
-    /// A Coroutine that handles the smooth rotation animation over the specified duration.
+    /// A coroutine that smoothly rotates the object to a target rotation.
     /// </summary>
-    private IEnumerator RotateObject()
+    private IEnumerator RotateObject(Quaternion target)
     {
-        isMoving = true;
-        float elapsedTime = 0f;
-
-        // Determine our start and end points for this specific animation
-        Quaternion startingRotation = transform.localRotation;
-        Quaternion finalRotation = isOpen ? Quaternion.Euler(openRotationEuler) : Quaternion.Euler(closedRotationEuler);
-
-        // Loop until the animation is complete
-        while (elapsedTime < rotationDuration)
+        // Loop until the angle between the current and target rotation is very small.
+        while (Quaternion.Angle(transform.rotation, target) > 0.1f)
         {
-            // Calculate our progress factor (a value from 0 to 1)
-            float progress = elapsedTime / rotationDuration;
-
-            // Apply the easing curve if one is provided
-            float easedProgress = (easingCurve != null && easingCurve.length > 0) ? easingCurve.Evaluate(progress) : progress;
-
-            // Slerp (Spherical Linear Interpolation) is used for smoothly interpolating between two rotations.
-            transform.localRotation = Quaternion.Slerp(startingRotation, finalRotation, easedProgress);
-
-            // Wait for the next frame before continuing the loop
-            elapsedTime += Time.deltaTime;
+            // Slerp (Spherical Linear Interpolation) is used for smooth rotation.
+            transform.rotation = Quaternion.Slerp(transform.rotation, target, rotationSpeed * Time.deltaTime);
             yield return null;
         }
 
-        // After the loop, snap to the final rotation to ensure it's precise.
-        transform.localRotation = finalRotation;
-        isMoving = false;
+        // Snap to the final rotation to ensure accuracy.
+        transform.rotation = target;
+        _rotateCoroutine = null;
+    }
+
+    /// <summary>
+    /// Draws a helper line in the editor to visualize the open direction.
+    /// </summary>
+    private void OnDrawGizmosSelected()
+    {
+        // Determine the start rotation based on whether we are in Play Mode or Edit Mode.
+        Quaternion startRot = Application.isPlaying ? _originalRotation : transform.rotation;
+
+        // Calculate the "open" rotation and the direction vector.
+        Quaternion endRot = startRot * Quaternion.Euler(rotationOffset);
+        Vector3 forwardDir = endRot * Vector3.forward;
+
+        // Draw a line from the object's position showing where it will face when open.
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawRay(transform.position, forwardDir * 1.5f);
     }
 }

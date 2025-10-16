@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-15T20:29:41Z
+Date: 2025-10-15T21:04:57Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker18.log
 -srvPort
-51971
+62239
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29604]  Target information:
+Player connection [37364]  Target information:
 
-Player connection [29604]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 3116473307 [EditorId] 3116473307 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [37364]  * "[IP] 192.168.50.5 [Port] 0 [Flags] 2 [Guid] 292085009 [EditorId] 292085009 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29604] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37364] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37364] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.55 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 5.58 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,47 +95,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002342 seconds.
-- Loaded All Assemblies, in  0.237 seconds
+Registered in 0.002518 seconds.
+- Loaded All Assemblies, in  0.234 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.223 seconds
-Domain Reload Profiling: 458ms
-	BeginReloadAssembly (75ms)
+- Finished resetting the current domain, in  0.226 seconds
+Domain Reload Profiling: 459ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (74ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (73ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
+		AnalyzeDomain (98ms)
 			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (87ms)
+				TypeCache.ScanAssembly (86ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (223ms)
+	FinalizeReload (226ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (193ms)
+		SetupLoadedEditorAssemblies (192ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
+			InitializePlatformSupportModulesInManaged (46ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (74ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +145,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.590 seconds
-Refreshing native plugins compatible for Editor in 4.57 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,35 +192,35 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.858 seconds
-Domain Reload Profiling: 1447ms
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1407ms
 	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (424ms)
-		LoadAssemblies (269ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (415ms)
+		LoadAssemblies (266ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
+		AnalyzeDomain (206ms)
 			TypeCache.Refresh (150ms)
 				TypeCache.ScanAssembly (136ms)
-			BuildScriptInfoCaches (46ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (859ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (830ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (756ms)
+		SetupLoadedEditorAssemblies (736ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (185ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -262,79 +262,62 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.97 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 4.54 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7386 unused Assets / (12.4 MB). Loaded Objects now: 8068.
-Memory consumption went from 221.1 MB to 208.8 MB.
-Total: 11.527400 ms (FindLiveObjects: 0.541900 ms CreateObjectMapping: 0.433400 ms MarkObjects: 6.282000 ms  DeleteObjects: 4.269500 ms)
+Unloading 7386 unused Assets / (12.2 MB). Loaded Objects now: 8068.
+Memory consumption went from 223.0 MB to 210.8 MB.
+Total: 10.106100 ms (FindLiveObjects: 0.426800 ms CreateObjectMapping: 0.262800 ms MarkObjects: 5.713100 ms  DeleteObjects: 3.702700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7518.765086 seconds.
-  path: Assets/nappin/OfficeEssentialsPack/Materials/(Mat)GradientBeige.mat
-  artifactKey: Guid(eb0f168ce60c9424896bd8c33ac3f2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/OfficeEssentialsPack/Materials/(Mat)GradientBeige.mat using Guid(eb0f168ce60c9424896bd8c33ac3f2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9c59126ed79dec800ed248c6c4a11e7') in 0.3056815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 11225.931647 seconds.
+  path: Assets/MinimalistBedroom/Prefabs/Interior/Cupboard_a_01.prefab
+  artifactKey: Guid(5d1aa2f91b1be464288a6db963f5d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Prefabs/Interior/Cupboard_a_01.prefab using Guid(5d1aa2f91b1be464288a6db963f5d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee6fb63d6629a0928282c4a6d64ef159') in 0.3343435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.229720 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair28/Chair28_mat_Chair28_Normal.png
-  artifactKey: Guid(f917a9affce41d74e9d8dfae4cebc85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair28/Chair28_mat_Chair28_Normal.png using Guid(f917a9affce41d74e9d8dfae4cebc85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0fba302967733f7a35827feea275f48') in 0.0216896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000031 seconds.
+  path: Assets/MinimalistBedroom/Prefabs/Interior/Sculpture_e_01.prefab
+  artifactKey: Guid(995e1f56fd9cf14448afa79f227d5948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Prefabs/Interior/Sculpture_e_01.prefab using Guid(995e1f56fd9cf14448afa79f227d5948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a1c0fa8f880b29011108652c3983b45') in 0.0192608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.032588 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair33/Chair33_mat_Chair33_Normal.png
-  artifactKey: Guid(4c3c8a1acee70e946bafa2a694ea6d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair33/Chair33_mat_Chair33_Normal.png using Guid(4c3c8a1acee70e946bafa2a694ea6d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5783dfd476eb707939a168cd9201d97') in 0.0109797 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000029 seconds.
+  path: Assets/MinimalistBedroom/Prefabs/Interior/Plant_a_01.prefab
+  artifactKey: Guid(f7f89a45e5740c94882b7a566b254c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Prefabs/Interior/Plant_a_01.prefab using Guid(f7f89a45e5740c94882b7a566b254c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4362bb84feb52bd7bd9ac289b9074e0') in 0.0747228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013188 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair37/Chair37_mat_Chair37_Normal.png
-  artifactKey: Guid(c71b5f837696ce4449112c8079036452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair37/Chair37_mat_Chair37_Normal.png using Guid(c71b5f837696ce4449112c8079036452) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd128fc1356269bf64e343dea555a2b0d') in 0.0120865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000021 seconds.
+  path: Assets/MinimalistBedroom/Prefabs/Interior/Pot_a_01.prefab
+  artifactKey: Guid(7dca7050f919cc246bad53efae828799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Prefabs/Interior/Pot_a_01.prefab using Guid(7dca7050f919cc246bad53efae828799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc311bdefe37ceb684deef0e5931469f') in 0.0515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.360635 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair40/Chair40_mat_Chair40_Normal.png
-  artifactKey: Guid(8cf6ac53278dc1c429f8085ec4ce2231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair40/Chair40_mat_Chair40_Normal.png using Guid(8cf6ac53278dc1c429f8085ec4ce2231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2c2022e7416124576336c1028eb11d6') in 0.0143999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000019 seconds.
+  path: Assets/MinimalistBedroom/Prefabs/Interior/RoundBox_c_01.prefab
+  artifactKey: Guid(3da2147b9483c694792466c87e7b9dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Prefabs/Interior/RoundBox_c_01.prefab using Guid(3da2147b9483c694792466c87e7b9dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '851d327b01ae68bf7ad1742d9fa32002') in 0.0161664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053660 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Chairs/Chair46/Chair46_mat_Chair46_Normal.png
-  artifactKey: Guid(c8dad196e7db98f439e8cfe9b9e4973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Chairs/Chair46/Chair46_mat_Chair46_Normal.png using Guid(c8dad196e7db98f439e8cfe9b9e4973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ebba2bba832531e4ada1e37721c94e1') in 0.0276586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.935047 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Cushions/Cushion25_28/Cushion25_28_mat_Cushion25_28_Normal.png
-  artifactKey: Guid(b192aa0b4f1ad434db342bf879deb267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Cushions/Cushion25_28/Cushion25_28_mat_Cushion25_28_Normal.png using Guid(b192aa0b4f1ad434db342bf879deb267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deac54259c275f57b3c170be0fff1c5b') in 0.0157584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068652 seconds.
-  path: Assets/Furniture Mega Pack/Textures/Cushions/Cushion49_50/Cushion49_50_mat_Cushion49_50_Normal.png
-  artifactKey: Guid(515f87d8646bb3648b965b29c99a38d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Mega Pack/Textures/Cushions/Cushion49_50/Cushion49_50_mat_Cushion49_50_Normal.png using Guid(515f87d8646bb3648b965b29c99a38d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbd681470b54f1d883502befb2c005d2') in 0.0107076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000018 seconds.
+  path: Assets/MinimalistBedroom/Prefabs/Interior/Pot_b_01.prefab
+  artifactKey: Guid(03663652b860e6c479fddbb0b9192d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Prefabs/Interior/Pot_b_01.prefab using Guid(03663652b860e6c479fddbb0b9192d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c4b5778921588171cb7532c1b8c635e') in 0.0203548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

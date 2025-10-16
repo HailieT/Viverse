@@ -11,4 +11,5 @@ https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-forest-
 https://assetstore.unity.com/packages/3d/characters/humanoids/humans/lowpoly-medieval-peasants-free-medieval-fantasy-series-122225
 https://polyhaven.com/a/forrest_ground_01
 https://polyhaven.com/a/japanese_cedar_bark
+https://assetstore.unity.com/packages/3d/props/interior/free-sockets-and-switches-233085
 
