@@ -2,21 +2,21 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-21T19:35:46Z
+Date: 2025-10-21T22:54:19Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.58f2\Editor\Unity.exe
+C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/Hailie/Viverse
+D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49764
+60302
 -job-worker-count
 11
 -background-job-worker-count
@@ -25,8 +25,8 @@ Logs/AssetImportWorker2.log
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Hailie/Viverse
-D:/Hailie/Viverse
+Successfully changed project path to: D:/hlt22c/Viverse
+D:/hlt22c/Viverse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,12 +62,12 @@ D:/Hailie/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33200]  Target information:
+Player connection [28700]  Target information:
 
-Player connection [33200]  * "[IP] 192.168.1.92 [Port] 0 [Flags] 2 [Guid] 3733767287 [EditorId] 3733767287 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a112) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28700]  * "[IP] 192.168.50.7 [Port] 0 [Flags] 2 [Guid] 1684442143 [EditorId] 1684442143 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [33200] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [33200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28700] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28700] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,11 +79,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 6.25 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Hailie/Viverse/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/hlt22c/Viverse/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -92,51 +92,50 @@ Direct3D:
     VRAM:     24326 MB
     Driver:   32.0.15.8157
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003199 seconds.
-- Loaded All Assemblies, in  0.274 seconds
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002346 seconds.
+- Loaded All Assemblies, in  0.253 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1682 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.942 seconds
-Domain Reload Profiling: 2215ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 539ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (91ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (96ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1942ms)
+	FinalizeReload (287ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1920ms)
+		SetupLoadedEditorAssemblies (248ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1748ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,145 +144,162 @@ Domain Reload Profiling: 2215ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.181 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.639 seconds
+Refreshing native plugins compatible for Editor in 6.98 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:OnEnable () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:74)
+UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler> (string)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:GetAllInstances () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:28)
+UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
+Trying to set shader on a Material Variant.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Material:set_shader (UnityEngine.Shader)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
+UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:16)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
+
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.254 seconds
-Domain Reload Profiling: 435ms
-	BeginReloadAssembly (119ms)
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.993 seconds
+Domain Reload Profiling: 1630ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (16ms)
-		LoadAssemblies (69ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (6ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (255ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (993ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (875ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (481ms)
+			ProcessInitializeOnLoadMethodAttributes (216ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 7.02 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 128 unused Assets / (27.4 KB). Loaded Objects now: 667.
-Memory consumption went from 122.1 MB to 122.1 MB.
-Total: 3.532000 ms (FindLiveObjects: 0.053500 ms CreateObjectMapping: 0.009400 ms MarkObjects: 3.372900 ms  DeleteObjects: 0.095000 ms)
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7392 unused Assets / (12.3 MB). Loaded Objects now: 8075.
+Memory consumption went from 224.0 MB to 211.7 MB.
+Total: 12.528500 ms (FindLiveObjects: 0.481400 ms CreateObjectMapping: 0.306700 ms MarkObjects: 6.541300 ms  DeleteObjects: 5.198000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19605.671975 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(2a9b20c514e9983439abe4d0375f8830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(2a9b20c514e9983439abe4d0375f8830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87fcc855f31cf29fc02c7f09ad344ac6') in 0.1267588 seconds
+  Time since last request: 18763.239876 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/XR Device Simulator/UI/General/Gripper.png
+  artifactKey: Guid(17689808316e14280ad508a625c4c88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/XR Device Simulator/UI/General/Gripper.png using Guid(17689808316e14280ad508a625c4c88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9997af916a5478f770fa1b0bc252346a') in 0.0902894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MinimalistBedroom/Textures/Nature/Ground_1k/Ground_height_1k.png
+  artifactKey: Guid(683ec6c95c0e51149be47efdefdfa2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures/Nature/Ground_1k/Ground_height_1k.png using Guid(683ec6c95c0e51149be47efdefdfa2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c9d12d3f72a46ded207cce114a5ecc1') in 0.0164043 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/MaterialPipelineHandler.asset
-  artifactKey: Guid(e22d037d5d9286644b4b81a8b91b5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MaterialPipelineHandler.asset using Guid(e22d037d5d9286644b4b81a8b91b5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fb3858e56a9bbcc10f4e4a970daab43') in 0.0010732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Green.mat
+  artifactKey: Guid(c4fad0f5843a8fc4f8488ab522a78684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Green.mat using Guid(c4fad0f5843a8fc4f8488ab522a78684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3a7ec6a3f189580d3943cd01774b029') in 0.2744912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Inter-Regular SDF NoBackfaceCulling.asset
-  artifactKey: Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Inter-Regular SDF NoBackfaceCulling.asset using Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06437c16e8a5453eac938f463ad97f1e') in 0.0361201 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 1580.330495 seconds.
-  path: Assets/Settings/Project Configuration/BasicScene.scenetemplate
-  artifactKey: Guid(ca6cdc11bc902ba4c85c423630187a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Project Configuration/BasicScene.scenetemplate using Guid(ca6cdc11bc902ba4c85c423630187a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '274e4c8d6934851bc62dcd9ca558df09') in 0.0907347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 546
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.461581 seconds.
-  path: Assets/Scenes/ViverseScene1.unity
-  artifactKey: Guid(92adaa37275ac00479a5aec30ebc670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ViverseScene1.unity using Guid(92adaa37275ac00479a5aec30ebc670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '793260c44db5ba306ed3b8fa78e53169') in 0.0006438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 123 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3265 unused Assets / (12.8 MB). Loaded Objects now: 3719.
-Memory consumption went from 179.0 MB to 166.2 MB.
-Total: 8.735000 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.096100 ms MarkObjects: 3.324600 ms  DeleteObjects: 5.048600 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 123 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3493 unused Assets / (13.9 MB). Loaded Objects now: 3951.
-Memory consumption went from 179.8 MB to 165.9 MB.
-Total: 7.695000 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.103600 ms MarkObjects: 3.451400 ms  DeleteObjects: 3.877100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2099.634010 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/InlineIcons.png
-  artifactKey: Guid(215687feeab0b7445b4a1cd86c82c2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/InlineIcons.png using Guid(215687feeab0b7445b4a1cd86c82c2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a96cf1411e4188fdbdc9a0b34407333') in 0.5206934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 207
+  Time since last request: 1.850764 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/XR Device Simulator/UI/Head/Movement.png
+  artifactKey: Guid(1d56a2d39cfbb49149abbf0076259327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/XR Device Simulator/UI/Head/Movement.png using Guid(1d56a2d39cfbb49149abbf0076259327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62725dd41733065740690ca6f5fcdb15') in 0.0148238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
