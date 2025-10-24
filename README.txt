@@ -20,3 +20,16 @@ https://freesound.org/people/khenshom/sounds/565204/
 https://freesound.org/people/AItF4/sounds/761332/
 https://freesound.org/people/DudeAwesome/sounds/790278/
 https://freesound.org/people/InSintesi/sounds/369237/
+
+Title Screen Assets
+===================
+
+RPG Button Sprites: 
+https://assetstore.unity.com/packages/2d/gui/icons/2d-rpg-button-7-278861
+
+Background Source Images: 
+
+
+Fonts:
+https://www.fontspace.com/black-north-font-f87052
+https://www.fontspace.com/wicked-nightmare-font-f135866
