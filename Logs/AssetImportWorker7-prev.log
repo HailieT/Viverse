@@ -2,7 +2,11 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+<<<<<<< HEAD
 Date: 2025-10-23T21:01:20Z
+=======
+Date: 2025-10-23T21:40:50Z
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -10,11 +14,19 @@ C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
+<<<<<<< HEAD
 AssetImportWorker7
 -projectPath
 D:/hlt22c/Viverse
 -logFile
 Logs/AssetImportWorker7.log
+=======
+AssetImportWorker11
+-projectPath
+D:/hlt22c/Viverse
+-logFile
+Logs/AssetImportWorker11.log
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 -srvPort
 49779
 -job-worker-count
@@ -62,12 +74,21 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [36656]  Target information:
 
 Player connection [36656]  * "[IP] 192.168.50.7 [Port] 0 [Flags] 2 [Guid] 1183324367 [EditorId] 1183324367 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [36656] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [36656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [37920]  Target information:
+
+Player connection [37920]  * "[IP] 192.168.50.7 [Port] 0 [Flags] 2 [Guid] 4248763059 [EditorId] 4248763059 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +100,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 10.14 ms, found 10 plugins.
+=======
+Refreshing native plugins compatible for Editor in 6.37 ms, found 10 plugins.
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
@@ -95,25 +120,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.003214 seconds.
 - Loaded All Assemblies, in  0.248 seconds
+=======
+Registered in 0.002328 seconds.
+- Loaded All Assemblies, in  0.231 seconds
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.231 seconds
 Domain Reload Profiling: 477ms
 	BeginReloadAssembly (85ms)
+=======
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling: 455ms
+	BeginReloadAssembly (75ms)
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
@@ -136,6 +177,30 @@ Domain Reload Profiling: 477ms
 			BeforeProcessingInitializeOnLoad (38ms)
 			ProcessInitializeOnLoadAttributes (78ms)
 			ProcessInitializeOnLoadMethodAttributes (32ms)
+=======
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (85ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,8 +210,13 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.592 seconds
 Refreshing native plugins compatible for Editor in 4.65 ms, found 10 plugins.
+=======
+- Loaded All Assemblies, in  0.603 seconds
+Refreshing native plugins compatible for Editor in 4.97 ms, found 10 plugins.
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -192,13 +262,20 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.871 seconds
 Domain Reload Profiling: 1461ms
 	BeginReloadAssembly (110ms)
+=======
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling: 1443ms
+	BeginReloadAssembly (112ms)
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
@@ -215,13 +292,37 @@ Domain Reload Profiling: 1461ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (771ms)
+=======
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (842ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (749ms)
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (133ms)
+<<<<<<< HEAD
 			ProcessInitializeOnLoadAttributes (431ms)
 			ProcessInitializeOnLoadMethodAttributes (189ms)
 			AfterProcessingInitializeOnLoad (4ms)
+=======
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (187ms)
+			AfterProcessingInitializeOnLoad (3ms)
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
@@ -262,6 +363,7 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 5.21 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
@@ -276,10 +378,27 @@ Received Import Request.
   artifactKey: Guid(ed32f375cf0deb047840f00665ccc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Female_Peasant_01_a.fbx using Guid(ed32f375cf0deb047840f00665ccc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdcc7e1c08c92cc4e41c578fea67494e') in 0.3174427 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+=======
+Refreshing native plugins compatible for Editor in 4.85 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7392 unused Assets / (11.7 MB). Loaded Objects now: 8075.
+Memory consumption went from 222.1 MB to 210.4 MB.
+Total: 10.469300 ms (FindLiveObjects: 0.436200 ms CreateObjectMapping: 0.278500 ms MarkObjects: 5.843600 ms  DeleteObjects: 3.910500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11030.538990 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Base_01.mat
+  artifactKey: Guid(46afd6d03da61404e91794bd29e731fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Base_01.mat using Guid(46afd6d03da61404e91794bd29e731fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a3c0e3865d9206f5eede2ac92cb054') in 0.3317126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
+<<<<<<< HEAD
   path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Male_Peasant_01.fbx
   artifactKey: Guid(e8196b76e6108b74aa9c9192f64f5003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Sets/PT_Male_Peasant_01.fbx using Guid(e8196b76e6108b74aa9c9192f64f5003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8abdc51025e739a19b2d0b4c902d51dd') in 0.0299754 seconds
@@ -596,6 +715,28 @@ Received Import Request.
   artifactKey: Guid(dadfdbf9de0967a4f850255f1e34e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Meshes/Peasants_Citizens/Separate_Parts/PT_Female_Peasant_01_lower_pants.fbx using Guid(dadfdbf9de0967a4f850255f1e34e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ea250bd518ffb5958b2e3789304f80e') in 0.0236578 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+=======
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Mask_01.mat
+  artifactKey: Guid(6b5094c0023e55d4cabf6989ac62df0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Mask_01.mat using Guid(6b5094c0023e55d4cabf6989ac62df0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1cffbc4799a3a86182c68d519590746') in 0.011231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Base_5.mat
+  artifactKey: Guid(37c9d606c647fad4e9eb961fcb4b463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Base_5.mat using Guid(37c9d606c647fad4e9eb961fcb4b463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad19b88615adf934770890a00d1881ff') in 0.0130793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Base_2.mat
+  artifactKey: Guid(b61924bdd5460154db0268934110aa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_NPC/Materials/PT_Modular_NPC_Texture_Base_2.mat using Guid(b61924bdd5460154db0268934110aa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dc2811a2b9df505710a495fbffb5108') in 0.0140612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
