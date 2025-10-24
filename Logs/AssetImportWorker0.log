@@ -1,32 +1,32 @@
 Using pre-set license
-Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 65254 MB
+Built from '6000.0/respin/6000.0.60f1-f02d6f9f9009' branch; Version is '6000.0.60f1 (61dfb374e36f) revision 6414259'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32705 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-23T18:50:17Z
+Date: 2025-10-24T02:52:37Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/hlt22c/Viverse
+C:/Career Advancement/Viverse
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49779
+51200
 -job-worker-count
-11
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/hlt22c/Viverse
-D:/hlt22c/Viverse
+Successfully changed project path to: C:/Career Advancement/Viverse
+C:/Career Advancement/Viverse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,13 +62,13 @@ D:/hlt22c/Viverse
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2540]  Target information:
+Player connection [17908]  Target information:
 
-Player connection [2540]  * "[IP] 192.168.50.7 [Port] 0 [Flags] 2 [Guid] 2371856582 [EditorId] 2371856582 [Version] 1048832 [Id] WindowsEditor(7,FIH-COM23a109) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17908]  * "[IP] 146.201.131.22 [Port] 0 [Flags] 2 [Guid] 2828888316 [EditorId] 2828888316 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P6AOAIQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2540] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2540] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [17908] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17908] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,63 +79,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.49 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.58f2 (92dee566b325)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/hlt22c/Viverse/Assets
+Initialize engine version: 6000.0.60f1 (61dfb374e36f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Career Advancement/Viverse/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
     Vendor:   NVIDIA
-    VRAM:     24326 MB
-    Driver:   32.0.15.8157
+    VRAM:     5945 MB
+    Driver:   32.0.15.8088
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002486 seconds.
-- Loaded All Assemblies, in  0.248 seconds
-Native extension for Android target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002862 seconds.
+- Loaded All Assemblies, in  0.506 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.238 seconds
-Domain Reload Profiling: 485ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (105ms)
-		LoadAssemblies (81ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (191ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (102ms)
-				TypeCache.ScanAssembly (93ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (170ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (238ms)
+	FinalizeReload (454ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (207ms)
+		SetupLoadedEditorAssemblies (419ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (82ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,259 +140,56 @@ Domain Reload Profiling: 485ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.604 seconds
-Refreshing native plugins compatible for Editor in 5.53 ms, found 10 plugins.
-Native extension for Android target not found
+- Loaded All Assemblies, in  0.293 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Package Manager log level set to [2]
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Trying to set shader on a Material Variant.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Material:set_shader (UnityEngine.Shader)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:OnEnable () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:74)
-UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler> (string)
-UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:GetAllInstances () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:28)
-UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:15)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
-
-Trying to set shader on a Material Variant.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Material:set_shader (UnityEngine.Shader)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:SetPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:114)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.MaterialPipelineHandler:AutoRefreshPipelineShaders () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:81)
-UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs:16)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/MaterialPipelineHandler.cs line 114]
-
-Could not open file D:/hlt22c/Viverse/Assets/XR/AndroidXR/AndroidXRSettingsInitializer for read
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
-UnityEditor.ScriptableSingleton`1<UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer>:Save (bool)
-UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer:OnLoad () (at ./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs:20)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs line 20]
-
-Assertion failed on expression: 'res'
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
-UnityEditor.ScriptableSingleton`1<UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer>:Save (bool)
-UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer:OnLoad () (at ./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs:20)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs line 20]
-
-Unknown error occurred while loading 'Assets/XR/AndroidXR/AndroidXRSettingsInitializer'.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
-UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
-UnityEditor.ScriptableSingleton`1<UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer>:Save (bool)
-UnityEditor.XR.OpenXR.Features.Android.AndroidXRSettingsInitializer:OnLoad () (at ./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs:20)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[./Library/PackageCache/com.unity.xr.androidxr-openxr@077cd026549f/Editor/AndroidXRSettingsInitializer.cs line 20]
-
 Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.892 seconds
-Domain Reload Profiling: 1494ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 709ms
+	BeginReloadAssembly (200ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (437ms)
-		LoadAssemblies (284ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (111ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (141ms)
-			BuildScriptInfoCaches (45ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (892ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (419ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (791ms)
+		SetupLoadedEditorAssemblies (294ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (442ms)
-			ProcessInitializeOnLoadMethodAttributes (192ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.31 ms, found 10 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7392 unused Assets / (12.3 MB). Loaded Objects now: 8075.
-Memory consumption went from 224.0 MB to 211.6 MB.
-Total: 10.695600 ms (FindLiveObjects: 0.463100 ms CreateObjectMapping: 0.283200 ms MarkObjects: 5.846600 ms  DeleteObjects: 4.101700 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 129 unused Assets / (27.3 KB). Loaded Objects now: 666.
+Memory consumption went from 121.0 MB to 121.0 MB.
+Total: 3.641700 ms (FindLiveObjects: 0.066900 ms CreateObjectMapping: 0.042700 ms MarkObjects: 3.436500 ms  DeleteObjects: 0.094500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 431.353143 seconds.
-  path: Assets/SocketsAndSwitches/Models
-  artifactKey: Guid(35529ae6d89394c95b573df4f0fd5389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Models using Guid(35529ae6d89394c95b573df4f0fd5389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f91af808d23c534a95327d470c3e1ff') in 0.0035804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 3024364.082101 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(2a9b20c514e9983439abe4d0375f8830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(2a9b20c514e9983439abe4d0375f8830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87fcc855f31cf29fc02c7f09ad344ac6') in 0.2945188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023978 seconds.
-  path: Assets/SocketsAndSwitches/Models/LightSwitches01.fbx
-  artifactKey: Guid(93e76fb15ea8c4a8ab92ae6a7c83a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Models/LightSwitches01.fbx using Guid(93e76fb15ea8c4a8ab92ae6a7c83a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc4307183a9d1d39b8d7177e4ed3d7f8') in 0.3681993 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SocketsAndSwitches/Models/Socket02.fbx
-  artifactKey: Guid(ce5d75d55123447069903d64d6719fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Models/Socket02.fbx using Guid(ce5d75d55123447069903d64d6719fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3254a61de571dcd8f25b12dab460588') in 0.0578759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/SocketsAndSwitches/Models/SocketCase03.fbx
-  artifactKey: Guid(89c7f27fd57e141979c4b2d7bb8d41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Models/SocketCase03.fbx using Guid(89c7f27fd57e141979c4b2d7bb8d41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9961a5db3efa17df9eecc984bb929036') in 0.0515738 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SocketsAndSwitches/Models/SocketCase01.fbx
-  artifactKey: Guid(60270438d04674b6a8ff59ff2fa2df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Models/SocketCase01.fbx using Guid(60270438d04674b6a8ff59ff2fa2df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '062f646aa8895f0dea4e028ae376abfc') in 0.0188573 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.065425 seconds.
-  path: Assets/SocketsAndSwitches/Material
-  artifactKey: Guid(8d8e07244b24e4e8a911ae7bb50fbf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Material using Guid(8d8e07244b24e4e8a911ae7bb50fbf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34ea690c11e4a92227916cefc2ef922f') in 0.0010085 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.505132 seconds.
-  path: Assets/SocketsAndSwitches/Prefabs/128x128/White/LightSwitches02.prefab
-  artifactKey: Guid(0ae9e234a53b64c5ebf9212437354766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Prefabs/128x128/White/LightSwitches02.prefab using Guid(0ae9e234a53b64c5ebf9212437354766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38cf2f9436f9e0677141932c99960d3e') in 0.0665551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SocketsAndSwitches/Prefabs/128x128/White/SocketCase02.prefab
-  artifactKey: Guid(35e3497ccf3c249a293c8397aa579b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Prefabs/128x128/White/SocketCase02.prefab using Guid(35e3497ccf3c249a293c8397aa579b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03bee9b4a26afd6669e944bc1fdbb6df') in 0.0165556 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SocketsAndSwitches/Prefabs/128x128/White/SocketCaseRotate.prefab
-  artifactKey: Guid(dd2d9bf506c154232be277c2320cba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Prefabs/128x128/White/SocketCaseRotate.prefab using Guid(dd2d9bf506c154232be277c2320cba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11d6f3d7c7f9c71f52696f9fe1eb2925') in 0.0168778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SocketsAndSwitches/Prefabs/128x128/White/SocketCase01.prefab
-  artifactKey: Guid(2302cd5a86ac9444aad387742b22bd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Prefabs/128x128/White/SocketCase01.prefab using Guid(2302cd5a86ac9444aad387742b22bd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25638f3d1cb46f6e72100b9f33532b73') in 0.0184463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SocketsAndSwitches/Prefabs/128x128/White/Socket03.prefab
-  artifactKey: Guid(f528a09e27a7e486a800c4356f10b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SocketsAndSwitches/Prefabs/128x128/White/Socket03.prefab using Guid(f528a09e27a7e486a800c4356f10b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60af6ed0aa2af4c1823544609386314b') in 0.0398644 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
