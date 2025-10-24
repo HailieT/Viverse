@@ -1417,6 +1417,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &27887793
@@ -15552,6 +15553,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &91717605
@@ -29240,6 +29242,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &227721626
@@ -34551,15 +34554,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.457998
+      value: 7.164
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.1309924
+      value: -4.39
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.474289
+      value: 16.742
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34790,6 +34793,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &236873614
@@ -35346,15 +35350,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.208672
+      value: -10.132
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.818898
+      value: -4.667
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.510357
+      value: 6.215
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -35580,11 +35584,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eecf534148a2c04ca8650011580b4d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popOutDistance: 1.9
+  popOutDistance: 5
   popOutSpeed: 5
-  stayOutDuration: 2
-  minWaitTime: 5
-  maxWaitTime: 15
+  stayOutDuration: 3
+  minWaitTime: 2
+  maxWaitTime: 10
+  moveOffset: {x: 0, y: 0, z: 5}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &245701413
@@ -39090,6 +39095,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &311674354
@@ -53490,6 +53496,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &374550724
@@ -60821,6 +60828,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &480773550
@@ -62110,6 +62118,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &489899375
@@ -64856,6 +64865,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &517567105
@@ -67269,6 +67279,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &551938462
@@ -69569,6 +69580,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &578580622
@@ -75767,6 +75779,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &594720746
@@ -109529,6 +109542,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &777154098
@@ -111734,6 +111748,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!4 &798870370 stripped
@@ -113951,11 +113966,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.663
+      value: -4.617
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.687
+      value: 1.689
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -114096,6 +114111,10 @@ PrefabInstance:
     - target: {fileID: 3719395497478071300, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_Name
       value: pumpkin
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719395497478071300, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497481250976, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -114798,6 +114817,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &854646891
@@ -116400,6 +116420,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &868328704
@@ -130911,6 +130932,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &943595113
@@ -134232,6 +134254,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &991925957
@@ -134769,6 +134792,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &995600292
@@ -135825,6 +135849,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1004398488
@@ -136152,6 +136177,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1004479249
@@ -142965,6 +142991,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1034917879
@@ -145260,6 +145287,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1065459455
@@ -169523,6 +169551,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &1192161221 stripped
@@ -177464,6 +177493,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1233647702
@@ -179284,6 +179314,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1254894120
@@ -187458,6 +187489,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1299224153
@@ -199137,6 +199169,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1328684063
@@ -200157,6 +200190,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &1338330844 stripped
@@ -202616,6 +202650,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1367664858
@@ -204179,6 +204214,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1383210283
@@ -210755,6 +210791,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1402483834
@@ -219301,6 +219338,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &1450857024
@@ -234530,6 +234568,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &1527260782
@@ -244058,6 +244097,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1601386572
@@ -253838,6 +253878,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1677419862
@@ -256477,6 +256518,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1717595488
@@ -257554,6 +257596,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1730833804
@@ -258190,6 +258233,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1731987041
@@ -269039,6 +269083,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &1806223930
@@ -278610,6 +278655,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &1876503488
@@ -285265,6 +285311,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1893299272
@@ -290461,6 +290508,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1948602924
@@ -291718,6 +291766,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &1966884402
@@ -295220,6 +295269,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &2031238247
@@ -296635,6 +296685,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1 &2050977872
@@ -297583,15 +297634,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.176
+      value: 0.039583594
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0.00009185329
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0.15621318
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.67564726
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000000065192567
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.737225
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000000034924588
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719395497477781896, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 94.991
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781900, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -297659,43 +297730,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.674625
+      value: 10.669418
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.788
+      value: -4.430706
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.104
+      value: 5.113664
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6417283
+      value: -0.6167011
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.013064926
+      value: -0.012555395
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.76666194
+      value: 0.7869342
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.015608568
+      value: 0.016021285
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.411
+      value: -0.557
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 259.87
+      value: 256.181
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781988, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -2.296
+      value: -2.265
       objectReference: {fileID: 0}
     - target: {fileID: 3719395497477781996, guid: 149914faacece2940a120e1783c4c6a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -297893,11 +297964,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eecf534148a2c04ca8650011580b4d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popOutDistance: 1.9
+  popOutDistance: 3
   popOutSpeed: 5
   stayOutDuration: 2
-  minWaitTime: 5
-  maxWaitTime: 15
+  minWaitTime: 2
+  maxWaitTime: 10
+  moveOffset: {x: 0, y: 0, z: 5}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &2066198523
@@ -301876,6 +301948,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &2112792553
@@ -303339,6 +303412,7 @@ MonoBehaviour:
   stayOutDuration: 2
   minWaitTime: 5
   maxWaitTime: 15
+  moveOffset: {x: 0, y: 0, z: 1}
   audioSource: {fileID: 0}
   popOutSound: {fileID: 0}
 --- !u!1001 &2128870023
