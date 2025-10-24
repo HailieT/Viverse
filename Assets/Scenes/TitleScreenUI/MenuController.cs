@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuController : MonoBehaviour
+public class MyMenuController : MonoBehaviour
 {
     // Make sure your Game Scene is added to the Build Settings
     // and its index (e.g., 1) is correct.

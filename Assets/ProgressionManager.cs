@@ -1,20 +1,6 @@
 using UnityEngine;
-using UnityEngine.Events; // Required for UnityEvent
-
-// This class defines what a "step" in your progression looks like.
-// [System.Serializable] makes it show up in the Unity Inspector.
-[System.Serializable]
-public class ProgressionStep
-{
-    [Tooltip("A description of what this step does, for your reference.")]
-    public string description;
-
-    [Tooltip("The collection count that will trigger this event.")]
-    public int countToTrigger;
-
-    [Tooltip("The events that will fire when this count is reached.")]
-    public UnityEvent onTrigger;
-}
+using UnityEngine.Events;
+using TMPro; // Required for TextMeshProUGUI
 
 /// <summary>
 /// A singleton manager that tracks a progression count and fires
@@ -47,14 +33,28 @@ public class ProgressionManager : MonoBehaviour
     [SerializeField]
     private int collectionCount = 0;
 
+    [Header("UI")]
+    [Tooltip("The TextMeshPro component to display the current collection count.")]
+    public TMPro.TextMeshProUGUI valueText; // Correctly uses TMPro type
+
+    [Tooltip("The total number of collectibles in the scene.")]
+    public int maxCollectionCount = 9;
+
     [Header("Progression Events")]
     [Tooltip("Define all the steps of your scene's progression here.")]
     [SerializeField]
     private ProgressionStep[] progressionSteps;
 
+    private void Start()
+    {
+        // Initial setup of the UI when the scene starts.
+        UpdateText();
+    }
+
     /// <summary>
     /// Call this method from other scripts (like your collectible) to
     /// increment the counter and check for new events.
+    /// Example usage: ProgressionManager.Instance.RegisterCollection();
     /// </summary>
     public void RegisterCollection()
     {
@@ -62,19 +62,32 @@ public class ProgressionManager : MonoBehaviour
         collectionCount++;
         Debug.Log($"Progression count is now: {collectionCount}");
 
-        // 2. Check if this new count matches any progression step
+        // 2. Update the UI text immediately
+        UpdateText();
+
+        // 3. Check if this new count matches any progression step
         foreach (ProgressionStep step in progressionSteps)
         {
             if (step.countToTrigger == collectionCount)
             {
-                // 3. If it matches, fire the event(s)
+                // 4. If it matches, fire the event(s)
                 Debug.Log($"Triggering progression step for count {collectionCount}: {step.description}");
                 step.onTrigger.Invoke();
 
                 // We break here assuming only one event fires per count.
-                // Remove 'break;' if you want multiple events with the same count to fire.
                 break;
             }
+        }
+    }
+
+    /// <summary>
+    /// Updates the UI Text component to show the current progress.
+    /// </summary>
+    private void UpdateText()
+    {
+        if (valueText != null) // Check if the UI component is assigned
+        {
+            valueText.text = $"{collectionCount}/{maxCollectionCount}";
         }
     }
 
