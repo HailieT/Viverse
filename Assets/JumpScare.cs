@@ -20,6 +20,10 @@ public class CreaturePopOut : MonoBehaviour
     [Tooltip("The maximum time (in seconds) to wait before popping out again.")]
     public float maxWaitTime = 15.0f;
 
+    [Header("Movement Settings")]
+    [Tooltip("The direction and distance the object will move from its starting point.")]
+    public Vector3 moveOffset = new Vector3(0f, 0f, 1f);
+
     [Header("Audio (Optional)")]
     public AudioSource audioSource;
     public AudioClip popOutSound;
@@ -81,5 +85,15 @@ public class CreaturePopOut : MonoBehaviour
             // Ensure it's exactly back at the start position
             transform.position = startPosition;
         }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        // Use the current position if in edit mode, or the stored original position if in play mode.
+        Vector3 startPos = Application.isPlaying ? startPosition : transform.position;
+        Vector3 endPos = startPos + moveOffset;
+
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawLine(startPos, endPos);
+        Gizmos.DrawSphere(endPos, 0.1f);
     }
 }

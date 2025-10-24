@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 ﻿license: Demo
+=======
+﻿license: Demo
+>>>>>>> 286a0b93b0241a5f8ba89463b1e08ed5e205bf6a
 link: https://www.fontspace.com/black-north-font-f87052
